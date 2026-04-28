@@ -105,4 +105,4 @@ export const projects: Project[] = [
   },
 ];
 
-export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda"] as const;
+export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi"] as const;
