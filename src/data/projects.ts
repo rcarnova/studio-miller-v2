@@ -7,6 +7,7 @@ export type Project = {
   year: string;
   description: string;
   result?: string;
+  videoId?: string;
   detail?: {
     challenge: string;
     approach: string;
@@ -26,6 +27,7 @@ export const projects: Project[] = [
     description:
       "Strategia di contenuto e video storytelling per il lancio del programma Tailor Made: posate completamente personalizzabili per modello, finitura, colore e incisione. Affiancato il brand nella progettazione strategica e nella produzione di una campagna video emozionale distribuita su YouTube, Facebook e Instagram.",
     result: "Iconic Awards 2019 · Best of the Best",
+    videoId: "HZFvk_JRbFI",
     detail: {
       challenge:
         "All'inizio del 2019 Sambonet lancia il programma Tailor Made: posate completamente personalizzabili per modello, finitura, colore e incisione. La sfida era rivolgersi, per la prima volta, direttamente ai consumatori finali — un cambio di paradigma per un brand B2B.",

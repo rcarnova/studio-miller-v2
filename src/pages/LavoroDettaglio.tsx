@@ -31,11 +31,25 @@ const LavoroDettaglio = () => {
       </section>
 
       <section className="container-editorial pb-16">
-        <div className="reveal aspect-[16/8] w-full bg-secondary flex items-center justify-center">
-          <span className="font-display font-bold text-4xl md:text-7xl text-foreground/15 text-center px-6">
-            {p.client}
-          </span>
-        </div>
+        {p.videoId ? (
+          <div className="reveal aspect-video w-full bg-ink overflow-hidden">
+            <iframe
+              src={`https://www.youtube.com/embed/${p.videoId}?rel=0`}
+              title={`${p.client} — ${p.title}`}
+              className="w-full h-full"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        ) : (
+          <div className="reveal aspect-[16/8] w-full bg-secondary flex items-center justify-center">
+            <span className="font-display font-bold text-4xl md:text-7xl text-foreground/15 text-center px-6">
+              {p.client}
+            </span>
+          </div>
+        )}
       </section>
 
       {p.detail && (
