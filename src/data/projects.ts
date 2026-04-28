@@ -3,7 +3,7 @@ export type Project = {
   client: string;
   title: string;
   tag: string;
-  sector: "Manifatturiero" | "Food" | "ITC" | "Moda";
+  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi";
   year: string;
   description: string;
   result?: string;
@@ -40,15 +40,24 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "officine-rovere-manifesto",
-    client: "Officine Rovere",
-    title: "La precisione come linguaggio",
-    tag: "Brand Strategy · Manifesto",
-    sector: "Manifatturiero",
-    year: "2022",
+    slug: "randstad-employer-branding",
+    client: "Randstad",
+    title: "Le persone raccontano l'azienda",
+    tag: "Employer Branding · Video",
+    sector: "Servizi",
+    year: "2021",
     description:
-      "Riposizionamento di un'azienda meccanica di terza generazione: dal catalogo prodotti al racconto del saper fare. Nuova piattaforma di marca, manifesto editoriale e architettura dei contenuti per il nuovo sito corporate.",
-    result: "+38% lead qualificati nel primo semestre post-lancio",
+      "Video di Employer Branding per Randstad Italia: un racconto della vita interna all'azienda affidato direttamente alla voce di chi la vive ogni giorno. Workshop per definire i valori, coinvolgimento della community interna, interviste e produzione video.",
+    result: "Un racconto autentico dell'identità Randstad Italia",
+    videoId: "dQw4w9WgXcQ",
+    detail: {
+      challenge:
+        "Randstad è una multinazionale olandese fondata nel 1960, tra le più importanti agenzie di ricerca, selezione e formazione di risorse umane al mondo, con filiali in 40 stati tra Europa, Asia e Nord America. Mara della comunicazione interna, Paola dell'HR e Fulvia del marketing cercavano un modo per raccontare la vita all'interno di Randstad attraverso un video con i propri dipendenti. Tre le sfide: cosa dire, come dirlo, come farlo.",
+      approach:
+        "Abbiamo lavorato in tre fasi. Individuazione dei valori: attraverso workshop dedicati abbiamo identificato i valori su cui si fonda la realtà Randstad e quelli che l'azienda vuole trasmettere. Coinvolgimento della community: abbiamo chiesto direttamente alle persone di Randstad di raccontare la propria esperienza in azienda. Racconto: la scelta è stata quella di realizzare vere interviste, montate poi nel video finale — perché a raccontare Randstad dovevano essere proprio coloro che la vivono.",
+      outcome:
+        "Un video di Employer Branding che racconta la realtà Randstad attraverso la voce di chi vive quotidianamente le sfide dell'azienda. I volti e le interviste scelte rappresentano la vera essenza dell'Employer Branding di Randstad Italia: raccontare il lavoro, raccontare la community.",
+    },
   },
   {
     slug: "casa-vinaria-narrativa",
