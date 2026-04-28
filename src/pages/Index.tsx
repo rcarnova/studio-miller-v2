@@ -14,7 +14,7 @@ const Index = () => {
     <>
       {/* HERO */}
       <section className="container-editorial pt-16 md:pt-28 pb-24 md:pb-40 min-h-[88vh] flex flex-col justify-center">
-        <p className="eyebrow mb-8 reveal">Studio Miller — Vercelli</p>
+        <p className="eyebrow mb-8 reveal">STUDIO MILLER — BRANDING</p>
 
         <h1 className="font-display font-bold text-foreground tracking-tightest leading-[0.95] text-[14vw] md:text-[7.5vw] lg:text-[6.5rem] xl:text-[7.5rem] max-w-[18ch]">
           {HERO.map((w, i) => (
