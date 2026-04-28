@@ -26,7 +26,7 @@ export const projects: Project[] = [
     year: "2019",
     description:
       "Strategia di contenuto e video storytelling per il lancio del programma Tailor Made: posate completamente personalizzabili per modello, finitura, colore e incisione. Affiancato il brand nella progettazione strategica e nella produzione di una campagna video emozionale distribuita su YouTube, Facebook e Instagram.",
-    result: "Iconic Awards 2019 · Best of the Best",
+    result: "Progetto premiato agli Interactive Key Awards",
     videoId: "HZFvk_JRbFI",
     detail: {
       challenge:
