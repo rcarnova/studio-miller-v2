@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { useReveal } from "@/hooks/useReveal";
-import { CaseCard } from "@/components/CaseCard";
+import { FeaturedCase } from "@/components/FeaturedCase";
 import { projects } from "@/data/projects";
 
 const HERO = "L'identità è la strategia.".split(" ");
@@ -40,18 +40,31 @@ const Index = () => {
       </section>
 
       {/* LAVORI SELEZIONATI */}
-      <section className="container-editorial py-20 md:py-28 border-t border-border">
-        <div className="flex items-end justify-between mb-14 md:mb-20 reveal">
-          <p className="eyebrow">Lavori selezionati</p>
-          <Link to="/lavori" className="hidden md:inline-flex text-sm font-medium link-underline">
-            Tutti i progetti →
-          </Link>
-        </div>
+      <section className="py-24 md:py-40 border-t border-border">
+        <div className="container-editorial">
+          <div className="flex items-end justify-between mb-20 md:mb-32 reveal">
+            <div>
+              <p className="eyebrow mb-4">Lavori selezionati</p>
+              <h2 className="font-display font-bold text-3xl md:text-5xl tracking-tightest leading-tight max-w-2xl">
+                Quattro progetti, una sola convinzione.
+              </h2>
+            </div>
+            <Link to="/lavori" className="hidden md:inline-flex text-sm font-medium link-underline shrink-0">
+              Tutti i progetti →
+            </Link>
+          </div>
 
-        <div className="grid md:grid-cols-2 gap-x-12 gap-y-20 md:gap-y-28">
-          {featured.map((p, i) => (
-            <CaseCard key={p.slug} project={p} index={i} />
-          ))}
+          <div className="space-y-32 md:space-y-48">
+            {featured.map((p, i) => (
+              <FeaturedCase key={p.slug} project={p} index={i} />
+            ))}
+          </div>
+
+          <div className="mt-24 md:hidden reveal">
+            <Link to="/lavori" className="text-sm font-medium link-underline text-primary">
+              Tutti i progetti →
+            </Link>
+          </div>
         </div>
       </section>
 
