@@ -21,7 +21,7 @@ export function CaseCard({ project, index = 0 }: { project: Project; index?: num
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className={`absolute inset-0 w-full h-full ${isVideo ? "object-cover" : project.slug === "caritas-fibrilla" ? "object-cover -rotate-90 scale-150" : "object-contain p-6"} transition-transform duration-700 group-hover:scale-[1.03]`}
+                className={`absolute inset-0 w-full h-full ${isVideo ? "object-cover" : "object-contain p-6"} ${project.slug === "caritas-fibrilla" ? "-rotate-90" : ""} transition-transform duration-700 group-hover:scale-[1.03]`}
               />
               {isVideo && (
                 <>
