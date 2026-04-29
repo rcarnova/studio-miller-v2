@@ -82,6 +82,8 @@ export const projects: Project[] = [
         "Non viene coltivata solo la terra, ma anche relazioni tra persone che si riappropriano del futuro.",
     },
   },
+  {
+    slug: "casa-vinaria-narrativa",
     client: "Casa Vinaria del Monferrato",
     title: "Le parole del vino",
     tag: "Corporate Storytelling · Editorial",
