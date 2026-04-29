@@ -1,5 +1,12 @@
 import cascinaOmbraImg from "@/assets/cascina-ombra.png";
-import fibrillaImg from "@/assets/fibrilla-logo.svg";
+import fibrillaSimbolo from "@/assets/fibrilla/simbolo.jpg";
+import fibrillaHero from "@/assets/fibrilla/hero-campaign.jpg";
+import fibrillaSignificato from "@/assets/fibrilla/significato.jpg";
+import fibrillaCoordinata from "@/assets/fibrilla/coordinata.jpg";
+import fibrillaTshirt from "@/assets/fibrilla/tshirt.jpg";
+import fibrillaTote from "@/assets/fibrilla/tote.jpg";
+import fibrillaMobile from "@/assets/fibrilla/mobile.jpg";
+import fibrillaColori from "@/assets/fibrilla/colori.jpg";
 
 export type Project = {
   slug: string;
