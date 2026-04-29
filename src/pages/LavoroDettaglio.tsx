@@ -103,6 +103,105 @@ const LavoroDettaglio = () => {
         </section>
       )}
 
+      {/* GALLERY */}
+      {p.gallery && p.gallery.length > 0 && (
+        <section className="container-editorial pb-24 md:pb-32">
+          <p className="eyebrow mb-10 md:mb-14 reveal">Visual identity</p>
+
+          <div className="space-y-6 md:space-y-10">
+            {/* Row 1: simbolo + significato */}
+            {p.gallery[0] && p.gallery[1] && (
+              <div className="grid md:grid-cols-12 gap-6 md:gap-10">
+                <figure className="reveal md:col-span-5">
+                  <div className="aspect-square w-full bg-secondary overflow-hidden flex items-center justify-center">
+                    <img
+                      src={p.gallery[0].src}
+                      alt={p.gallery[0].caption ?? ""}
+                      loading="lazy"
+                      className={`w-full h-full ${p.gallery[0].fit === "cover" ? "object-cover" : "object-contain p-8 md:p-12"}`}
+                    />
+                  </div>
+                  {p.gallery[0].caption && (
+                    <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">
+                      {p.gallery[0].caption}
+                    </figcaption>
+                  )}
+                </figure>
+                <figure className="reveal md:col-span-7">
+                  <div className="aspect-[4/3] w-full bg-secondary overflow-hidden flex items-center justify-center">
+                    <img
+                      src={p.gallery[1].src}
+                      alt={p.gallery[1].caption ?? ""}
+                      loading="lazy"
+                      className={`w-full h-full ${p.gallery[1].fit === "cover" ? "object-cover" : "object-contain p-6 md:p-10"}`}
+                    />
+                  </div>
+                  {p.gallery[1].caption && (
+                    <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">
+                      {p.gallery[1].caption}
+                    </figcaption>
+                  )}
+                </figure>
+              </div>
+            )}
+
+            {/* Row 2 & 3: full-width images (colori, coordinata) */}
+            {p.gallery.slice(2, 4).map((g, i) => (
+              <figure key={`full-${i}`} className="reveal">
+                <div className="aspect-[16/9] w-full bg-secondary overflow-hidden flex items-center justify-center">
+                  <img
+                    src={g.src}
+                    alt={g.caption ?? ""}
+                    loading="lazy"
+                    className={`w-full h-full ${g.fit === "cover" ? "object-cover" : "object-contain p-6 md:p-12"}`}
+                  />
+                </div>
+                {g.caption && (
+                  <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">
+                    {g.caption}
+                  </figcaption>
+                )}
+              </figure>
+            ))}
+
+            {/* Row 4: 3-up application grid (tote, tshirt, mobile) */}
+            {p.gallery.length > 4 && (
+              <div className="grid md:grid-cols-12 gap-6 md:gap-10">
+                {p.gallery.slice(4).map((g, i) => {
+                  const span = g.aspect === "wide" ? "md:col-span-5" : "md:col-span-3.5";
+                  // Distribute: tall=4, wide=5, tall=3
+                  const colSpan =
+                    i === 0 ? "md:col-span-4" : i === 1 ? "md:col-span-5" : "md:col-span-3";
+                  const aspect =
+                    g.aspect === "wide"
+                      ? "aspect-[4/3]"
+                      : g.aspect === "tall"
+                      ? "aspect-[3/4]"
+                      : "aspect-square";
+                  return (
+                    <figure key={`app-${i}`} className={`reveal ${colSpan}`}>
+                      <div className={`${aspect} w-full bg-secondary overflow-hidden flex items-center justify-center`}>
+                        <img
+                          src={g.src}
+                          alt={g.caption ?? ""}
+                          loading="lazy"
+                          className={`w-full h-full ${g.fit === "cover" ? "object-cover" : "object-contain p-6"}`}
+                        />
+                      </div>
+                      {g.caption && (
+                        <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">
+                          {g.caption}
+                        </figcaption>
+                      )}
+                    </figure>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* NAV */}
       <nav className="border-t border-border">
         <div className="container-editorial py-10 flex flex-col md:flex-row justify-between gap-6">
