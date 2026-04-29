@@ -37,7 +37,7 @@ export function FeaturedCase({
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className={`absolute inset-0 w-full h-full ${isVideo ? "object-cover" : "object-contain p-8 md:p-16"} ${project.slug === "caritas-fibrilla" ? "-rotate-90" : ""} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
+                className={`absolute inset-0 w-full h-full ${isVideo ? "object-cover" : project.slug === "caritas-fibrilla" ? "object-cover" : "object-contain p-8 md:p-16"} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
               />
               {isVideo && (
                 <>
