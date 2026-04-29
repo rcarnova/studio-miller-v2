@@ -49,7 +49,7 @@ const LavoroDettaglio = () => {
               src={p.image}
               alt={`${p.client} — ${p.title}`}
               loading="lazy"
-              className={`w-full h-full ${p.slug === "caritas-fibrilla" ? "object-cover -rotate-90 scale-150" : "object-contain p-8 md:p-16"}`}
+              className={`w-full h-full object-contain p-8 md:p-16 ${p.slug === "caritas-fibrilla" ? "-rotate-90" : ""}`}
             />
           </div>
         ) : (
