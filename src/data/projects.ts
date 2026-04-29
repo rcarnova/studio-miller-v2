@@ -3,11 +3,12 @@ export type Project = {
   client: string;
   title: string;
   tag: string;
-  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi";
+  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit";
   year: string;
   description: string;
   result?: string;
   videoId?: string;
+  image?: string;
   detail?: {
     challenge: string;
     approach: string;
@@ -105,4 +106,4 @@ export const projects: Project[] = [
   },
 ];
 
-export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi"] as const;
+export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit"] as const;
