@@ -12,7 +12,8 @@ export function FeaturedCase({
   const reverse = index % 2 === 1;
   const thumb = project.videoId
     ? `https://i.ytimg.com/vi/${project.videoId}/maxresdefault.jpg`
-    : null;
+    : project.image ?? null;
+  const isVideo = !!project.videoId;
 
   return (
     <article className="reveal group">
