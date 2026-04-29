@@ -1,3 +1,5 @@
+import cascinaOmbraImg from "@/assets/cascina-ombra.png";
+
 export type Project = {
   slug: string;
   client: string;
