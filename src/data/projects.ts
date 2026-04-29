@@ -19,6 +19,7 @@ export type Project = {
   result?: string;
   videoId?: string;
   image?: string;
+  gallery?: { src: string; caption?: string; aspect?: "wide" | "tall" | "square"; fit?: "cover" | "contain" }[];
   detail?: {
     challenge: string;
     approach: string;
