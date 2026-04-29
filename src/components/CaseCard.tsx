@@ -5,7 +5,8 @@ import { ArrowRight, Play } from "lucide-react";
 export function CaseCard({ project, index = 0 }: { project: Project; index?: number }) {
   const thumb = project.videoId
     ? `https://i.ytimg.com/vi/${project.videoId}/maxresdefault.jpg`
-    : null;
+    : project.image ?? null;
+  const isVideo = !!project.videoId;
 
   return (
     <article
@@ -20,15 +21,19 @@ export function CaseCard({ project, index = 0 }: { project: Project; index?: num
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                className={`absolute inset-0 w-full h-full ${isVideo ? "object-cover" : "object-contain p-6"} transition-transform duration-700 group-hover:scale-[1.03]`}
               />
-              <div className="absolute inset-0 bg-ink/20 group-hover:bg-ink/30 transition-colors duration-500" />
-              <span
-                aria-hidden
-                className="relative z-10 inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-primary text-primary-foreground shadow-lg transition-transform duration-500 group-hover:scale-110"
-              >
-                <Play size={26} className="ml-1" fill="currentColor" />
-              </span>
+              {isVideo && (
+                <>
+                  <div className="absolute inset-0 bg-ink/20 group-hover:bg-ink/30 transition-colors duration-500" />
+                  <span
+                    aria-hidden
+                    className="relative z-10 inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-primary text-primary-foreground shadow-lg transition-transform duration-500 group-hover:scale-110"
+                  >
+                    <Play size={26} className="ml-1" fill="currentColor" />
+                  </span>
+                </>
+              )}
             </>
           ) : (
             <span className="font-display font-bold text-3xl md:text-5xl text-foreground/15 px-6 text-center">

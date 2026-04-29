@@ -12,7 +12,8 @@ export function FeaturedCase({
   const reverse = index % 2 === 1;
   const thumb = project.videoId
     ? `https://i.ytimg.com/vi/${project.videoId}/maxresdefault.jpg`
-    : null;
+    : project.image ?? null;
+  const isVideo = !!project.videoId;
 
   return (
     <article className="reveal group">
@@ -36,15 +37,19 @@ export function FeaturedCase({
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]"
+                className={`absolute inset-0 w-full h-full ${isVideo ? "object-cover" : "object-contain p-8 md:p-16"} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
               />
-              <div className="absolute inset-0 bg-ink/15 group-hover:bg-ink/25 transition-colors duration-500" />
-              <span
-                aria-hidden
-                className="absolute inset-0 m-auto inline-flex items-center justify-center w-20 h-20 md:w-28 md:h-28 rounded-full bg-primary text-primary-foreground shadow-2xl transition-transform duration-500 group-hover:scale-110"
-              >
-                <Play size={36} className="ml-1" fill="currentColor" />
-              </span>
+              {isVideo && (
+                <>
+                  <div className="absolute inset-0 bg-ink/15 group-hover:bg-ink/25 transition-colors duration-500" />
+                  <span
+                    aria-hidden
+                    className="absolute inset-0 m-auto inline-flex items-center justify-center w-20 h-20 md:w-28 md:h-28 rounded-full bg-primary text-primary-foreground shadow-2xl transition-transform duration-500 group-hover:scale-110"
+                  >
+                    <Play size={36} className="ml-1" fill="currentColor" />
+                  </span>
+                </>
+              )}
             </>
           ) : (
             <div className="absolute inset-0 flex items-center justify-center">

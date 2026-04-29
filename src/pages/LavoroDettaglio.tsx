@@ -43,6 +43,15 @@ const LavoroDettaglio = () => {
               allowFullScreen
             />
           </div>
+        ) : p.image ? (
+          <div className="reveal aspect-[16/9] w-full bg-secondary overflow-hidden flex items-center justify-center">
+            <img
+              src={p.image}
+              alt={`${p.client} — ${p.title}`}
+              loading="lazy"
+              className="w-full h-full object-contain p-8 md:p-16"
+            />
+          </div>
         ) : (
           <div className="reveal aspect-[16/8] w-full bg-secondary flex items-center justify-center">
             <span className="font-display font-bold text-4xl md:text-7xl text-foreground/15 text-center px-6">
