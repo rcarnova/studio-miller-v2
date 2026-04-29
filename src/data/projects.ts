@@ -1,4 +1,5 @@
 import cascinaOmbraImg from "@/assets/cascina-ombra.png";
+import fibrillaImg from "@/assets/fibrilla-logo.svg";
 
 export type Project = {
   slug: string;
@@ -102,6 +103,26 @@ export const projects: Project[] = [
         "La Civica Scuola di Cinema Luchino Visconti ha ingaggiato alcuni ex studenti, oggi giovani professionisti del mondo audio/video. Sotto la supervisione di Studio Miller, il team ha sviluppato un racconto visivo dedicato alla flessibilità: un inno al cambiamento, alle nuove prospettive e alla capacità di adattamento che caratterizza il mondo odierno.",
       outcome:
         "Un video distribuito sul canale YouTube ufficiale di Samsung Italia, in cui Galaxy Z Flip e The Sero diventano strumenti narrativi per parlare di prospettiva e contemporaneità — e una piattaforma reale di crescita per giovani autori al loro primo progetto industry.",
+    },
+  },
+  {
+    slug: "caritas-fibrilla",
+    client: "Caritas — Cooperativa Sociale Fibrilla",
+    title: "Fibrilla: radici sottili, energia che mette le ali",
+    tag: "Naming · Brand Identity",
+    sector: "No-profit",
+    year: "2020",
+    description:
+      "Naming e visual identity per la cooperativa sociale Fibrilla, uno dei progetti di valorizzazione del lavoro artigianale promossi da Caritas sul territorio di Vercelli. Un'identità che racconta radici, connessione e slancio verso un futuro brillante.",
+    result: "Identità di marca completa per la nuova cooperativa sociale",
+    image: fibrillaImg,
+    detail: {
+      challenge:
+        "Caritas ci ha ingaggiati per creare l'identità di uno dei progetti di valorizzazione del lavoro artigianale sul territorio di Vercelli: una cooperativa sociale che avesse bisogno di un nome e di un volto capaci di raccontarne la natura — fatta di lavoro paziente, connessioni sottili e desiderio di futuro.",
+      approach:
+        "Il naming nasce da due immagini sovrapposte. Da un lato le radici fini — quelle che, invisibili, assorbono i nutrienti e tengono in vita la pianta. Dall'altro i muscoli fibrillari delle ali degli insetti, capaci di una contrazione e distensione rapidissima che scatena l'energia del volo. Fibrilla tiene insieme le due cose: la struttura sottile e connessa delle radici e la spinta vitale che permette di alzarsi in volo.",
+      outcome:
+        "Fibrilla porta con sé la luce, il concetto di un futuro brillante e l'eccitazione di chi vuole fare. Da questo doppio significato — radice e ala — nasce il logo e tutta la visual identity della cooperativa, applicata ai materiali di comunicazione del progetto.",
     },
   },
   {
