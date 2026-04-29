@@ -8,7 +8,7 @@ const HERO = "L'identità è la strategia.".split(" ");
 
 const Index = () => {
   useReveal();
-  const featured = projects.slice(0, 3);
+  const featured = projects.slice(0, 4);
 
   return (
     <>
@@ -46,7 +46,7 @@ const Index = () => {
             <div>
               <p className="eyebrow mb-4">Lavori selezionati</p>
               <h2 className="font-display font-bold text-3xl md:text-5xl tracking-tightest leading-tight max-w-2xl">
-                Tre progetti, una sola convinzione.
+                Quattro progetti, una sola convinzione.
               </h2>
             </div>
             <Link to="/lavori" className="hidden md:inline-flex text-sm font-medium link-underline shrink-0">

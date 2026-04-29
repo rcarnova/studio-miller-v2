@@ -85,6 +85,26 @@ export const projects: Project[] = [
     },
   },
   {
+    slug: "samsung-galaxy-zflip-sero",
+    client: "Samsung × Civica Scuola di Cinema Luchino Visconti",
+    title: "Cambio di prospettiva",
+    tag: "Video · Brand Collaboration",
+    sector: "ITC",
+    year: "2020",
+    description:
+      "Video per Galaxy Z Flip e The Sero realizzato in collaborazione con la Civica Scuola di Cinema Luchino Visconti. Un gruppo di ex studenti, oggi giovani professionisti dell'audio/video, ha firmato — sotto la supervisione di Studio Miller — un racconto sul cambio di prospettiva e sulla flessibilità della tecnologia contemporanea.",
+    result: "Video pubblicato sul canale YouTube ufficiale di Samsung Italia",
+    videoId: "Q-OXn5qsjhM",
+    detail: {
+      challenge:
+        "Samsung Italia, in collaborazione con la Civica Scuola di Cinema Luchino Visconti, voleva raccontare due prodotti — Galaxy Z Flip e The Sero — attraverso il linguaggio del cambio di prospettiva. La sfida: dare voce a una nuova generazione di autori e mostrare come la tecnologia risponda a esigenze e abitudini in continua evoluzione.",
+      approach:
+        "La Civica Scuola di Cinema Luchino Visconti ha ingaggiato alcuni ex studenti, oggi giovani professionisti del mondo audio/video. Sotto la supervisione di Studio Miller, il team ha sviluppato un racconto visivo dedicato alla flessibilità: un inno al cambiamento, alle nuove prospettive e alla capacità di adattamento che caratterizza il mondo odierno.",
+      outcome:
+        "Un video distribuito sul canale YouTube ufficiale di Samsung Italia, in cui Galaxy Z Flip e The Sero diventano strumenti narrativi per parlare di prospettiva e contemporaneità — e una piattaforma reale di crescita per giovani autori al loro primo progetto industry.",
+    },
+  },
+  {
     slug: "casa-vinaria-narrativa",
     client: "Casa Vinaria del Monferrato",
     title: "Le parole del vino",
