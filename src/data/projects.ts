@@ -61,7 +61,27 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "casa-vinaria-narrativa",
+    slug: "caritas-cascina-ombra",
+    client: "Caritas di Bra",
+    title: "Cascina Ombra: un nome, una casa, una comunità",
+    tag: "Naming · Brand Identity",
+    sector: "No-profit",
+    year: "2018",
+    description:
+      "Naming, logo e visual identity per il progetto di orto sociale promosso dalla Caritas di Bra all'interno della \"Cittadella della Carità\". Un percorso di workshop, envisioning e storytelling per dare voce a una casa che accoglie, protegge e fa ombra.",
+    result: "Identità visiva applicata a flyer, magliette e materiali della struttura",
+    image: "/src/assets/cascina-ombra.png",
+    detail: {
+      challenge:
+        "La Caritas di Bra promuove lo sviluppo integrale della persona e l'attivazione della comunità per costruire una società più giusta e inclusiva. Nel 2018, grazie al comodato gratuito della Famiglia Olivero di Sommariva Bosco, nasce un orto sociale dove persone fragili, cittadini e cooperative coltivano insieme la terra — e con la terra, le relazioni. La sfida: trovare un nome capace di veicolare questo messaggio e rendere riconoscibile il progetto.",
+      approach:
+        "Il percorso si è articolato in tre fasi. Envisioning: due momenti di lavoro — \"come vogliamo mostrarci al mondo\" e \"io dico, io faccio, io sono\" — per costruire una visione condivisa. Storytelling: raccolta di storie di fondamenta (gli inizi del progetto) e storie di successo (i traguardi raggiunti) per dare voce a chi vive la realtà dall'interno. Keywords e proposte di naming: dai workshop sono emerse parole chiave e tre proposte — Cascina Ombra, Cascina Luna, Mattone Giallo — discusse poi con tutto il team.",
+      outcome:
+        "La scelta è caduta su Cascina Ombra: un nome che richiama il territorio braidese e tiene insieme l'ambivalenza tra protezione, presenza costante e buio. Da lì è nato il logo — due mani che diventano tetto attorno a una piccola casa — e l'intera visual identity, declinata su flyer per l'inaugurazione, borse e magliette per la promozione della struttura.",
+      quote:
+        "Non viene coltivata solo la terra, ma anche relazioni tra persone che si riappropriano del futuro.",
+    },
+  },
     client: "Casa Vinaria del Monferrato",
     title: "Le parole del vino",
     tag: "Corporate Storytelling · Editorial",
