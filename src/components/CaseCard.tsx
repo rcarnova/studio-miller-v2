@@ -3,9 +3,11 @@ import type { Project } from "@/data/projects";
 import { ArrowRight, Play } from "lucide-react";
 
 export function CaseCard({ project, index = 0 }: { project: Project; index?: number }) {
-  const thumb = project.videoId
+  const thumb = project.image
+    ? project.image
+    : project.videoId
     ? `https://i.ytimg.com/vi/${project.videoId}/maxresdefault.jpg`
-    : project.image ?? null;
+    : null;
   const isVideo = !!project.videoId;
 
   return (
@@ -21,7 +23,7 @@ export function CaseCard({ project, index = 0 }: { project: Project; index?: num
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className={`absolute inset-0 w-full h-full ${isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" ? "object-cover" : "object-contain p-6"} transition-transform duration-700 group-hover:scale-[1.03]`}
+                className={`absolute inset-0 w-full h-full ${isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" || project.slug === "samsung-galaxy-zflip-sero" ? "object-cover" : "object-contain p-6"} transition-transform duration-700 group-hover:scale-[1.03]`}
               />
               {isVideo && (
                 <>

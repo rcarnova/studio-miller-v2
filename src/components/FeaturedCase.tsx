@@ -10,9 +10,11 @@ export function FeaturedCase({
   index?: number;
 }) {
   const reverse = index % 2 === 1;
-  const thumb = project.videoId
+  const thumb = project.image
+    ? project.image
+    : project.videoId
     ? `https://i.ytimg.com/vi/${project.videoId}/maxresdefault.jpg`
-    : project.image ?? null;
+    : null;
   const isVideo = !!project.videoId;
 
   return (
@@ -37,7 +39,7 @@ export function FeaturedCase({
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className={`absolute inset-0 w-full h-full ${isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" ? "object-cover" : "object-contain p-8 md:p-16"} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
+                className={`absolute inset-0 w-full h-full ${isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" || project.slug === "samsung-galaxy-zflip-sero" ? "object-cover" : "object-contain p-8 md:p-16"} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
               />
               {isVideo && (
                 <>
