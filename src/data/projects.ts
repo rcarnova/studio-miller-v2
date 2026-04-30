@@ -7,6 +7,15 @@ import fibrillaTshirt from "@/assets/fibrilla/tshirt.jpg";
 import fibrillaTote from "@/assets/fibrilla/tote.jpg";
 import fibrillaMobile from "@/assets/fibrilla/mobile.jpg";
 import fibrillaColori from "@/assets/fibrilla/colori.jpg";
+import vcLogo from "@/assets/villacingoli/logo.jpg";
+import vcSimbolo from "@/assets/villacingoli/simbolo.jpg";
+import vcPalette from "@/assets/villacingoli/palette.jpg";
+import vcCoordinata from "@/assets/villacingoli/coordinata.jpg";
+import vcTshirt from "@/assets/villacingoli/tshirt.jpg";
+import vcTote from "@/assets/villacingoli/tote.jpg";
+import vcManifestoBus from "@/assets/villacingoli/manifesto-bus.jpg";
+import vcBillboard from "@/assets/villacingoli/billboard.jpg";
+import vcParkPoster from "@/assets/villacingoli/park-poster.jpg";
 
 export type Project = {
   slug: string;
@@ -140,6 +149,37 @@ export const projects: Project[] = [
         "Il naming nasce da due immagini sovrapposte. Da un lato le radici fini — quelle che, invisibili, assorbono i nutrienti e tengono in vita la pianta. Dall'altro i muscoli fibrillari delle ali degli insetti, capaci di una contrazione e distensione rapidissima che scatena l'energia del volo. Fibrilla tiene insieme le due cose: la struttura sottile e connessa delle radici e la spinta vitale che permette di alzarsi in volo.",
       outcome:
         "Fibrilla porta con sé la luce, il concetto di un futuro brillante e l'eccitazione di chi vuole fare. Da questo doppio significato — radice e ala — nasce il logo e tutta la visual identity della cooperativa, applicata ai materiali di comunicazione del progetto.",
+    },
+  },
+  {
+    slug: "villa-cingoli-rebranding",
+    client: "Villa Cingoli — Comune di Vercelli",
+    title: "Famiglia si diventa.",
+    tag: "Rebranding · Visual Identity",
+    sector: "No-profit",
+    year: "2019",
+    description:
+      "Rebranding e visual identity per Villa Cingoli, il Centro per le Famiglie del Comune di Vercelli. Un'identità costruita attorno alla promessa di accompagnare le famiglie con professionalità, cura e condivisione — radicata nei simboli della città e nelle persone che la abitano.",
+    result: "Identità completa: logo, palette, coordinata, web, stampa e affissione",
+    image: vcBillboard,
+    gallery: [
+      { src: vcLogo, caption: "Il logo nelle versioni positiva e negativa", aspect: "wide", fit: "cover" },
+      { src: vcSimbolo, caption: "Il simbolo: rosone della Basilica di Sant'Andrea, persone, ruota di guida", aspect: "square", fit: "cover" },
+      { src: vcPalette, caption: "La palette: arancio identitario e accenti vitali", aspect: "wide", fit: "cover" },
+      { src: vcCoordinata, caption: "Coordinata: carta intestata, biglietti da visita, materiali", aspect: "wide", fit: "cover" },
+      { src: vcTshirt, caption: "T-shirt brandizzata", aspect: "tall", fit: "cover" },
+      { src: vcManifestoBus, caption: "Manifesto AdoleSCIENZA — affissione urbana", aspect: "wide", fit: "cover" },
+      { src: vcParkPoster, caption: "Affissione \"Famiglia si diventa.\" nel parco", aspect: "tall", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "Villa Cingoli è il Centro per le Famiglie del Comune di Vercelli: un luogo che accoglie chi ha bisogno di supporto sui temi e le difficoltà del proprio nucleo familiare. La sfida era definire un'identità visiva in linea con il pubblico a cui il centro si rivolge, capace di esprimere l'essenza della sua missione e delle persone che ne fanno parte.",
+      approach:
+        "Il percorso si è articolato in due fasi laboratoriali. Workshop di definizione dei valori: per mettere a fuoco la promessa del centro — aiutare le persone con professionalità, cura e condivisione. Workshop sulle personas: per dare un volto reale al pubblico di riferimento e calibrare tono, linguaggio e segni visivi sulle sue esigenze. Da qui è nato il sistema identitario: un simbolo che fonde il rosone della Basilica di Sant'Andrea — emblema di Vercelli — con le figure di persone in cerchio e la ruota di guida, sintesi di radicamento, comunità e direzione.",
+      outcome:
+        "Una nuova identità completa: logo, palette, tipografia, coordinata, sito web, materiali di stampa e una campagna di affissione articolata su poster, manifesti e billboard urbani. \"Famiglia si diventa.\" è diventato il payoff che porta Villa Cingoli nello spazio pubblico della città.",
+      quote:
+        "Aiutare le persone con professionalità, cura e condivisione.",
     },
   },
   {
