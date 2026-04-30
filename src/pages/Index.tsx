@@ -8,7 +8,7 @@ const HERO = "L'identità è la strategia.".split(" ");
 
 const Index = () => {
   useReveal();
-  const featured = projects.slice(0, 5);
+  const featured = projects.slice(0, 6);
 
   return (
     <>
