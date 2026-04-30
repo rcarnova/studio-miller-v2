@@ -37,7 +37,7 @@ export function FeaturedCase({
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className={`absolute inset-0 w-full h-full ${isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" ? "object-cover" : "object-contain p-8 md:p-16"} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
+                className={`absolute inset-0 w-full h-full ${isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" ? "object-cover" : "object-contain p-8 md:p-16"} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
               />
               {isVideo && (
                 <>
