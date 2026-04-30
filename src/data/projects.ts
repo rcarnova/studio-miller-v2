@@ -7,6 +7,15 @@ import fibrillaTshirt from "@/assets/fibrilla/tshirt.jpg";
 import fibrillaTote from "@/assets/fibrilla/tote.jpg";
 import fibrillaMobile from "@/assets/fibrilla/mobile.jpg";
 import fibrillaColori from "@/assets/fibrilla/colori.jpg";
+import vcLogo from "@/assets/villacingoli/logo.jpg";
+import vcSimbolo from "@/assets/villacingoli/simbolo.jpg";
+import vcPalette from "@/assets/villacingoli/palette.jpg";
+import vcCoordinata from "@/assets/villacingoli/coordinata.jpg";
+import vcTshirt from "@/assets/villacingoli/tshirt.jpg";
+import vcTote from "@/assets/villacingoli/tote.jpg";
+import vcManifestoBus from "@/assets/villacingoli/manifesto-bus.jpg";
+import vcBillboard from "@/assets/villacingoli/billboard.jpg";
+import vcParkPoster from "@/assets/villacingoli/park-poster.jpg";
 
 export type Project = {
   slug: string;
