@@ -182,6 +182,8 @@ export const projects: Project[] = [
         "Aiutare le persone con professionalità, cura e condivisione.",
     },
   },
+  {
+    slug: "casa-vinaria-narrativa",
     client: "Casa Vinaria del Monferrato",
     title: "Le parole del vino",
     tag: "Corporate Storytelling · Editorial",
