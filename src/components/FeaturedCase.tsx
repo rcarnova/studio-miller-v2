@@ -10,9 +10,11 @@ export function FeaturedCase({
   index?: number;
 }) {
   const reverse = index % 2 === 1;
-  const thumb = project.videoId
+  const thumb = project.image
+    ? project.image
+    : project.videoId
     ? `https://i.ytimg.com/vi/${project.videoId}/maxresdefault.jpg`
-    : project.image ?? null;
+    : null;
   const isVideo = !!project.videoId;
 
   return (

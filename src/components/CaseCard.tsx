@@ -3,9 +3,11 @@ import type { Project } from "@/data/projects";
 import { ArrowRight, Play } from "lucide-react";
 
 export function CaseCard({ project, index = 0 }: { project: Project; index?: number }) {
-  const thumb = project.videoId
+  const thumb = project.image
+    ? project.image
+    : project.videoId
     ? `https://i.ytimg.com/vi/${project.videoId}/maxresdefault.jpg`
-    : project.image ?? null;
+    : null;
   const isVideo = !!project.videoId;
 
   return (
