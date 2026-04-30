@@ -109,6 +109,15 @@ export const projects: Project[] = [
       "Naming, logo e visual identity per il progetto di orto sociale promosso dalla Caritas di Bra all'interno della \"Cittadella della Carità\". Un percorso di workshop, envisioning e storytelling per dare voce a una casa che accoglie, protegge e fa ombra.",
     result: "Identità visiva applicata a flyer, magliette e materiali della struttura",
     image: cascinaOmbraImg,
+    gallery: [
+      { src: coLogoOrange, aspect: "square", fit: "cover", caption: "Logo · versione primaria" },
+      { src: coLogoBlack, aspect: "square", fit: "cover", caption: "Versione monocromatica" },
+      { src: coColori, fit: "cover", caption: "Sistema colori e costruzione del simbolo" },
+      { src: coLogoGrey, fit: "cover", caption: "Declinazioni del marchio" },
+      { src: coTshirt, aspect: "tall", fit: "cover", caption: "Magliette" },
+      { src: coEmbroidery, aspect: "wide", fit: "cover", caption: "Ricamo · dettaglio" },
+      { src: coTote, aspect: "tall", fit: "cover", caption: "Tote bag" },
+    ],
     detail: {
       challenge:
         "La Caritas di Bra promuove lo sviluppo integrale della persona e l'attivazione della comunità per costruire una società più giusta e inclusiva. Nel 2018, grazie al comodato gratuito della Famiglia Olivero di Sommariva Bosco, nasce un orto sociale dove persone fragili, cittadini e cooperative coltivano insieme la terra — e con la terra, le relazioni. La sfida: trovare un nome capace di veicolare questo messaggio e rendere riconoscibile il progetto.",
