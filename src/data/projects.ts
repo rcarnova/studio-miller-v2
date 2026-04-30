@@ -194,7 +194,37 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "casa-vinaria-narrativa",
+    slug: "pisani-italian-dream",
+    client: "Maglificio Pisani",
+    title: "italianDream: il vero lusso è realizzare se stessi",
+    tag: "Brand Building · Visual Identity",
+    sector: "Moda",
+    year: "2022",
+    description:
+      "Brand building e lancio di italianDream, la prima collezione donna a marchio Maglificio Pisani. Dalla piattaforma di marca al sistema visivo, fino alla landing di lancio dedicata alle boutique multibrand svizzere.",
+    result: "Identità completa e landing di lancio per la prima collezione a marchio",
+    image: pisaniHero,
+    gallery: [
+      { src: pisaniPalette, caption: "Logo, marchio e palette: rosa identitario, bordeaux, verde acqua", aspect: "wide", fit: "cover" },
+      { src: pisaniLandscape, caption: "L'immaginario: paesaggio italiano, nebbia, luce rosata", aspect: "square", fit: "cover" },
+      { src: pisaniCashmere, caption: "Cashmere: la materia come promessa di qualità", aspect: "wide", fit: "cover" },
+      { src: pisaniHangtag, caption: "Hangtag e brochure prodotto — la coordinata di marca", aspect: "wide", fit: "cover" },
+      { src: pisaniPortrait, caption: "La donna italianDream: presenza, calma, eleganza", aspect: "tall", fit: "cover" },
+      { src: pisaniWebDevices, caption: "Web responsive: dal desktop al mobile", aspect: "wide", fit: "cover" },
+      { src: pisaniMobile, caption: "Landing di lancio per le boutique", aspect: "tall", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "Maglificio Pisani — laboratorio di maglieria attivo dal 1973 — decide di avviare una nuova linea donna a proprio marchio, individuando nelle boutique multibrand il primo target con cui costruire un brand riconoscibile. La sfida: misurarsi con il mercato del fashion, fatto di regole proprie e popolato da marchi noti e produttori made in Italy già strutturati sul diretto. Per rendere la sfida sostenibile, il primo passo è il mercato delle boutique svizzere — titolari e clienti in costante ricerca di un'idea di stile che li rispecchi.",
+      approach:
+        "Studio Miller ha affiancato il team marketing e commerciale nella costruzione del brand e nella strategia di lancio. Il punto di partenza: tradurre la competenza acquisita negli anni, l'implementazione tecnologica e la passione delle persone in una promessa chiara — \"il vero lusso è realizzare se stessi\". Da qui la piattaforma di marca, il naming della prima collezione (italianDream), il sistema visivo — palette ispirata ai colori dell'Italia in una luce rosata, tipografia che alterna il rigore di Domine al carattere editoriale di Syne — e una landing di lancio dedicata alle boutique, costruita per generare lead qualificati.",
+      outcome:
+        "italianDream nasce come prima collezione e prima espressione pubblica del brand Maglificio Pisani. Identità completa (logo, marchio, palette, tipografia, coordinata, hangtag), immaginario fotografico costruito attorno ai paesaggi italiani e alla materia cashmere, e una landing dedicata alle boutique come primo punto di contatto commerciale. Le basi per un piano di crescita di medio-lungo termine: posizionarsi con efficacia in un mercato dove ogni dettaglio è racconto.",
+      quote:
+        "Ogni prodotto viene seguito con cura: lavori eccellenti, perfetti nei dettagli e di proprietà futura.",
+    },
+  },
+  {
     client: "Casa Vinaria del Monferrato",
     title: "Le parole del vino",
     tag: "Corporate Storytelling · Editorial",
