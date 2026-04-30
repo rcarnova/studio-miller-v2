@@ -16,6 +16,17 @@ import vcTote from "@/assets/villacingoli/tote.jpg";
 import vcManifestoBus from "@/assets/villacingoli/manifesto-bus.jpg";
 import vcBillboard from "@/assets/villacingoli/billboard.jpg";
 import vcParkPoster from "@/assets/villacingoli/park-poster.jpg";
+import pisaniHero from "@/assets/pisani/hero.jpg";
+import pisaniPalette from "@/assets/pisani/palette.jpg";
+import pisaniCashmere from "@/assets/pisani/cashmere.jpg";
+import pisaniHangtag from "@/assets/pisani/hangtag.jpg";
+import pisaniLandscape from "@/assets/pisani/landscape.jpg";
+import pisaniModelField from "@/assets/pisani/model-field.jpg";
+import pisaniPortrait from "@/assets/pisani/portrait.jpg";
+import pisaniWebDevices from "@/assets/pisani/web-devices.jpg";
+import pisaniMobile from "@/assets/pisani/mobile-landing.jpg";
+import pisaniKnit from "@/assets/pisani/knit-detail.jpg";
+import pisaniWordmark from "@/assets/pisani/wordmark.jpg";
 
 export type Project = {
   slug: string;
