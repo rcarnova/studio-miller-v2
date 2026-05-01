@@ -35,6 +35,16 @@ import pisaniWebDevices from "@/assets/pisani/web-devices.jpg";
 import pisaniMobile from "@/assets/pisani/mobile-landing.jpg";
 import pisaniKnit from "@/assets/pisani/knit-detail.jpg";
 import pisaniWordmark from "@/assets/pisani/wordmark.jpg";
+import dvHero from "@/assets/dolciaria/hero-bisciola.png";
+import dvLogoOld from "@/assets/dolciaria/logo-old.jpg";
+import dvLogoNew from "@/assets/dolciaria/logo-new.jpg";
+import dvPalette from "@/assets/dolciaria/palette.jpg";
+import dvCow from "@/assets/dolciaria/cow.jpg";
+import dvHands from "@/assets/dolciaria/hands-flour.jpg";
+import dvEggs from "@/assets/dolciaria/eggs-cloth.jpg";
+import dvIngredients from "@/assets/dolciaria/ingredients.jpg";
+import dvChildren from "@/assets/dolciaria/children.jpg";
+import dvPersonality from "@/assets/dolciaria/personality.jpg";
 
 export type Project = {
   slug: string;
@@ -240,6 +250,39 @@ export const projects: Project[] = [
         "italianDream nasce come prima collezione e prima espressione pubblica del brand Maglificio Pisani. Identità completa (logo, marchio, palette, tipografia, coordinata, hangtag), immaginario fotografico costruito attorno ai paesaggi italiani e alla materia cashmere, e una landing dedicata alle boutique come primo punto di contatto commerciale. Le basi per un piano di crescita di medio-lungo termine: posizionarsi con efficacia in un mercato dove ogni dettaglio è racconto.",
       quote:
         "Ogni prodotto viene seguito con cura: lavori eccellenti, perfetti nei dettagli e di proprietà futura.",
+    },
+  },
+  {
+    slug: "dolciaria-valtellinese-rebranding",
+    client: "Dolciaria Valtellinese",
+    title: "Il nostro ingrediente segreto si chiama semplicità",
+    tag: "Brand Strategy · Rebranding",
+    sector: "Food",
+    year: "2022",
+    description:
+      "Rebranding e nuova piattaforma di comunicazione per Dolciaria Valtellinese, azienda storica della provincia di Sondrio nota per la Bisciola e i prodotti da forno della tradizione. In collaborazione con Valtnet: Studio Miller per la strategia di marca, Valtnet per l'implementazione visual.",
+    result: "Nuova identità, tono di voce e sistema visivo pronto per il digitale",
+    image: dvHero,
+    gallery: [
+      { src: dvLogoOld, caption: "Il marchio precedente: forte heritage territoriale", aspect: "wide", fit: "cover" },
+      { src: dvLogoNew, caption: "Il nuovo marchio: tradizione che guarda al futuro", aspect: "wide", fit: "cover" },
+      { src: dvPalette, caption: "Inspirational palette: rosso, panna, azzurro, terracotta", aspect: "wide", fit: "cover" },
+      { src: dvHands, caption: "\"La bontà nasce dai gesti\" — la lavorazione a mano", aspect: "tall", fit: "cover" },
+      { src: dvCow, caption: "\"La bontà nasce dalle cose buone\" — filiera locale", aspect: "square", fit: "cover" },
+      { src: dvEggs, caption: "Materie prime semplici, ricette autentiche", aspect: "wide", fit: "cover" },
+      { src: dvIngredients, caption: "Nessun ingrediente segreto, sarebbe stato di troppo", aspect: "wide", fit: "cover" },
+      { src: dvPersonality, caption: "Personalità del brand: tenace, pratica, genuina", aspect: "tall", fit: "cover" },
+      { src: dvChildren, caption: "Memoria, infanzia, valori che attraversano il tempo", aspect: "wide", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "Dolciaria Valtellinese è un'azienda storica della provincia di Sondrio, famosa per la produzione di dolci tipici tra cui la Bisciola. Forte di un riconoscimento solido sul territorio, aveva la necessità di espandersi in nuovi mercati. La proprietà ha quindi deciso di rivedere non solo il visual, ma l'intera impostazione della comunicazione — stile, tono di voce e un sistema visivo capace di rispondere alle crescenti necessità del digitale e dei social.",
+      approach:
+        "In collaborazione con Valtnet — Studio Miller sulla strategia di brand, Valtnet sull'implementazione visiva — abbiamo applicato il nostro metodo di ascolto e co-costruzione con la proprietà, rendendola parte attiva nella definizione dei tratti distintivi della nuova immagine. Dai workshop sono emersi i pilastri: archetipo dell'angelo custode, valori di semplicità, autenticità e responsabilità, una promessa chiara — \"produrre prodotti di qualità con un approccio tradizionale che mette al centro i valori, oltre al gusto\". Da qui la piattaforma di marca, la verbal identity e il sistema visivo: rosso identitario, panna, azzurro e accenti terracotta; tipografia classica rivisitata; immaginario costruito su gesti, materie prime e memoria.",
+      outcome:
+        "Una nuova immagine che mantiene intatto l'asset di heritage e lo proietta nel futuro. Il payoff \"Il nostro ingrediente segreto si chiama semplicità\" guida un sistema di comunicazione modulare — dal packaging al digitale — pronto per accompagnare l'azienda nei nuovi mercati senza perdere la riconoscibilità costruita in oltre quarant'anni.",
+      quote:
+        "Proteggere la tradizione e i suoi valori, accompagnandola nel futuro.",
     },
   },
   {
