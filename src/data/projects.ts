@@ -309,50 +309,6 @@ export const projects: Project[] = [
         "Sviluppare una società libera e giusta dove le persone vivono e lavorano bene insieme.",
     },
   },
-  {
-    slug: "casa-vinaria-narrativa",
-    client: "Casa Vinaria del Monferrato",
-    title: "Le parole del vino",
-    tag: "Corporate Storytelling · Editorial",
-    sector: "Food",
-    year: "2023",
-    description:
-      "Costruzione della narrativa di brand per una cantina storica del Monferrato. Definizione del tono di voce, scrittura del manifesto, sviluppo della linea editoriale per packaging, sito e canali social.",
-    result: "Restyling completo della comunicazione di brand",
-  },
-  {
-    slug: "nodal-cloud-positioning",
-    client: "Nodal Cloud Services",
-    title: "L'infrastruttura che parla umano",
-    tag: "Brand Strategy · Naming",
-    sector: "ITC",
-    year: "2024",
-    description:
-      "Naming, positioning e piattaforma di marca per una scale-up del cloud B2B. Tradurre un'offerta tecnica in promessa comprensibile per CIO e direzioni acquisti, senza perdere autorevolezza tecnologica.",
-    result: "Round Series A chiuso a 4 mesi dal rebranding",
-  },
-  {
-    slug: "atelier-mossi-collezione",
-    client: "Atelier Mossi",
-    title: "Sartoria, in tre atti",
-    tag: "Content & Video",
-    sector: "Moda",
-    year: "2023",
-    description:
-      "Direzione creativa e produzione video per la presentazione della collezione FW23 di un atelier di sartoria torinese. Trilogia di cortometraggi che racconta il rapporto tra mano, tessuto e tempo.",
-    result: "Selezionato a Milano Fashion Film Festival 2024",
-  },
-  {
-    slug: "pastificio-ferri-piano-editoriale",
-    client: "Pastificio Ferri 1908",
-    title: "Cento anni, una storia all'anno",
-    tag: "Content Strategy",
-    sector: "Food",
-    year: "2024",
-    description:
-      "Piano editoriale annuale per il centenario di un pastificio artigianale. Dodici racconti, dodici prodotti, dodici testimonianze: un calendario che ha trasformato l'archivio aziendale in contenuto.",
-    result: "+62% engagement medio sui canali proprietari",
-  },
 ];
 
 export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit"] as const;
