@@ -45,6 +45,7 @@ import dvEggs from "@/assets/dolciaria/eggs-cloth.jpg";
 import dvIngredients from "@/assets/dolciaria/ingredients.jpg";
 import dvChildren from "@/assets/dolciaria/children.jpg";
 import dvPersonality from "@/assets/dolciaria/personality.jpg";
+import eudaimonLogo from "@/assets/eudaimon-logo.png";
 
 export type Project = {
   slug: string;
@@ -283,6 +284,29 @@ export const projects: Project[] = [
         "Una nuova immagine che mantiene intatto l'asset di heritage e lo proietta nel futuro. Il payoff \"Il nostro ingrediente segreto si chiama semplicità\" guida un sistema di comunicazione modulare — dal packaging al digitale — pronto per accompagnare l'azienda nei nuovi mercati senza perdere la riconoscibilità costruita in oltre quarant'anni.",
       quote:
         "Proteggere la tradizione e i suoi valori, accompagnandola nel futuro.",
+    },
+  },
+  {
+    slug: "eudaimon-felicita-lavoro",
+    client: "Eudaimon",
+    title: "La felicità è una cosa seria.",
+    tag: "Video Istituzionale · Brand Storytelling",
+    sector: "Servizi",
+    year: "2023",
+    description:
+      "Progettazione e produzione del video istituzionale di Eudaimon, primo welfare provider italiano, sul significato della felicità e dello stare bene al lavoro. Un racconto pensato per HR e CEO, distribuito su LinkedIn, YouTube, home page del sito e introduzione agli eventi.",
+    result: "Video istituzionale distribuito su LinkedIn, YouTube e canali proprietari",
+    videoId: "IU56LS2DTew",
+    image: eudaimonLogo,
+    detail: {
+      challenge:
+        "Eudaimon — primo welfare provider italiano — voleva raccontare la propria visione attraverso un video istituzionale capace di parlare a chi guida le aziende: HR, CEO, manager che hanno a cuore l'azienda e le persone che ne fanno parte. Non necessariamente alla ricerca di una soluzione, ma disposti a mettere in discussione lo stato delle cose e a chiedersi: \"la soluzione che ha la mia azienda è davvero la migliore?\". Il video doveva funzionare su tre fronti: distribuzione organica su LinkedIn e YouTube, presidio della home page del sito e apertura degli eventi.",
+      approach:
+        "Abbiamo costruito il racconto attorno a una catena di significato: quando la cultura organizzativa è positiva e attenta, le persone stanno bene a lavoro, si sentono ascoltate, sono più serene, ingaggiate e hanno cura di ciò che fanno. La cultura è positiva quando l'ambiente è sano, libero e giusto, e stimola relazioni di valore tra le persone a tutti i livelli. È attenta quando ascolta i bisogni e li risolve. Da qui i tre pilastri narrativi del video: lavorare bene insieme, benessere al lavoro, engagement come risultato — al servizio della vision Eudaimon: sviluppare una società libera e giusta dove le persone vivono e lavorano bene insieme.",
+      outcome:
+        "Un video istituzionale che mette al centro le persone e la cultura prima della soluzione tecnica. Un dispositivo di comunicazione modulare, pensato per la home page del sito, l'apertura degli eventi e la distribuzione su LinkedIn e YouTube — capace di aprire una conversazione con chi, in azienda, ha il potere e la responsabilità di cambiare le cose.",
+      quote:
+        "Sviluppare una società libera e giusta dove le persone vivono e lavorano bene insieme.",
     },
   },
   {
