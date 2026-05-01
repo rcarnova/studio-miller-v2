@@ -1,14 +1,18 @@
 import { useReveal } from "@/hooks/useReveal";
+import massimoPhoto from "@/assets/team/massimo-benedetti.png";
+import rosarioPhoto from "@/assets/team/rosario-carnovale.png";
 
 const team = [
   {
     initials: "MB",
+    photo: massimoPhoto,
     name: "Massimo Benedetti",
     role: "Storytelling Specialist",
     bio: "Laurea in Sistemi Informativi Territoriali al Politecnico di Torino, Master in Corporate Storytelling. Consulente e formatore, ha affiancato nella realizzazione di strategie di contenuto e narrazione realtà di impresa e professionisti in vari comparti (ITC, Food, Manufacturing).",
   },
   {
     initials: "RC",
+    photo: rosarioPhoto,
     name: "Rosario Carnovale",
     role: "Brand Strategist",
     bio: "Laurea in Comunicazione, Media e Pubblicità, Master in Coaching. Rosario ha sviluppato un'importante esperienza come Sales Manager nell'IT, e in qualità di brand strategist ha affiancato l'ufficio marketing di aziende multinazionali nei settori ITC, Farma, GDO, Food e Manufacturing.",
@@ -37,8 +41,19 @@ const ChiSiamo = () => {
             {team.map((m, i) => (
               <article key={m.name} className="reveal grid md:grid-cols-12 gap-8 md:gap-12 items-start" style={{ transitionDelay: `${i*120}ms` }}>
                 <div className="md:col-span-3">
-                  <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-display font-bold text-4xl md:text-5xl tracking-tightest">
-                    {m.initials}
+                  <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden bg-secondary">
+                    {m.photo ? (
+                      <img
+                        src={m.photo}
+                        alt={m.name}
+                        loading="lazy"
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-primary text-primary-foreground flex items-center justify-center font-display font-bold text-4xl md:text-5xl tracking-tightest">
+                        {m.initials}
+                      </div>
+                    )}
                   </div>
                 </div>
                 <div className="md:col-span-9 space-y-3">
