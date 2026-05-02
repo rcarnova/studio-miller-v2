@@ -64,13 +64,18 @@ import moondinoMockup from "@/assets/moondino/moondino-mockup.jpg";
 import moondinoRiso from "@/assets/moondino/moondino-riso-cover.jpg";
 import moondinoRisoLogo from "@/assets/moondino/moondino-riso-logo.jpg";
 import moondinoDiscovery from "@/assets/moondino/moondino-discovery.jpg";
+import imeasCover from "@/assets/imeas/imeas-cover.webp";
+import imeasDifferentiator from "@/assets/imeas/imeas-differentiator.webp";
+import imeasHedgehog from "@/assets/imeas/imeas-hedgehog.webp";
+import imeasIdentitySignals from "@/assets/imeas/imeas-identity-signals.webp";
+import imeasPersona from "@/assets/imeas/imeas-persona.webp";
 
 export type Project = {
   slug: string;
   client: string;
   title: string;
   tag: string;
-  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit";
+  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit" | "Pubblica Amministrazione · Ricerca";
   year: string;
   description: string;
   result?: string;
@@ -416,6 +421,33 @@ export const projects: Project[] = [
       quote: "Un riso nuovo, per una nuova generazione.",
     },
   },
+  {
+    slug: "imeas-brand-strategy",
+    client: "ENEA",
+    title: "IMEAS — Connettere territori per un futuro a basse emissioni",
+    tag: "Brand Strategy · UX Design · Web Platform",
+    sector: "Pubblica Amministrazione · Ricerca",
+    year: "2018",
+    description:
+      "Brand strategy e progettazione UX del portale IMEAS per ENEA, ente capofila del consorzio europeo finanziato dal programma Interreg Alpine Space. IMEAS è una piattaforma di knowledge sharing dedicata alla transizione energetica a basse emissioni di carbonio nella Macro Regione Alpina.",
+    image: imeasCover,
+    gallery: [
+      { src: imeasDifferentiator, caption: "Differentiator: la combinazione unica dei 3 elementi core di IMEAS", aspect: "wide", fit: "contain" },
+      { src: imeasHedgehog, caption: "Hedgehog Diagram: passione, eccellenza e driver economici", aspect: "wide", fit: "contain" },
+      { src: imeasIdentitySignals, caption: "Identity Signals: personalità, verbal identity, visual e sensory identity", aspect: "wide", fit: "contain" },
+      { src: imeasPersona, caption: "Proto-persona: Marco, Managing Director — uno degli stakeholder chiave", aspect: "tall", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "ENEA guidava un consorzio multidisciplinare e transnazionale con un obiettivo ambizioso: costruire una comunità europea attiva attorno ai temi della transizione energetica low carbon, coinvolgendo profili molto diversi — politici locali, ricercatori, imprenditori, tecnici. Il rischio concreto era produrre l'ennesimo portale istituzionale che nessuno avrebbe usato. La sfida era dare a IMEAS un'identità riconoscibile e un'esperienza utente pensata per persone con bisogni, linguaggi e obiettivi molto diversi tra loro.",
+      approach:
+        "Siamo partiti da una Brand Vision session con il team di progetto, lavorando sull'identità prima ancora di toccare qualsiasi aspetto visivo o tecnologico. Abbiamo definito archetipo di marca (Il Saggio), valori fondanti, personalità e unique value proposition. In parallelo abbiamo condotto workshop di user research con gli stakeholder reali — da cui sono emersi proto-persona e empathy map che hanno guidato tutta la progettazione UX del portale. Il risultato è un'architettura dell'informazione costruita attorno ai bisogni concreti di chi la usa: networking, documentazione, benchmarking, innovazione.",
+      outcome:
+        "Brand strategy completa con archetipo, valori, personalità, palette cromatica e tipografia. Proto-persona e empathy map degli utenti chiave. Progettazione UX e wireframe del portale con architettura orientata alla community e alla gestione documentale per ricercatori e policy maker. Una piattaforma europea — finanziata da Interreg Alpine Space con ENEA capofila — che connette istituzioni, ricercatori e imprenditori di tutta la Macro Regione Alpina.",
+      quote:
+        "Together let's build a sustainable energy pathway.",
+    },
+  },
 ];
 
-export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit"] as const;
+export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit", "Pubblica Amministrazione · Ricerca"] as const;
