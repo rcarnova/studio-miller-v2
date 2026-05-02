@@ -73,13 +73,17 @@ import simonettiCover from "@/assets/studio-simonetti/simonetti-cover.webp";
 import simonettiLogo from "@/assets/studio-simonetti/simonetti-logo.webp";
 import simonettiStationery from "@/assets/studio-simonetti/simonetti-stationery.webp";
 import simonettiWeb from "@/assets/studio-simonetti/simonetti-web.webp";
+import padernoCover from "@/assets/paderno/paderno-cover.webp";
+import padernoProducts from "@/assets/paderno/paderno-products.webp";
+import padernoGlassware from "@/assets/paderno/paderno-glassware.webp";
+import padernoFlair from "@/assets/paderno/paderno-flair.webp";
 
 export type Project = {
   slug: string;
   client: string;
   title: string;
   tag: string;
-  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit" | "Pubblica Amministrazione · Ricerca" | "Servizi · Noleggio Auto";
+  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit" | "Pubblica Amministrazione · Ricerca" | "Servizi · Noleggio Auto" | "Food Equipment · Mixology";
   year: string;
   description: string;
   result?: string;
@@ -478,6 +482,32 @@ export const projects: Project[] = [
         "Soluzioni per la Mobilità.",
     },
   },
+  {
+    slug: "paderno-made-to-shine",
+    client: "Paderno Industrie",
+    title: "Made to Shine — Quando la professionalità diventa emozione",
+    tag: "Campaign Strategy · Content Production · Video",
+    sector: "Food Equipment · Mixology",
+    year: "2019",
+    description:
+      "Strategia, concept e produzione della campagna Made to Shine per Paderno Industrie — uno dei brand più iconici nel mondo degli strumenti professionali per la ristorazione. Il progetto ha dato vita a un video di prodotto ambientato nella straordinaria cornice di Villa Necchi a Milano, per raccontare la collezione Bar dedicata al mondo della mixology professionale.",
+    image: padernoCover,
+    gallery: [
+      { src: padernoProducts, caption: "Collezione Bar Paderno — strumenti da bartending professionali", aspect: "wide", fit: "cover" },
+      { src: padernoGlassware, caption: "Glassware in scena — Villa Necchi, Milano", aspect: "wide", fit: "cover" },
+      { src: padernoFlair, caption: "Flair bartender: la professionalità come spettacolo", aspect: "wide", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "Paderno doveva presentare la nuova collezione Bar — strumenti per il mondo della mixology — a un pubblico di professionisti e appassionati sempre più esigenti e visivamente sofisticati. Il rischio era cadere nel classico video prodotto freddo e tecnico. La sfida era trasformare degli strumenti da bartending in oggetti di desiderio, capaci di evocare un'atmosfera, uno stile di vita, un'occasione speciale.",
+      approach:
+        "Abbiamo costruito il concept attorno a un'idea semplice e potente: la professionalità come spettacolo. Made to Shine non racconta le caratteristiche tecniche della collezione Bar — racconta la serata perfetta che questi strumenti rendono possibile. Location scelta con cura: Villa Necchi a Milano, icona di eleganza milanese. Cast: flair bartender che trasformano la preparazione di un cocktail in una performance. Il prodotto brilla — letteralmente — sotto le luci della notte milanese. Il risultato è un video che parla al professionista della ristorazione e all'aspirazionale lifestyle del consumatore finale allo stesso tempo.",
+      outcome:
+        "Campagna Made to Shine completa: concept creativo, sceneggiatura, direzione artistica, produzione video in location a Villa Necchi Milano. Il video — con il claim 'Ladies & Gentleman, con la collezione Bar di Paderno la festa può iniziare' — ha supportato il lancio della linea mixology di Paderno sui canali digitali e nelle fiere di settore. Una campagna che ha elevato la percezione del brand nel segmento premium del foodservice professionale.",
+      quote:
+        "Ladies & Gentleman, con la collezione Bar di Paderno la festa può iniziare.",
+    },
+  },
 ];
 
-export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit", "Pubblica Amministrazione · Ricerca", "Servizi · Noleggio Auto"] as const;
+export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit", "Pubblica Amministrazione · Ricerca", "Servizi · Noleggio Auto", "Food Equipment · Mixology"] as const;
