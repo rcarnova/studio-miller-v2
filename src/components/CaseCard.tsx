@@ -23,7 +23,7 @@ export function CaseCard({ project, index = 0 }: { project: Project; index?: num
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className={`absolute inset-0 w-full h-full ${project.slug === "eudaimon-felicita-lavoro" ? "object-contain p-8 bg-background" : (isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" || project.slug === "samsung-galaxy-zflip-sero" || project.slug === "dolciaria-valtellinese-rebranding") ? "object-cover" : "object-contain p-6"} transition-transform duration-700 group-hover:scale-[1.03]`}
+                className={`absolute inset-0 w-full h-full ${project.slug === "eudaimon-felicita-lavoro" ? "object-contain p-8 bg-background" : (isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" || project.slug === "samsung-galaxy-zflip-sero" || project.slug === "dolciaria-valtellinese-rebranding" || project.slug === "upo-speak4nature") ? "object-cover" : "object-contain p-6"} transition-transform duration-700 group-hover:scale-[1.03]`}
               />
               {isVideo && (
                 <>

@@ -39,7 +39,7 @@ export function FeaturedCase({
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className={`absolute inset-0 w-full h-full ${project.slug === "eudaimon-felicita-lavoro" ? "object-contain p-12 md:p-24 bg-background" : (isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" || project.slug === "samsung-galaxy-zflip-sero" || project.slug === "dolciaria-valtellinese-rebranding") ? "object-cover" : "object-contain p-8 md:p-16"} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
+                className={`absolute inset-0 w-full h-full ${project.slug === "eudaimon-felicita-lavoro" ? "object-contain p-12 md:p-24 bg-background" : (isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" || project.slug === "samsung-galaxy-zflip-sero" || project.slug === "dolciaria-valtellinese-rebranding" || project.slug === "upo-speak4nature") ? "object-cover" : "object-contain p-8 md:p-16"} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
               />
               {isVideo && (
                 <>
