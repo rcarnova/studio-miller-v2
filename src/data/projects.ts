@@ -46,6 +46,13 @@ import dvIngredients from "@/assets/dolciaria/ingredients.jpg";
 import dvChildren from "@/assets/dolciaria/children.jpg";
 import dvPersonality from "@/assets/dolciaria/personality.jpg";
 import eudaimonLogo from "@/assets/eudaimon-logo.png";
+import s4nHero from "@/assets/speak4nature/hero-forest.jpg";
+import s4nWebsite from "@/assets/speak4nature/website-home.jpg";
+import s4nPoster from "@/assets/speak4nature/poster-workshop.jpg";
+import s4nRollup from "@/assets/speak4nature/rollup-event.jpg";
+import s4nCard from "@/assets/speak4nature/business-card.jpg";
+import s4nLogo from "@/assets/speak4nature/logo-positive.jpg";
+import s4nSymbol from "@/assets/speak4nature/symbol.jpg";
 
 export type Project = {
   slug: string;
@@ -307,6 +314,37 @@ export const projects: Project[] = [
         "Un video istituzionale che mette al centro le persone e la cultura prima della soluzione tecnica. Un dispositivo di comunicazione modulare, pensato per la home page del sito, l'apertura degli eventi e la distribuzione su LinkedIn e YouTube — capace di aprire una conversazione con chi, in azienda, ha il potere e la responsabilità di cambiare le cose.",
       quote:
         "Sviluppare una società libera e giusta dove le persone vivono e lavorano bene insieme.",
+    },
+  },
+  {
+    slug: "upo-speak4nature",
+    client: "UPO — Università del Piemonte Orientale",
+    title: "Speak4Nature: dare voce alla natura non umana",
+    tag: "Visual Identity · UX · Web Design",
+    sector: "Servizi",
+    year: "2023",
+    description:
+      "Visual identity, progettazione UX e visual del sito web, gestione documentale back-end della ricerca e strategia di diffusione social per Speak4Nature, progetto Marie Skłodowska-Curie finanziato dalla Commissione Europea (2023-2027) che indaga le tecniche per affermare la voce della natura non umana nelle istanze sociali e legali.",
+    result: "Identità completa, sito web speak4nature.eu e piano di engagement social",
+    image: s4nHero,
+    gallery: [
+      { src: s4nSymbol, caption: "Il simbolo: albero, radici e foglie come trama interdipendente", aspect: "square", fit: "contain" },
+      { src: s4nLogo, caption: "Il logotipo: Speak4Nature — Interdisciplinary Approaches on Ecological Justice", aspect: "wide", fit: "contain" },
+      { src: s4nWebsite, caption: "Sito web speak4nature.eu — UX, visual e gestione documentale", fit: "cover" },
+      { src: s4nPoster, caption: "Coordinata eventi: poster del workshop \"Immaginazione, politica e crisi eco-sociale\"", fit: "cover" },
+      { src: s4nRollup, aspect: "tall", fit: "cover", caption: "Roll-up istituzionale" },
+      { src: s4nCard, aspect: "wide", fit: "cover", caption: "Biglietti da visita del consorzio" },
+      { src: s4nPoster, aspect: "tall", fit: "cover", caption: "Affissione e applicazioni nello spazio universitario" },
+    ],
+    detail: {
+      challenge:
+        "Speak4Nature è un progetto di ricerca finanziato dalla Marie Skłodowska-Curie Staff Exchange action della Commissione Europea per gli anni 2023-2027 (grant agreement n. 101086202), guidato dall'Università del Piemonte Orientale con un consorzio internazionale (UAM, FIMA, LMU, FUHEM, UNL, UC3M, Eco Castulum, UFSC). L'obiettivo scientifico: trasferire conoscenza teorica ed empirica sulle tecniche che affermano la voce della natura non umana nelle istanze sociali e legali. La sfida progettuale: costruire un'identità capace di parlare al mondo accademico internazionale e, allo stesso tempo, di ingaggiare la società civile sui temi della giustizia ecologica.",
+      approach:
+        "Abbiamo lavorato su tre assi integrati. Visual identity: un sistema di marca radicato nei verdi naturali (#558E81, #89BF38, #608540), un simbolo che fonde chioma e radici di un albero in una trama interdipendente, una coordinata declinata su poster, roll-up, biglietti da visita, presentation template e materiali divulgativi. UX e visual del sito web: progettazione dell'architettura informativa di speak4nature.eu — Home, The Project, Consortium, Observatory, Dictionary, Outputs, News, Events — pensata sia per la comunità scientifica sia per il pubblico generalista, con un back-end di gestione documentale dedicato alla ricerca. Strategia di diffusione: piano editoriale e di engagement multilingua su Facebook, X, Instagram, LinkedIn e YouTube per amplificare deliverable, pubblicazioni, seminari e winter school del consorzio.",
+      outcome:
+        "Una piattaforma identitaria coerente che accompagna il progetto lungo tutti i suoi quattro anni. Il sito speak4nature.eu funziona da hub di ricerca e divulgazione: ospita output scientifici, dizionario, observatory, news ed eventi, ed è presidiato dai canali social del consorzio. La visual identity scala dai materiali accademici (template, biglietti da visita, roll-up) alle campagne di workshop e seminari nelle università partner.",
+      quote:
+        "Dare voce alla natura non umana nelle istanze sociali e legali.",
     },
   },
 ];
