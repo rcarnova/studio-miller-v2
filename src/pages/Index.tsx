@@ -6,7 +6,7 @@ import { projects } from "@/data/projects";
 
 const Index = () => {
   useReveal();
-  const featured = projects.slice(0, 13);
+  const featured = projects.slice(0, 14);
 
   return (
     <>
@@ -76,6 +76,8 @@ const Index = () => {
               <FeaturedCase project={featured[11]} index={11} size="small" />
               <FeaturedCase project={featured[12]} index={12} size="small" />
             </div>
+
+            <FeaturedCase project={featured[13]} index={13} size="large" />
           </div>
 
           <div className="mt-24 md:hidden reveal">

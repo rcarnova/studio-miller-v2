@@ -69,13 +69,17 @@ import imeasDifferentiator from "@/assets/imeas/imeas-differentiator.webp";
 import imeasHedgehog from "@/assets/imeas/imeas-hedgehog.webp";
 import imeasIdentitySignals from "@/assets/imeas/imeas-identity-signals.webp";
 import imeasPersona from "@/assets/imeas/imeas-persona.webp";
+import simonettiCover from "@/assets/studio-simonetti/simonetti-cover.webp";
+import simonettiLogo from "@/assets/studio-simonetti/simonetti-logo.webp";
+import simonettiStationery from "@/assets/studio-simonetti/simonetti-stationery.webp";
+import simonettiWeb from "@/assets/studio-simonetti/simonetti-web.webp";
 
 export type Project = {
   slug: string;
   client: string;
   title: string;
   tag: string;
-  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit" | "Pubblica Amministrazione · Ricerca";
+  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit" | "Pubblica Amministrazione · Ricerca" | "Servizi · Noleggio Auto";
   year: string;
   description: string;
   result?: string;
@@ -448,6 +452,32 @@ export const projects: Project[] = [
         "Together let's build a sustainable energy pathway.",
     },
   },
+  {
+    slug: "studio-simonetti-branding",
+    client: "Studio Simonetti",
+    title: "Studio Simonetti — Soluzioni per la Mobilità",
+    tag: "Branding · Visual Identity · Content Strategy · Web Design",
+    sector: "Servizi · Noleggio Auto",
+    year: "2023",
+    description:
+      "Progetto di rebranding completo per Studio Simonetti, broker specializzato nel noleggio auto a lungo e medio termine con sede a Vercelli. Dal naming alla visual identity, dalla content strategy al sito web: un'identità costruita attorno al concetto di mobilità come servizio su misura.",
+    image: simonettiCover,
+    gallery: [
+      { src: simonettiLogo, caption: "Logo primario, logo badge e sistema monogramma — navy e gold", aspect: "wide", fit: "contain" },
+      { src: simonettiStationery, caption: "Stationery: carta intestata e biglietti da visita", aspect: "wide", fit: "cover" },
+      { src: simonettiWeb, caption: "Sito web responsive — architettura orientata al preventivo", aspect: "wide", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "Studio Simonetti operava in un mercato affollato — il noleggio auto a lungo termine — dove i grandi player nazionali dominano la comunicazione con messaggi standardizzati e orientati al prezzo. La sfida era differenziare uno studio locale con un approccio consulenziale personalizzato, costruendo un'identità che trasmettesse professionalità, affidabilità e vicinanza al cliente senza sembrare una piccola agenzia qualunque.",
+      approach:
+        "Siamo partiti dall'identità profonda dello studio: un broker indipendente che conosce le esigenze delle aziende e dei professionisti del territorio meglio di qualsiasi call center nazionale. Da lì abbiamo costruito il sistema di marca — naming rafforzato dalla tagline \"Soluzioni per la Mobilità\", logotipo con l'S dinamica che richiama movimento e solidità, palette navy e gold che comunica autorevolezza senza freddezza. Il sistema si completa con un pattern grafico basato sul monogramma, applicato su tutti i touchpoint dalla carta intestata al sito web.",
+      outcome:
+        "Brand identity system completo: logo primario, logo badge, pattern grafico, palette colori, tipografia, stationery (carta intestata, biglietti da visita). Content strategy per i canali social orientata alla consulenza e alla fiducia. Sito web responsive con architettura chiara sui due servizi chiave — noleggio medio termine e breve termine — e CTA orientata alla richiesta di preventivo.",
+      quote:
+        "Soluzioni per la Mobilità.",
+    },
+  },
 ];
 
-export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit", "Pubblica Amministrazione · Ricerca"] as const;
+export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit", "Pubblica Amministrazione · Ricerca", "Servizi · Noleggio Auto"] as const;
