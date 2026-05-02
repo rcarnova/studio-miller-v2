@@ -58,6 +58,12 @@ import qdPerception from "@/assets/qdexhaust/brand-perception.jpg";
 import qdHedgehog from "@/assets/qdexhaust/hedgehog-concept.jpg";
 import qdRideSound from "@/assets/qdexhaust/ride-the-sound.jpg";
 import qdHandmade from "@/assets/qdexhaust/handmade-emotions.jpg";
+import moondinoHero from "@/assets/moondino/moondino-hero.jpg";
+import moondinoStyle from "@/assets/moondino/moondino-style.jpg";
+import moondinoMockup from "@/assets/moondino/moondino-mockup.jpg";
+import moondinoRiso from "@/assets/moondino/moondino-riso-cover.jpg";
+import moondinoRisoLogo from "@/assets/moondino/moondino-riso-logo.jpg";
+import moondinoDiscovery from "@/assets/moondino/moondino-discovery.jpg";
 
 export type Project = {
   slug: string;
@@ -379,6 +385,35 @@ export const projects: Project[] = [
         "Una content strategy omnicanale costruita sull'identità emersa dal workshop. Piano editoriale per Instagram, YouTube e sito web con ruoli distinti per ogni canale, KPI definiti e roadmap a 12 mesi. E una tagline che sintetizza tutto: Ride the sound.",
       quote:
         "Soddisfare i desideri del cliente rendendo l'esperienza della moto unica, emozionante e condivisibile.",
+    },
+  },
+  {
+    slug: "moondino-brand-identity",
+    client: "Moondino",
+    title: "Houston, abbiamo un risotto.",
+    tag: "Naming · Brand Identity · Brand Strategy",
+    sector: "Manifatturiero",
+    year: "2020",
+    description:
+      "Naming, brand identity e brand strategy per Moondino, la startup che ha inventato il robot da risaia. Un sistema meccanico automatico che sostituisce l'uso di fitofarmaci nella monda del riso, gestendo in autonomia 10 ettari di terreno. Due brand distinti per due prodotti: il robot e il riso che produce.",
+    result: "Naming, visual identity completa, sistema iconografico e social content strategy per robot e riso",
+    image: moondinoHero,
+    gallery: [
+      { src: moondinoHero, caption: "Il logo Moondino sulla risaia — il robot da risaia", aspect: "wide", fit: "cover" },
+      { src: moondinoDiscovery, caption: "Discovery session — envisioning canvas con il team", aspect: "wide", fit: "cover" },
+      { src: moondinoStyle, caption: "Sistema visivo e social content — al lavoro nelle terre del riso", aspect: "wide", fit: "cover" },
+      { src: moondinoMockup, caption: "Mockup web — landing page robot e mobile", aspect: "wide", fit: "cover" },
+      { src: moondinoRisoLogo, caption: "Brand identity Moondino Il riso nuovo — logotype e palette", aspect: "wide", fit: "contain" },
+      { src: moondinoRiso, caption: "Moondino Il riso nuovo — il prodotto nato dalla risaia senza chimica", aspect: "wide", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "Paolo, giovane imprenditore agricolo delle terre del riso, aveva inventato qualcosa di concreto: un robot che mondava meccanicamente il riso, eliminando la chimica dal processo. Sostituisce 3 ore di trattamenti con fitofarmaci con 400 ore di sarchiatura meccanica automatica, gestendo in piena autonomia 10 ettari di terreno. Il prodotto c'era. Mancava tutto il resto: il nome, l'identità, la voce, la storia da raccontare al mercato.",
+      approach:
+        "Abbiamo avviato una discovery session con il team per definire perché, per chi, quando e come. Ne è emersa una visione chiara: un brand con archetipo del Creatore, voce ispirante e giocosa, con l'analogia di Lego — dimensione ludica ispirata da valori maturi. Un prodotto che parlasse anche alle nuove generazioni. Da lì il naming: Moondino, fusione di mondare e della luna che sorveglia le risaie di notte. Due identità visive separate — una per il robot, una per il riso — coerenti nello spirito, distinte nel mercato.",
+      outcome:
+        "Naming, visual identity completa per il robot e per il riso Moondino, sistema iconografico, palette, tipografia, mockup web e social content strategy. Una startup agri-tech con una storia da raccontare e finalmente gli strumenti per raccontarla. Il riso Moondino nasce senza chimica, da una buona pratica che diventa prodotto: un riso nuovo, per una nuova generazione.",
+      quote: "Un riso nuovo, per una nuova generazione.",
     },
   },
 ];
