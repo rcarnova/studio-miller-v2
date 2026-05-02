@@ -49,7 +49,7 @@ const LavoroDettaglio = () => {
               src={p.image}
               alt={`${p.client} — ${p.title}`}
               loading="lazy"
-              className={`w-full h-full ${p.slug === "caritas-fibrilla" || p.slug === "villa-cingoli-rebranding" || p.slug === "pisani-italian-dream" || p.slug === "samsung-galaxy-zflip-sero" || p.slug === "dolciaria-valtellinese-rebranding" ? "object-cover" : "object-contain p-8 md:p-16"}`}
+              className={`w-full h-full ${p.slug === "caritas-fibrilla" || p.slug === "villa-cingoli-rebranding" || p.slug === "pisani-italian-dream" || p.slug === "samsung-galaxy-zflip-sero" || p.slug === "dolciaria-valtellinese-rebranding" || p.slug === "upo-speak4nature" ? "object-cover" : "object-contain p-8 md:p-16"}`}
             />
           </div>
         ) : (
