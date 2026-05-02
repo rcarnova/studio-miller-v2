@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export function useReveal(selector = ".reveal, .reveal-word") {
+export function useReveal(selector = ".reveal, .reveal-word", triggerKey?: unknown) {
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll<HTMLElement>(selector));
     if (!elements.length) return;
@@ -19,5 +19,5 @@ export function useReveal(selector = ".reveal, .reveal-word") {
 
     elements.forEach((el) => io.observe(el));
     return () => io.disconnect();
-  }, [selector]);
+  }, [selector, triggerKey]);
 }

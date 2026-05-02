@@ -5,7 +5,7 @@ import { projects, sectors } from "@/data/projects";
 
 const Lavori = () => {
   const [filter, setFilter] = useState<(typeof sectors)[number]>("Tutti");
-  useReveal();
+  useReveal(undefined, filter);
 
   const filtered = useMemo(
     () => (filter === "Tutti" ? projects : projects.filter((p) => p.sector === filter)),
@@ -16,17 +16,16 @@ const Lavori = () => {
     <>
       <section className="container-editorial pt-16 md:pt-24 pb-12">
         <p className="eyebrow mb-8 reveal">Portfolio</p>
-        <h1 className="reveal font-display font-bold text-foreground tracking-tightest leading-[0.95] text-[16vw] md:text-[10vw] lg:text-[8rem]">
+        <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[16vw] md:text-[11vw] lg:text-[9rem]">
           Lavori
         </h1>
         <p className="reveal mt-10 max-w-2xl text-lg text-foreground/70 leading-relaxed">
-          Una selezione di progetti di brand strategy, storytelling e contenuto per aziende del
-          manifatturiero, food, ITC e moda.
+          Progetti di brand strategy, storytelling e contenuto. Settori diversi, stesso punto di partenza: capire chi sei prima di decidere come comunicarlo.
         </p>
       </section>
 
       <section className="container-editorial pb-12">
-        <div className="reveal flex flex-wrap gap-x-8 gap-y-3 border-y border-border py-5">
+        <div className="reveal flex flex-wrap gap-x-10 gap-y-3 border-y border-border py-5">
           {sectors.map((s) => (
             <button
               key={s}
@@ -42,10 +41,30 @@ const Lavori = () => {
       </section>
 
       <section className="container-editorial pb-32">
-        <div className="grid md:grid-cols-2 gap-x-12 gap-y-20 md:gap-y-28">
-          {filtered.map((p, i) => (
-            <CaseCard key={p.slug} project={p} index={i} />
-          ))}
+        <div className="space-y-0">
+          {filtered.map((project, i) => {
+            const patternIndex = i % 6;
+            const isLarge = patternIndex === 0 || patternIndex === 3;
+            const isSecondOfPair = patternIndex === 2 || patternIndex === 5;
+
+            if (isSecondOfPair) return null;
+
+            if (isLarge) {
+              return (
+                <div key={project.slug} className="border-t border-border py-20 md:py-28">
+                  <CaseCard project={project} index={i} size="large" />
+                </div>
+              );
+            }
+
+            const nextProject = filtered[i + 1];
+            return (
+              <div key={project.slug} className="border-t border-border py-20 md:py-28 grid md:grid-cols-2 gap-12 md:gap-16">
+                <CaseCard project={project} index={i} size="small" />
+                {nextProject && <CaseCard project={nextProject} index={i + 1} size="small" />}
+              </div>
+            );
+          })}
         </div>
         {filtered.length === 0 && (
           <p className="text-muted-foreground text-center py-20">Nessun progetto in questo settore.</p>

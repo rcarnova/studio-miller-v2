@@ -2,13 +2,23 @@ import { Link } from "react-router-dom";
 import type { Project } from "@/data/projects";
 import { ArrowRight, Play } from "lucide-react";
 
-export function CaseCard({ project, index = 0 }: { project: Project; index?: number }) {
+export function CaseCard({
+  project,
+  index = 0,
+  size = "small",
+}: {
+  project: Project;
+  index?: number;
+  size?: "large" | "small";
+}) {
   const thumb = project.image
     ? project.image
     : project.videoId
     ? `https://i.ytimg.com/vi/${project.videoId}/maxresdefault.jpg`
     : null;
   const isVideo = !!project.videoId;
+  const useContain = project.slug === "eudaimon-felicita-lavoro";
+  const imgClass = useContain ? "object-contain p-8 bg-background" : "object-cover";
 
   return (
     <article
@@ -16,14 +26,18 @@ export function CaseCard({ project, index = 0 }: { project: Project; index?: num
       style={{ transitionDelay: `${(index % 2) * 80}ms` }}
     >
       <Link to={`/lavori/${project.slug}`} className="block">
-        <div className="aspect-[16/10] w-full bg-secondary overflow-hidden flex items-center justify-center relative">
+        <div
+          className={`${
+            size === "large" ? "aspect-[21/9]" : "aspect-[4/3]"
+          } w-full bg-secondary overflow-hidden flex items-center justify-center relative`}
+        >
           {thumb ? (
             <>
               <img
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className={`absolute inset-0 w-full h-full ${project.slug === "eudaimon-felicita-lavoro" ? "object-contain p-8 bg-background" : (isVideo || project.slug === "caritas-fibrilla" || project.slug === "villa-cingoli-rebranding" || project.slug === "pisani-italian-dream" || project.slug === "samsung-galaxy-zflip-sero" || project.slug === "dolciaria-valtellinese-rebranding" || project.slug === "upo-speak4nature") ? "object-cover" : "object-contain p-6"} transition-transform duration-700 group-hover:scale-[1.03]`}
+                className={`absolute inset-0 w-full h-full ${imgClass} transition-transform duration-700 group-hover:scale-[1.03]`}
               />
               {isVideo && (
                 <>
@@ -52,7 +66,11 @@ export function CaseCard({ project, index = 0 }: { project: Project; index?: num
         <p className="eyebrow text-primary">{project.tag}</p>
         <p className="text-sm text-muted-foreground">{project.client}</p>
         <Link to={`/lavori/${project.slug}`}>
-          <h3 className="font-display font-bold text-2xl md:text-3xl leading-tight tracking-tightest hover:text-primary transition-colors">
+          <h3
+            className={`font-display font-bold ${
+              size === "large" ? "text-4xl md:text-5xl" : "text-2xl md:text-3xl"
+            } leading-tight tracking-tightest hover:text-primary transition-colors`}
+          >
             {project.title}
           </h3>
         </Link>

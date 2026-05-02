@@ -4,8 +4,6 @@ import { useReveal } from "@/hooks/useReveal";
 import { FeaturedCase } from "@/components/FeaturedCase";
 import { projects } from "@/data/projects";
 
-const HERO = "L'identità è la strategia.".split(" ");
-
 const Index = () => {
   useReveal();
   const featured = projects.slice(0, 10);
@@ -13,26 +11,20 @@ const Index = () => {
   return (
     <>
       {/* HERO */}
-      <section className="container-editorial pt-16 md:pt-28 pb-24 md:pb-40 min-h-[88vh] flex flex-col justify-center">
-        <p className="eyebrow mb-8 reveal">STUDIO MILLER — BRANDING</p>
-
-        <h1 className="font-display font-bold text-foreground tracking-tightest leading-[0.95] text-[14vw] md:text-[7.5vw] lg:text-[6.5rem] xl:text-[7.5rem] max-w-[18ch]">
-          {HERO.map((w, i) => (
-            <span key={i} className="reveal-word mr-[0.18em]" style={{ transitionDelay: `${i * 140}ms` }}>
-              {w}
-            </span>
-          ))}
-        </h1>
-
-        <p className="reveal mt-10 max-w-2xl text-lg md:text-xl text-foreground/75 leading-relaxed" style={{ transitionDelay: "600ms" }}>
-          Costruiamo brand che sanno chi sono. Strategie di contenuto e narrativa per aziende che
-          vogliono essere riconoscibili.
-        </p>
-
-        <div className="reveal mt-10" style={{ transitionDelay: "750ms" }}>
+      <section className="container-editorial pt-20 md:pt-32 pb-16 md:pb-32 min-h-[92vh] flex flex-col justify-between gap-16 md:gap-20">
+        <div>
+          <p className="eyebrow mb-10 reveal">STUDIO MILLER — BRANDING</p>
+          <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[18vw] md:text-[13vw] lg:text-[11rem] xl:text-[13rem] max-w-[12ch] mb-12 md:mb-16">
+            L'identità<br />è la<br /><span className="text-primary">strategia.</span>
+          </h1>
+        </div>
+        <div className="reveal mt-16 md:mt-0 flex flex-col md:flex-row md:items-start md:justify-between md:gap-24 border-t border-border pt-10" style={{ transitionDelay: "400ms" }}>
+          <p className="text-lg md:text-xl text-foreground/70 leading-relaxed max-w-sm">
+            Lavoriamo con aziende che hanno già capito una cosa: il problema non è grafico. Partiamo sempre dalle persone, dalle tue.
+          </p>
           <Link
             to="/lavori"
-            className="inline-flex items-center gap-3 border border-primary text-primary px-7 py-4 text-sm font-medium uppercase tracking-[0.14em] hover:bg-primary hover:text-primary-foreground transition-colors duration-500"
+            className="inline-flex items-center gap-3 border border-primary text-primary px-7 py-4 text-sm font-medium uppercase tracking-[0.14em] hover:bg-primary hover:text-primary-foreground transition-colors duration-500 shrink-0"
           >
             Vedi i lavori <ArrowRight size={18} />
           </Link>
@@ -42,11 +34,12 @@ const Index = () => {
       {/* LAVORI SELEZIONATI */}
       <section className="py-24 md:py-40 border-t border-border">
         <div className="container-editorial">
-          <div className="flex items-end justify-between mb-20 md:mb-32 reveal">
+          <div className="flex items-end justify-between mb-20 md:mb-40 reveal">
             <div>
-              <p className="eyebrow mb-4">Lavori selezionati</p>
-              <h2 className="font-display font-bold text-3xl md:text-5xl tracking-tightest leading-tight max-w-2xl">
-                Dieci progetti, una sola convinzione.
+              <p className="eyebrow mb-6">Lavori selezionati</p>
+              <h2 className="font-display font-black text-4xl md:text-6xl tracking-tightest leading-tight max-w-2xl">
+                Progetti diversi,<br />una sola convinzione:<br />
+                <span className="text-foreground/40">l'identità si scopre,<br />non si inventa.</span>
               </h2>
             </div>
             <Link to="/lavori" className="hidden md:inline-flex text-sm font-medium link-underline shrink-0">
@@ -54,10 +47,28 @@ const Index = () => {
             </Link>
           </div>
 
-          <div className="space-y-32 md:space-y-48">
-            {featured.map((p, i) => (
-              <FeaturedCase key={p.slug} project={p} index={i} />
-            ))}
+          <div className="space-y-40 md:space-y-64">
+            <FeaturedCase project={featured[0]} index={0} size="large" />
+
+            <div className="grid md:grid-cols-2 gap-16 md:gap-20">
+              <FeaturedCase project={featured[1]} index={1} size="small" />
+              <FeaturedCase project={featured[2]} index={2} size="small" />
+            </div>
+
+            <FeaturedCase project={featured[3]} index={3} size="large" />
+
+            <div className="grid md:grid-cols-2 gap-16 md:gap-20">
+              <FeaturedCase project={featured[4]} index={4} size="small" />
+              <FeaturedCase project={featured[5]} index={5} size="small" />
+            </div>
+
+            <FeaturedCase project={featured[6]} index={6} size="large" />
+
+            <div className="grid md:grid-cols-3 gap-10 md:gap-14">
+              <FeaturedCase project={featured[7]} index={7} size="small" />
+              <FeaturedCase project={featured[8]} index={8} size="small" />
+              <FeaturedCase project={featured[9]} index={9} size="small" />
+            </div>
           </div>
 
           <div className="mt-24 md:hidden reveal">
@@ -69,40 +80,54 @@ const Index = () => {
       </section>
 
       {/* STATEMENT */}
-      <section className="bg-ink text-background py-28 md:py-40">
+      <section className="bg-ink text-background py-32 md:py-56">
         <div className="container-editorial">
-          <blockquote className="reveal max-w-5xl font-display font-bold text-3xl md:text-5xl lg:text-6xl leading-[1.1] tracking-tightest">
+          <blockquote className="reveal font-display font-black text-4xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tightest max-w-5xl">
             Il brand non è la comunicazione.<br />
-            Il brand è la promessa che la comunicazione mantiene.
+            Il brand è la promessa che la<br />comunicazione mantiene.
           </blockquote>
-          <p className="reveal eyebrow mt-10 text-background/60" style={{ transitionDelay: "150ms" }}>
+          <p className="reveal eyebrow mt-12 text-background/40" style={{ transitionDelay: "150ms" }}>
             — Studio Miller
           </p>
         </div>
       </section>
 
       {/* SERVIZI PREVIEW */}
-      <section className="container-editorial py-24 md:py-32">
-        <p className="eyebrow mb-14 reveal">Cosa facciamo</p>
-        <div className="grid md:grid-cols-3 gap-12 md:gap-16">
-          {[
-            { t: "Brand Strategy", d: "Dall'analisi alla piattaforma di marca." },
-            { t: "Corporate Storytelling", d: "Narrativa che traduce la strategia in comunicazione." },
-            { t: "Content & Video", d: "Produzione editoriale e video per campagne digitali." },
-          ].map((s, i) => (
-            <div key={s.t} className="reveal" style={{ transitionDelay: `${i * 120}ms` }}>
-              <h3 className="font-display font-bold text-2xl md:text-3xl tracking-tightest leading-tight">
-                {s.t}
-              </h3>
-              <p className="mt-4 text-foreground/70 leading-relaxed">{s.d}</p>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-16 reveal">
-          <Link to="/servizi" className="text-primary font-medium link-underline">
-            Tutti i servizi →
-          </Link>
+      <section className="border-t border-border">
+        <div className="container-editorial py-32 md:py-40">
+          <p className="eyebrow mb-20 reveal">Cosa facciamo</p>
+          <div className="grid md:grid-cols-3 items-start divide-y md:divide-y-0 md:divide-x divide-border">
+            {[
+              {
+                n: "01",
+                t: "Brand Strategy",
+                d: "Partiamo da un workshop con le persone della tua azienda. L'identità si costruisce da dentro.",
+              },
+              {
+                n: "02",
+                t: "Corporate Storytelling",
+                d: "Troviamo la narrativa che il mercato ricorda — e che i tuoi colleghi sentono propria.",
+              },
+              {
+                n: "03",
+                t: "Content & Video",
+                d: "Contenuti che servono la strategia, non solo il feed. Dalla piattaforma di marca alla campagna.",
+              },
+            ].map((s, i) => (
+              <div key={s.t} className="reveal py-10 md:py-0 md:px-16 first:md:pl-0 last:md:pr-0 space-y-6" style={{ transitionDelay: `${i * 120}ms` }}>
+                <p className="text-primary font-medium text-sm">{s.n}</p>
+                <h3 className="font-display font-black text-3xl md:text-4xl tracking-tightest leading-tight">
+                  {s.t}
+                </h3>
+                <p className="text-foreground/60 leading-relaxed">{s.d}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-16 pt-16 border-t border-border reveal">
+            <Link to="/servizi" className="text-primary font-medium link-underline">
+              Tutti i servizi →
+            </Link>
+          </div>
         </div>
       </section>
     </>

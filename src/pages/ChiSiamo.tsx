@@ -25,7 +25,7 @@ const ChiSiamo = () => {
     <>
       <section className="container-editorial pt-16 md:pt-24 pb-20">
         <p className="eyebrow mb-8 reveal">Lo studio</p>
-        <h1 className="reveal font-display font-bold tracking-tightest leading-[0.95] text-[14vw] md:text-[8vw] lg:text-[7rem]">
+        <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[16vw] md:text-[11vw] lg:text-[9rem]">
           Chi siamo
         </h1>
         <div className="reveal mt-10 max-w-3xl text-xl md:text-2xl font-display tracking-tightest text-foreground/80 leading-snug space-y-6">

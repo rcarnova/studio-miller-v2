@@ -25,7 +25,7 @@ const Contatti = () => {
     <>
       <section className="container-editorial pt-16 md:pt-24 pb-12">
         <p className="eyebrow mb-8 reveal">Contatti</p>
-        <h1 className="reveal font-display font-bold tracking-tightest leading-[0.95] text-[14vw] md:text-[9vw] lg:text-[8rem]">
+        <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[16vw] md:text-[11vw] lg:text-[9rem]">
           Parliamoci
         </h1>
         <p className="reveal mt-10 max-w-2xl text-xl md:text-2xl font-display tracking-tightest text-foreground/75 leading-snug">
