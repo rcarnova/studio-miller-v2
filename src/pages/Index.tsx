@@ -6,7 +6,7 @@ import { projects } from "@/data/projects";
 
 const Index = () => {
   useReveal();
-  const featured = projects.slice(0, 15);
+  const featured = projects.slice(0, 16);
 
   return (
     <>
@@ -81,6 +81,7 @@ const Index = () => {
 
             <div className="grid md:grid-cols-2 gap-16 md:gap-20">
               <FeaturedCase project={featured[14]} index={14} size="small" />
+              <FeaturedCase project={featured[15]} index={15} size="small" />
             </div>
           </div>
 

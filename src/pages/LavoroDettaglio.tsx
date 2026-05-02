@@ -3,6 +3,11 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { projects } from "@/data/projects";
 import { useReveal } from "@/hooks/useReveal";
 
+function extractYouTubeId(url: string): string {
+  const match = url.match(/(?:youtu\.be\/|[?&]v=)([a-zA-Z0-9_-]{11})/);
+  return match ? match[1] : "";
+}
+
 const LavoroDettaglio = () => {
   const { slug } = useParams();
   useReveal();
@@ -49,7 +54,7 @@ const LavoroDettaglio = () => {
               src={p.image}
               alt={`${p.client} — ${p.title}`}
               loading="lazy"
-              className={`w-full h-full ${p.slug === "caritas-fibrilla" || p.slug === "villa-cingoli-rebranding" || p.slug === "pisani-italian-dream" || p.slug === "samsung-galaxy-zflip-sero" || p.slug === "dolciaria-valtellinese-rebranding" || p.slug === "upo-speak4nature" || p.slug === "imeas-brand-strategy" || p.slug === "studio-simonetti-branding" || p.slug === "paderno-made-to-shine" ? "object-cover" : "object-contain p-8 md:p-16"}`}
+              className={`w-full h-full ${p.slug === "caritas-fibrilla" || p.slug === "villa-cingoli-rebranding" || p.slug === "pisani-italian-dream" || p.slug === "samsung-galaxy-zflip-sero" || p.slug === "dolciaria-valtellinese-rebranding" || p.slug === "upo-speak4nature" || p.slug === "imeas-brand-strategy" || p.slug === "studio-simonetti-branding" || p.slug === "paderno-made-to-shine" || p.slug === "paderno-symphony-of-cooking" ? "object-cover" : "object-contain p-8 md:p-16"}`}
             />
           </div>
         ) : (
@@ -60,6 +65,22 @@ const LavoroDettaglio = () => {
           </div>
         )}
       </section>
+
+      {p.videoUrl && (
+        <section className="container-editorial pb-16">
+          <div className="reveal aspect-video w-full bg-ink overflow-hidden">
+            <iframe
+              src={`https://www.youtube.com/embed/${extractYouTubeId(p.videoUrl)}?rel=0`}
+              title={`${p.client} — ${p.title}`}
+              className="w-full h-full"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        </section>
+      )}
 
       {p.detail && (
         <article className="container-editorial pb-24 grid lg:grid-cols-12 gap-12">

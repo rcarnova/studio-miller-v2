@@ -77,17 +77,24 @@ import padernoCover from "@/assets/paderno/paderno-cover.webp";
 import padernoProducts from "@/assets/paderno/paderno-products.webp";
 import padernoGlassware from "@/assets/paderno/paderno-glassware.webp";
 import padernoFlair from "@/assets/paderno/paderno-flair.webp";
+import symphonyCover from "@/assets/paderno/Symphony/symphony-cover.webp";
+import symphonyPots from "@/assets/paderno/Symphony/symphony-pots.webp";
+import symphonyKnife from "@/assets/paderno/Symphony/symphony-knife.webp";
+import symphonyPasta from "@/assets/paderno/Symphony/symphony-pasta.webp";
+import symphonySieve from "@/assets/paderno/Symphony/symphony-sieve.webp";
+import symphonyPlating from "@/assets/paderno/Symphony/symphony-plating.webp";
 
 export type Project = {
   slug: string;
   client: string;
   title: string;
   tag: string;
-  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit" | "Pubblica Amministrazione · Ricerca" | "Servizi · Noleggio Auto" | "Food Equipment · Mixology";
+  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit" | "Pubblica Amministrazione · Ricerca" | "Servizi · Noleggio Auto" | "Food Equipment · Mixology" | "Food Equipment · Alta Cucina";
   year: string;
   description: string;
   result?: string;
   videoId?: string;
+  videoUrl?: string;
   image?: string;
   gallery?: { src: string; caption?: string; aspect?: "wide" | "tall" | "square"; fit?: "cover" | "contain" }[];
   detail?: {
@@ -508,6 +515,35 @@ export const projects: Project[] = [
         "Ladies & Gentleman, con la collezione Bar di Paderno la festa può iniziare.",
     },
   },
+  {
+    slug: "paderno-symphony-of-cooking",
+    client: "Paderno Industrie",
+    title: "Symphony of Cooking — Quando la cucina diventa musica",
+    tag: "Campaign Strategy · Content Production · Video",
+    sector: "Food Equipment · Alta Cucina",
+    year: "2019",
+    description:
+      "Strategia, concept e produzione della campagna Symphony of Cooking per Paderno Industrie. Un video di alta qualità cinematografica con protagonista lo Chef Alfredo Russo — stella Michelin — nella sua cucina professionale. Il progetto racconta il rapporto viscerale tra un grande chef e i suoi strumenti, trasformando utensili professionali in estensioni naturali del gesto creativo.",
+    image: symphonyCover,
+    videoUrl: "https://youtu.be/u3H16afj5fI?si=ZGZyz9nt1erkIOxn",
+    gallery: [
+      { src: symphonyPots, caption: "Le pentole in scena — il calore come materia prima", aspect: "wide", fit: "cover" },
+      { src: symphonyKnife, caption: "Il coltello che taglia con precisione millimetrica", aspect: "wide", fit: "cover" },
+      { src: symphonyPasta, caption: "La pasta: gesto, materia, tempo", aspect: "wide", fit: "cover" },
+      { src: symphonySieve, caption: "Il colino che filtra il vapore — sequenza bianco e nero", aspect: "wide", fit: "cover" },
+      { src: symphonyPlating, caption: "Chef Alfredo Russo — la composizione finale", aspect: "wide", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "Paderno doveva comunicare la qualità professionale della sua linea di strumenti per l'alta cucina a un pubblico esigente — chef professionisti, buyer del foodservice, appassionati gourmet. Il rischio era produrre l'ennesima dimostrazione tecnica. La vera sfida era raccontare perché uno chef stellato sceglie determinati strumenti, e farlo con il rigore visivo che quel mondo richiede.",
+      approach:
+        "Abbiamo costruito il concept attorno a una metafora precisa: la cucina come composizione musicale. Ogni gesto è una nota, ogni strumento è uno strumento dell'orchestra. Chef Alfredo Russo — stella Michelin — diventa il direttore di questa sinfonia silenziosa. La regia è volutamente cinematografica: bianco e nero per le sequenze più astratte, colore caldo per i momenti di creazione. I prodotti Paderno entrano in scena non come oggetti da catalogo ma come protagonisti silenti — il coltello che taglia con precisione millimetrica, il colino che filtra il vapore, la padella che risponde al tatto. Il video non spiega il prodotto: lo fa desiderare.",
+      outcome:
+        "Campagna Symphony of Cooking completa: concept creativo, sceneggiatura, direzione artistica, produzione video con Chef Alfredo Russo stella Michelin. Il video ha supportato la comunicazione della linea professionale Paderno sui canali digitali, nelle fiere di settore e nelle attività di trade marketing verso i professionisti della ristorazione. Un caso che dimostra come la content strategy applicata al prodotto professionale possa raggiungere la qualità narrativa della comunicazione luxury.",
+      quote:
+        "Ogni grande piatto inizia da uno strumento che non tradisce.",
+    },
+  },
 ];
 
-export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit", "Pubblica Amministrazione · Ricerca", "Servizi · Noleggio Auto", "Food Equipment · Mixology"] as const;
+export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit", "Pubblica Amministrazione · Ricerca", "Servizi · Noleggio Auto", "Food Equipment · Mixology", "Food Equipment · Alta Cucina"] as const;
