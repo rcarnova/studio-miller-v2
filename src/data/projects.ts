@@ -530,7 +530,7 @@ export const projects: Project[] = [
       { src: symphonyPots, caption: "Le pentole in scena — il calore come materia prima", aspect: "wide", fit: "cover" },
       { src: symphonyKnife, caption: "Il coltello che taglia con precisione millimetrica", aspect: "wide", fit: "cover" },
       { src: symphonyPasta, caption: "La pasta: gesto, materia, tempo", aspect: "wide", fit: "cover" },
-      { src: symphonySieve, caption: "Il colino che filtra il vapore — sequenza bianco e nero", aspect: "wide", fit: "cover" },
+      { src: symphonySieve, caption: "Sequenza dal video", aspect: "wide", fit: "cover" },
       { src: symphonyPlating, caption: "Chef Alfredo Russo — la composizione finale", aspect: "wide", fit: "cover" },
     ],
     detail: {
