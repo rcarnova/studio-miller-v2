@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Play } from "lucide-react";
 import type { Project } from "@/data/projects";
+import { MoondinoAnimation } from "@/components/MoondinoAnimation";
 
 export function FeaturedCase({
   project,
@@ -29,7 +30,9 @@ export function FeaturedCase({
       <article className="reveal group flex flex-col">
         <Link to={`/lavori/${project.slug}`} className="block">
           <div className="aspect-[4/3] w-full bg-secondary overflow-hidden relative">
-            {thumb ? (
+            {project.slug === "moondino-brand-identity" ? (
+              <MoondinoAnimation />
+            ) : thumb ? (
               <>
                 <img
                   src={thumb}
@@ -96,7 +99,9 @@ export function FeaturedCase({
 
       <Link to={`/lavori/${project.slug}`} className="block">
         <div className="aspect-[16/9] md:aspect-[21/9] w-full bg-secondary overflow-hidden relative">
-          {thumb ? (
+          {project.slug === "moondino-brand-identity" ? (
+            <MoondinoAnimation />
+          ) : thumb ? (
             <>
               <img
                 src={thumb}
