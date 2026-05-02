@@ -8,14 +8,14 @@ const team = [
     photo: massimoPhoto,
     name: "Massimo Benedetti",
     role: "Storytelling Specialist",
-    bio: "Laurea in Sistemi Informativi Territoriali al Politecnico di Torino, Master in Corporate Storytelling. Consulente e formatore, ha affiancato nella realizzazione di strategie di contenuto e narrazione realtà di impresa e professionisti in vari comparti (ITC, Food, Manufacturing).",
+    bio: "Massimo ha una laurea al Politecnico e un master in Corporate Storytelling, ma quello che conta davvero è che sa ascoltare un'azienda e restituirle la sua storia in modo che finalmente si riconosca. Ha lavorato con realtà che vanno dall'ITC al food al manufacturing — settori diversi, stesso problema: trovare le parole giuste per dire chi sei.",
   },
   {
     initials: "RC",
     photo: rosarioPhoto,
     name: "Rosario Carnovale",
     role: "Brand Strategist",
-    bio: "Laurea in Comunicazione, Media e Pubblicità, Master in Coaching. Rosario ha sviluppato un'importante esperienza come Sales Manager nell'IT, e in qualità di brand strategist ha affiancato l'ufficio marketing di aziende multinazionali nei settori ITC, Farma, GDO, Food e Manufacturing.",
+    bio: "Rosario viene dal mondo delle vendite enterprise — dieci anni in Oracle, startup, imprenditoria. Sa cosa significa stare dall'altra parte del tavolo, capire un cliente prima ancora che sappia cosa vuole. Oggi usa quella stessa capacità per costruire piattaforme di marca che non siano solo belle, ma strategicamente solide.",
   },
 ];
 
@@ -28,10 +28,18 @@ const ChiSiamo = () => {
         <h1 className="reveal font-display font-bold tracking-tightest leading-[0.95] text-[14vw] md:text-[8vw] lg:text-[7rem]">
           Chi siamo
         </h1>
-        <p className="reveal mt-10 max-w-3xl text-xl md:text-2xl font-display tracking-tightest text-foreground/80 leading-snug">
-          Studio Miller è una boutique di branding con sede a Vercelli. Lavoriamo con aziende che
-          vogliono costruire un'identità solida, riconoscibile e coerente con la loro strategia.
-        </p>
+        <div className="reveal mt-10 max-w-3xl text-xl md:text-2xl font-display tracking-tightest text-foreground/80 leading-snug space-y-6">
+          <p>
+            Siamo una boutique di branding con sede a Vercelli. Lavoriamo con aziende che hanno
+            già capito una cosa: il problema non è grafico.
+          </p>
+          <p>
+            Quando tutto si assomiglia — quando i brand sembrano fatti con lo stesso template,
+            le stesse parole, gli stessi colori — l'identità diventa il vantaggio competitivo
+            più difficile da copiare. Ma per averla, devi sapere chi sei davvero.
+          </p>
+          <p>Noi partiamo da lì.</p>
+        </div>
       </section>
 
       <section className="bg-secondary py-24 md:py-32">
@@ -69,18 +77,26 @@ const ChiSiamo = () => {
 
       <section className="container-editorial py-24 md:py-32">
         <p className="eyebrow mb-14 reveal">Come lavoriamo</p>
-        <div className="grid md:grid-cols-3 gap-12 md:gap-16">
-          {[
-            { n: "01", t: "Ascolto prima di tutto", d: "Capire l'azienda, il mercato, le persone. Nessuna risposta senza domande giuste." },
-            { n: "02", t: "Strategia prima di esecuzione", d: "La piattaforma di marca orienta ogni scelta. Senza, c'è solo decorazione." },
-            { n: "03", t: "Identità come fondamento", d: "Tutto parte da chi sei. Il resto — voce, contenuto, campagna — è conseguenza." },
-          ].map((s, i) => (
-            <div key={s.n} className="reveal" style={{ transitionDelay: `${i*100}ms` }}>
-              <p className="font-display font-bold text-primary text-xl mb-4">{s.n}</p>
-              <h3 className="font-display font-bold text-2xl md:text-3xl tracking-tightest leading-tight">{s.t}</h3>
-              <p className="mt-4 text-foreground/70 leading-relaxed">{s.d}</p>
-            </div>
-          ))}
+        <div className="max-w-3xl space-y-8 text-lg md:text-xl text-foreground/80 leading-relaxed">
+          <p className="reveal">
+            Ogni progetto — che tu ci chieda un naming, un logo o una strategia di contenuto —
+            inizia sempre allo stesso modo: un workshop con le persone della tua azienda.
+          </p>
+          <p className="reveal" style={{ transitionDelay: "80ms" }}>
+            Non perché siamo romantici. Ma perché in vent'anni abbiamo imparato che l'identità
+            di un brand non si inventa a tavolino. Si scopre. Ed è già lì, nelle persone che
+            lavorano ogni giorno dentro quell'azienda.
+          </p>
+          <p className="reveal" style={{ transitionDelay: "160ms" }}>
+            Il workshop di Brand Vision è il nostro strumento principale. È il momento in cui
+            il tuo team smette di parlare di prodotti e inizia a parlare di valori, di
+            direzione, di chi vuole diventare. Da quello costruiamo tutto il resto.
+          </p>
+          <p className="reveal" style={{ transitionDelay: "240ms" }}>
+            Il risultato non è solo un artefatto. È un team che ha ragionato insieme sulla
+            propria identità. È internal branding, team building e strategia nello stesso
+            processo. È la differenza tra un logo che costa 300 euro e uno che vale 10.000.
+          </p>
         </div>
       </section>
     </>
