@@ -5,22 +5,22 @@ const services = [
   {
     n: "01",
     t: "Brand Strategy",
-    d: "Piattaforma di marca, positioning, naming, brand architecture. Costruiamo l'identità che orienta ogni scelta comunicativa.",
+    d: "Partiamo sempre da un workshop con le persone della tua azienda. Identità, positioning, naming, architettura di marca — tutto costruito su chi sei davvero, non su chi vorresti sembrare.",
   },
   {
     n: "02",
     t: "Corporate Storytelling",
-    d: "Formazione e consulenza per costruire narrativa aziendale solida. Dal brief alla storia che il mercato ricorda.",
+    d: "La tua azienda ha una storia. Il problema è che spesso non sa ancora come raccontarla. Lavoriamo con i tuoi team per trovare la narrativa che il mercato ricorda — e che i tuoi colleghi sentono propria.",
   },
   {
     n: "03",
     t: "Content Strategy",
-    d: "Piano editoriale, copywriting, content per web e social. Contenuti che servono la strategia, non solo il feed.",
+    d: "Contenuti che servono la strategia, non solo il feed. Piano editoriale, copywriting, content per web e social costruiti a partire dall'identità — non dall'algoritmo.",
   },
   {
     n: "04",
     t: "Video & Campagne Digitali",
-    d: "Ideazione, produzione e distribuzione di contenuti video per campagne digitali. Dall'idea allo spot.",
+    d: "Dalla piattaforma di marca alla campagna video distribuita sui canali digitali. Ideazione, produzione, distribuzione. Ogni frame racconta chi sei.",
   },
 ];
 
@@ -33,9 +33,15 @@ const Servizi = () => {
         <h1 className="reveal font-display font-bold tracking-tightest leading-[0.95] text-[14vw] md:text-[8vw] lg:text-[7rem]">
           Cosa facciamo
         </h1>
-        <p className="reveal mt-10 max-w-2xl text-lg text-foreground/70 leading-relaxed">
-          Quattro aree di intervento, una sola convinzione: prima la strategia, poi tutto il resto.
-        </p>
+        <div className="reveal mt-10 max-w-2xl space-y-4 text-lg text-foreground/70 leading-relaxed">
+          <p>
+            Qualunque cosa tu ci chieda — un naming, un logo, una campagna — iniziamo
+            sempre allo stesso modo: un workshop con le persone della tua azienda.
+          </p>
+          <p>
+            Perché un brand che non sa chi è non può comunicare a nessuno.
+          </p>
+        </div>
       </section>
 
       <section className="container-editorial pb-24 md:pb-32">
@@ -44,7 +50,7 @@ const Servizi = () => {
             <article
               key={s.n}
               className="reveal relative border-b border-border py-12 md:py-16 grid md:grid-cols-12 gap-6 md:gap-12 items-start overflow-hidden"
-              style={{ transitionDelay: `${i*80}ms` }}
+              style={{ transitionDelay: `${i * 80}ms` }}
             >
               <span
                 aria-hidden
@@ -53,7 +59,6 @@ const Servizi = () => {
               >
                 {s.n}
               </span>
-
               <div className="md:col-span-2">
                 <p className="font-display font-bold text-primary text-xl">{s.n}</p>
               </div>
