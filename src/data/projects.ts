@@ -53,6 +53,11 @@ import s4nRollup from "@/assets/speak4nature/rollup-event.jpg";
 import s4nCard from "@/assets/speak4nature/business-card.jpg";
 import s4nLogo from "@/assets/speak4nature/logo-positive.jpg";
 import s4nSymbol from "@/assets/speak4nature/symbol.jpg";
+import qdWorkshop from "@/assets/qdexhaust/workshop-postit.jpg";
+import qdPerception from "@/assets/qdexhaust/brand-perception.jpg";
+import qdHedgehog from "@/assets/qdexhaust/hedgehog-concept.jpg";
+import qdRideSound from "@/assets/qdexhaust/ride-the-sound.jpg";
+import qdHandmade from "@/assets/qdexhaust/handmade-emotions.jpg";
 
 export type Project = {
   slug: string;
@@ -345,6 +350,35 @@ export const projects: Project[] = [
         "Una piattaforma identitaria coerente che accompagna il progetto lungo tutti i suoi quattro anni. Il sito speak4nature.eu funziona da hub di ricerca e divulgazione: ospita output scientifici, dizionario, observatory, news ed eventi, ed è presidiato dai canali social del consorzio. La visual identity scala dai materiali accademici (template, biglietti da visita, roll-up) alle campagne di workshop e seminari nelle università partner.",
       quote:
         "Dare voce alla natura non umana nelle istanze sociali e legali.",
+    },
+  },
+  {
+    slug: "qd-exhaust-brand-strategy",
+    client: "QD Exhaust — Arcas Industrie",
+    title: "Ride the sound.",
+    tag: "Brand Strategy · Content Strategy",
+    sector: "Manifatturiero",
+    year: "2018",
+    description:
+      "Brand strategy e content strategy per QD Exhaust, produttore italiano di sistemi di scarico artigianali per moto di alta gamma. Un percorso di Brand Vision con tutto il team — dagli artigiani di officina ai responsabili commerciali — per costruire un'identità che raccontasse l'emozione prima della tecnica.",
+    result: "Piattaforma di marca completa con archetipo, tone of voice, tagline e strategia omnicanale",
+    image: qdWorkshop,
+    gallery: [
+      { src: qdWorkshop, caption: "Workshop con il team: come percepisco QD", aspect: "wide", fit: "cover" },
+      { src: qdPerception, caption: "Output del workshop — le parole chiave emerse dal team", aspect: "wide", fit: "cover" },
+      { src: qdHedgehog, caption: "Il concetto del riccio: passione, eccellenza, driver economici", aspect: "wide", fit: "contain" },
+      { src: qdRideSound, caption: "Brand signal: Ride the sound", aspect: "wide", fit: "cover" },
+      { src: qdHandmade, caption: "Brand signal: Handmade emotions", aspect: "wide", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "QD Exhaust produce sistemi di scarico artigianali per moto di alta gamma — Ducati, MV Agusta, Harley Davidson. Il prodotto è eccellente, riconosciuto a livello internazionale con il 99% del fatturato all'estero. Il problema: comunicava come un produttore tecnico in un mercato che compra emozioni. La sfida era trovare la voce giusta — autentica, non costruita a tavolino.",
+      approach:
+        "Siamo partiti dalle persone. Workshop con tutto il team — dagli artigiani specializzati di officina ai responsabili commerciali — per far emergere come QD si percepisce dall'interno. Ne è venuto fuori un ritratto sorprendente: un'azienda che si vive come orchestra essenziale, caos ordinato, isola felice in un mondo non bello. Un luogo dove si costruiscono opere d'arte, non componenti. Da lì abbiamo costruito la piattaforma di marca: archetipo del Creatore, tone of voice informale e ispirante, unique value proposition centrata sull'emozione prima che sulla performance.",
+      outcome:
+        "Una content strategy omnicanale costruita sull'identità emersa dal workshop. Piano editoriale per Instagram, YouTube e sito web con ruoli distinti per ogni canale, KPI definiti e roadmap a 12 mesi. E una tagline che sintetizza tutto: Ride the sound.",
+      quote:
+        "Soddisfare i desideri del cliente rendendo l'esperienza della moto unica, emozionante e condivisibile.",
     },
   },
 ];
