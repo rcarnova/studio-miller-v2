@@ -54,7 +54,7 @@ const LavoroDettaglio = () => {
               src={p.image}
               alt={`${p.client} — ${p.title}`}
               loading="lazy"
-              className={`w-full h-full ${p.slug === "caritas-fibrilla" || p.slug === "villa-cingoli-rebranding" || p.slug === "pisani-italian-dream" || p.slug === "samsung-galaxy-zflip-sero" || p.slug === "dolciaria-valtellinese-rebranding" || p.slug === "upo-speak4nature" || p.slug === "imeas-brand-strategy" || p.slug === "studio-simonetti-branding" || p.slug === "paderno-made-to-shine" || p.slug === "paderno-symphony-of-cooking" || p.slug === "interser-brand-strategy" ? "object-cover" : "object-contain p-8 md:p-16"}`}
+              className={`w-full h-full ${p.slug === "caritas-cascina-ombra" ? "object-contain p-8 md:p-16" : "object-cover"}`}
             />
           </div>
         ) : (
@@ -189,8 +189,6 @@ const LavoroDettaglio = () => {
             {p.gallery.length > 4 && (
               <div className="grid md:grid-cols-12 gap-6 md:gap-10">
                 {p.gallery.slice(4).map((g, i) => {
-                  const span = g.aspect === "wide" ? "md:col-span-5" : "md:col-span-3.5";
-                  // Distribute: tall=4, wide=5, tall=3
                   const colSpan =
                     i === 0 ? "md:col-span-4" : i === 1 ? "md:col-span-5" : "md:col-span-3";
                   const aspect =

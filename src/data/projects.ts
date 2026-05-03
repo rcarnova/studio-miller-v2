@@ -20,7 +20,6 @@ import vcSimbolo from "@/assets/villacingoli/simbolo.jpg";
 import vcPalette from "@/assets/villacingoli/palette.jpg";
 import vcCoordinata from "@/assets/villacingoli/coordinata.jpg";
 import vcTshirt from "@/assets/villacingoli/tshirt.jpg";
-import vcTote from "@/assets/villacingoli/tote.jpg";
 import vcManifestoBus from "@/assets/villacingoli/manifesto-bus.jpg";
 import vcBillboard from "@/assets/villacingoli/billboard.jpg";
 import vcParkPoster from "@/assets/villacingoli/park-poster.jpg";
@@ -29,12 +28,9 @@ import pisaniPalette from "@/assets/pisani/palette.jpg";
 import pisaniCashmere from "@/assets/pisani/cashmere.jpg";
 import pisaniHangtag from "@/assets/pisani/hangtag.jpg";
 import pisaniLandscape from "@/assets/pisani/landscape.jpg";
-import pisaniModelField from "@/assets/pisani/model-field.jpg";
 import pisaniPortrait from "@/assets/pisani/portrait.jpg";
 import pisaniWebDevices from "@/assets/pisani/web-devices.jpg";
 import pisaniMobile from "@/assets/pisani/mobile-landing.jpg";
-import pisaniKnit from "@/assets/pisani/knit-detail.jpg";
-import pisaniWordmark from "@/assets/pisani/wordmark.jpg";
 import dvHero from "@/assets/dolciaria/hero-bisciola.png";
 import dvLogoOld from "@/assets/dolciaria/logo-old.jpg";
 import dvLogoNew from "@/assets/dolciaria/logo-new.jpg";
@@ -563,7 +559,7 @@ export const projects: Project[] = [
       { src: interserStyletile, caption: "Style tile — sistema colori, tipografia e visual identity", aspect: "wide", fit: "contain" },
       { src: interserWorldwide, caption: "Worldwide — prima tavola del corporate identity system", aspect: "wide", fit: "cover" },
       { src: interserReliable, caption: "Reliable Becomes Continuity — seconda tavola del sistema", aspect: "wide", fit: "cover" },
-      { src: interserFast, caption: "Fast Means Reactive — terza tavola del sistema", aspect: "wide", fit: "cover" },
+      { src: interserCover, caption: "Campagna ADV — Ready for your business. Like No Other.", aspect: "wide", fit: "cover" },
     ],
     detail: {
       challenge:
