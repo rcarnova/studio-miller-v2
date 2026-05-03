@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { useReveal } from "@/hooks/useReveal";
 import { CaseCard } from "@/components/CaseCard";
 import { projects, sectors } from "@/data/projects";
+import { SEO } from "@/components/SEO";
 
 const Lavori = () => {
   const [filter, setFilter] = useState<(typeof sectors)[number]>("Tutti");
@@ -14,6 +15,11 @@ const Lavori = () => {
 
   return (
     <>
+      <SEO
+        title="Lavori — Studio Miller"
+        description="Casi studio di branding, visual identity, content strategy e web design. Scopri come Studio Miller ha trasformato l'identità di brand di aziende e organizzazioni."
+        path="/lavori"
+      />
       <section className="container-editorial pt-16 md:pt-24 pb-12">
         <p className="eyebrow mb-8 reveal">Portfolio</p>
         <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[16vw] md:text-[11vw] lg:text-[9rem]">

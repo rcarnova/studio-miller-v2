@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useReveal } from "@/hooks/useReveal";
+import { SEO } from "@/components/SEO";
 
 const services = [
   {
@@ -28,6 +29,11 @@ const Servizi = () => {
   useReveal();
   return (
     <>
+      <SEO
+        title="Servizi — Studio Miller"
+        description="Brand strategy, corporate storytelling, content strategy e video. Tutto inizia con un workshop: prima capiamo chi sei, poi costruiamo come comunicarlo."
+        path="/servizi"
+      />
       <section className="container-editorial pt-16 md:pt-24 pb-20">
         <p className="eyebrow mb-8 reveal">Servizi</p>
         <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[16vw] md:text-[11vw] lg:text-[9rem]">

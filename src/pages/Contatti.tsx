@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useReveal } from "@/hooks/useReveal";
 import { toast } from "sonner";
+import { SEO } from "@/components/SEO";
 
 const Contatti = () => {
   useReveal();
@@ -23,6 +24,11 @@ const Contatti = () => {
 
   return (
     <>
+      <SEO
+        title="Contatti — Studio Miller"
+        description="Hai un progetto di branding o comunicazione? Scrivici. Studio Miller è a Vercelli, lavoriamo con aziende in tutta Italia."
+        path="/contatti"
+      />
       <section className="container-editorial pt-16 md:pt-24 pb-12">
         <p className="eyebrow mb-8 reveal">Contatti</p>
         <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[16vw] md:text-[11vw] lg:text-[9rem]">

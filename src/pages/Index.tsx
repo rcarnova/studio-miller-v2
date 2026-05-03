@@ -3,6 +3,26 @@ import { ArrowRight } from "lucide-react";
 import { useReveal } from "@/hooks/useReveal";
 import { FeaturedCase } from "@/components/FeaturedCase";
 import { projects } from "@/data/projects";
+import { Helmet } from "react-helmet-async";
+import { SEO, SITE_URL } from "@/components/SEO";
+
+const schemaOrg = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Studio Miller",
+  url: SITE_URL,
+  description: "Studio di comunicazione, branding e content strategy. Aiutiamo PMI e organizzazioni a costruire identità di marca chiare, distintive e capaci di generare valore.",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Vercelli",
+    addressCountry: "IT",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    email: "studio@studiomiller.it",
+    contactType: "customer service",
+  },
+};
 
 const Index = () => {
   useReveal();
@@ -10,6 +30,14 @@ const Index = () => {
 
   return (
     <>
+      <SEO
+        title="Studio Miller — Branding, Comunicazione e Content Strategy"
+        description="Studio Miller è uno studio di comunicazione, branding e content strategy. Aiutiamo PMI e organizzazioni a costruire identità di marca chiare, distintive e capaci di generare valore."
+        path="/"
+      />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify(schemaOrg)}</script>
+      </Helmet>
       {/* HERO */}
       <section className="container-editorial pt-20 md:pt-32 pb-16 md:pb-32 min-h-[92vh] flex flex-col justify-between gap-16 md:gap-20">
         <div>

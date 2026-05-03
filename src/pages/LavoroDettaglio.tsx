@@ -2,6 +2,7 @@ import { Link, useParams, Navigate } from "react-router-dom";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { projects } from "@/data/projects";
 import { useReveal } from "@/hooks/useReveal";
+import { SEO } from "@/components/SEO";
 
 function extractYouTubeId(url: string): string {
   const match = url.match(/(?:youtu\.be\/|[?&]v=)([a-zA-Z0-9_-]{11})/);
@@ -18,8 +19,17 @@ const LavoroDettaglio = () => {
   const prev = projects[(idx - 1 + projects.length) % projects.length];
   const next = projects[(idx + 1) % projects.length];
 
+  const seoDescription = `Caso studio: ${p.description.slice(0, 120)}${p.description.length > 120 ? "…" : ""} Cliente: ${p.client}. Scopri il progetto su Studio Miller.`;
+
   return (
     <>
+      <SEO
+        title={`${p.title} — Studio Miller`}
+        description={seoDescription}
+        image={p.image}
+        type="article"
+        path={`/lavori/${p.slug}`}
+      />
       <section className="container-editorial pt-16 md:pt-24 pb-12">
         <Link to="/lavori" className="eyebrow inline-flex items-center gap-2 mb-10 hover:text-primary transition-colors">
           <ArrowLeft size={14} /> Torna ai lavori
