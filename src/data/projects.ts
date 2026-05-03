@@ -77,6 +77,11 @@ import padernoCover from "@/assets/paderno/paderno-cover.webp";
 import padernoProducts from "@/assets/paderno/paderno-products.webp";
 import padernoGlassware from "@/assets/paderno/paderno-glassware.webp";
 import padernoFlair from "@/assets/paderno/paderno-flair.webp";
+import interserCover from "@/assets/Inter ser rebrand/interser-cover.webp";
+import interserStyletile from "@/assets/Inter ser rebrand/interser-styletile.webp";
+import interserWorldwide from "@/assets/Inter ser rebrand/interser-worldwide.webp";
+import interserReliable from "@/assets/Inter ser rebrand/interser-reliable.webp";
+import interserFast from "@/assets/Inter ser rebrand/interser-fast.webp";
 import symphonyCover from "@/assets/paderno/Symphony/symphony-cover.webp";
 import symphonyPots from "@/assets/paderno/Symphony/symphony-pots.webp";
 import symphonyKnife from "@/assets/paderno/Symphony/symphony-knife.webp";
@@ -89,7 +94,7 @@ export type Project = {
   client: string;
   title: string;
   tag: string;
-  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit" | "Pubblica Amministrazione · Ricerca" | "Servizi · Noleggio Auto" | "Food Equipment · Mixology" | "Food Equipment · Alta Cucina";
+  sector: "Manifatturiero" | "Food" | "ITC" | "Moda" | "Servizi" | "No-profit" | "Pubblica Amministrazione · Ricerca" | "Servizi · Noleggio Auto" | "Food Equipment · Mixology" | "Food Equipment · Alta Cucina" | "Industria · Ceramica · B2B";
   year: string;
   description: string;
   result?: string;
@@ -544,6 +549,33 @@ export const projects: Project[] = [
         "Ogni grande piatto inizia da uno strumento che non tradisce.",
     },
   },
+  {
+    slug: "interser-brand-strategy",
+    client: "Inter Ser",
+    title: "Inter Ser — Like No Other",
+    tag: "Brand Strategy · ADV · Corporate Identity · Web Design · Event Marketing",
+    sector: "Industria · Ceramica · B2B",
+    year: "2020",
+    description:
+      "Progetto di brand strategy completo per Inter Ser SpA — azienda leader nella fornitura di ricambi e soluzioni per l'industria ceramica globale, con sede a Vercelli e magazzino logistico a Sassuolo. Nuovo posizionamento, nuovo claim, campagna ADV, corporate identity system, sito web e strategia di engagement per la fiera Tecnargilla.",
+    image: interserCover,
+    gallery: [
+      { src: interserStyletile, caption: "Style tile — sistema colori, tipografia e visual identity", aspect: "wide", fit: "contain" },
+      { src: interserWorldwide, caption: "Worldwide — prima tavola del corporate identity system", aspect: "wide", fit: "cover" },
+      { src: interserReliable, caption: "Reliable Becomes Continuity — seconda tavola del sistema", aspect: "wide", fit: "cover" },
+      { src: interserFast, caption: "Fast Means Reactive — terza tavola del sistema", aspect: "wide", fit: "cover" },
+    ],
+    detail: {
+      challenge:
+        "Inter Ser operava da oltre 25 anni in un mercato B2B tecnico e relazionale — ricambi per l'industria ceramica — senza una comunicazione all'altezza della propria reputazione. Il rischio era restare invisibile in un mercato sempre più globale e competitivo, dove i grandi produttori di macchinari dettavano l'agenda. La sfida era trasformare un'azienda percepita come fornitore locale in un brand globale riconoscibile, con una voce propria e un posizionamento distintivo. Tutto questo mantenendo l'autenticità e la cultura relazionale che da 25 anni sono il vero vantaggio competitivo di Inter Ser.",
+      approach:
+        "Siamo partiti da una Brand Vision session approfondita con il team Inter Ser, lavorando sull'identità prima di toccare qualsiasi elemento visivo. Abbiamo definito l'archetipo (L'Esploratore — chi non si pone limiti), la filosofia (velocità e lavoro di squadra come valori, non come qualità), e la UVP: offrire soluzioni reattive ai problemi delle aziende e delle persone che ne fanno parte. Da lì è nato il claim 'Like No Other' — posizionamento coraggioso che il CEO Gian Luca Zanoni ha fatto proprio in prima persona diventando il volto della campagna ADV. Il corporate identity system è stato declinato in tre tavole tipografiche ad alto impatto per i tre valori fondanti: Worldwide, Reliable, Fast. Il sito web è stato progettato secondo uno style guide preciso che riflette velocità, affidabilità e presenza globale.",
+      outcome:
+        "Brand strategy completa con archetipo, valori, claim e UVP. Campagna ADV con CEO come testimonial — 'Ready for Your Business Like No Other'. Corporate identity system in tre versioni cromatiche (navy/gold, yellow/navy, red/yellow) corrispondenti ai tre valori del brand: Worldwide, Reliable Becomes Continuity, Fast Means Reactive. Sito web con style guide dedicato. Video timelapse per Tecnargilla — la principale fiera internazionale dell'industria ceramica — con strategia di engagement del pubblico in fiera. Un progetto che ha trasformato un'azienda B2B tecnica in un brand con una voce internazionale riconoscibile.",
+      quote:
+        "Ready for your business. Like No Other.",
+    },
+  },
 ];
 
-export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit", "Pubblica Amministrazione · Ricerca", "Servizi · Noleggio Auto", "Food Equipment · Mixology", "Food Equipment · Alta Cucina"] as const;
+export const sectors = ["Tutti", "Manifatturiero", "Food", "ITC", "Moda", "Servizi", "No-profit", "Pubblica Amministrazione · Ricerca", "Servizi · Noleggio Auto", "Food Equipment · Mixology", "Food Equipment · Alta Cucina", "Industria · Ceramica · B2B"] as const;

@@ -54,7 +54,7 @@ const LavoroDettaglio = () => {
               src={p.image}
               alt={`${p.client} — ${p.title}`}
               loading="lazy"
-              className={`w-full h-full ${p.slug === "caritas-fibrilla" || p.slug === "villa-cingoli-rebranding" || p.slug === "pisani-italian-dream" || p.slug === "samsung-galaxy-zflip-sero" || p.slug === "dolciaria-valtellinese-rebranding" || p.slug === "upo-speak4nature" || p.slug === "imeas-brand-strategy" || p.slug === "studio-simonetti-branding" || p.slug === "paderno-made-to-shine" || p.slug === "paderno-symphony-of-cooking" ? "object-cover" : "object-contain p-8 md:p-16"}`}
+              className={`w-full h-full ${p.slug === "caritas-fibrilla" || p.slug === "villa-cingoli-rebranding" || p.slug === "pisani-italian-dream" || p.slug === "samsung-galaxy-zflip-sero" || p.slug === "dolciaria-valtellinese-rebranding" || p.slug === "upo-speak4nature" || p.slug === "imeas-brand-strategy" || p.slug === "studio-simonetti-branding" || p.slug === "paderno-made-to-shine" || p.slug === "paderno-symphony-of-cooking" || p.slug === "interser-brand-strategy" ? "object-cover" : "object-contain p-8 md:p-16"}`}
             />
           </div>
         ) : (
