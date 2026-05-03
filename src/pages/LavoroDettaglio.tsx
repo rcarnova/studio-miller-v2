@@ -127,7 +127,7 @@ const LavoroDettaglio = () => {
       {/* GALLERY */}
       {p.gallery && p.gallery.length > 0 && (
         <section className="container-editorial pb-24 md:pb-32">
-          <p className="eyebrow mb-10 md:mb-14 reveal">Visual identity</p>
+          <p className="eyebrow mb-10 md:mb-14 reveal">Immagini dal progetto</p>
 
           <div className="space-y-6 md:space-y-10">
             {/* Row 1: simbolo + significato */}

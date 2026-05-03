@@ -366,7 +366,6 @@ export const projects: Project[] = [
       { src: s4nPoster, caption: "Coordinata eventi: poster del workshop \"Immaginazione, politica e crisi eco-sociale\"", fit: "cover" },
       { src: s4nRollup, aspect: "tall", fit: "cover", caption: "Roll-up istituzionale" },
       { src: s4nCard, aspect: "wide", fit: "cover", caption: "Biglietti da visita del consorzio" },
-      { src: s4nPoster, aspect: "tall", fit: "cover", caption: "Affissione e applicazioni nello spazio universitario" },
     ],
     detail: {
       challenge:
@@ -391,7 +390,6 @@ export const projects: Project[] = [
     result: "Piattaforma di marca completa con archetipo, tone of voice, tagline e strategia omnicanale",
     image: qdWorkshop,
     gallery: [
-      { src: qdWorkshop, caption: "Workshop con il team: come percepisco QD", aspect: "wide", fit: "cover" },
       { src: qdPerception, caption: "Output del workshop — le parole chiave emerse dal team", aspect: "wide", fit: "cover" },
       { src: qdHedgehog, caption: "Il concetto del riccio: passione, eccellenza, driver economici", aspect: "wide", fit: "contain" },
       { src: qdRideSound, caption: "Brand signal: Ride the sound", aspect: "wide", fit: "cover" },
@@ -420,7 +418,6 @@ export const projects: Project[] = [
     result: "Naming, visual identity completa, sistema iconografico e social content strategy per robot e riso",
     image: moondinoHero,
     gallery: [
-      { src: moondinoHero, caption: "Il logo Moondino sulla risaia — il robot da risaia", aspect: "wide", fit: "cover" },
       { src: moondinoDiscovery, caption: "Discovery session — envisioning canvas con il team", aspect: "wide", fit: "cover" },
       { src: moondinoStyle, caption: "Sistema visivo e social content — al lavoro nelle terre del riso", aspect: "wide", fit: "cover" },
       { src: moondinoMockup, caption: "Mockup web — landing page robot e mobile", aspect: "wide", fit: "cover" },
