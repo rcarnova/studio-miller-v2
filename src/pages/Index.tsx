@@ -42,7 +42,7 @@ const Index = () => {
       <section className="container-editorial pt-20 md:pt-32 pb-16 md:pb-32 min-h-[92vh] flex flex-col justify-between gap-16 md:gap-20">
         <div>
           <p className="eyebrow mb-10 reveal">STUDIO MILLER — BRANDING</p>
-          <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[18vw] md:text-[10vw] lg:text-[11rem] xl:text-[13rem] max-w-[12ch] mb-12 md:mb-16">
+          <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[18vw] md:text-[10vw] lg:text-[9vw] xl:text-[13rem] max-w-[12ch] mb-12 md:mb-16">
             L'identità<br />è la<br /><span className="text-primary">strategia.</span>
           </h1>
         </div>
