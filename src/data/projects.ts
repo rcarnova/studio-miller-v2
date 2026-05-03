@@ -558,7 +558,7 @@ export const projects: Project[] = [
     year: "2020",
     description:
       "Progetto di brand strategy completo per Inter Ser SpA — azienda leader nella fornitura di ricambi e soluzioni per l'industria ceramica globale, con sede a Vercelli e magazzino logistico a Sassuolo. Nuovo posizionamento, nuovo claim, campagna ADV, corporate identity system, sito web e strategia di engagement per la fiera Tecnargilla.",
-    image: interserCover,
+    image: interserFast,
     gallery: [
       { src: interserStyletile, caption: "Style tile — sistema colori, tipografia e visual identity", aspect: "wide", fit: "contain" },
       { src: interserWorldwide, caption: "Worldwide — prima tavola del corporate identity system", aspect: "wide", fit: "cover" },
