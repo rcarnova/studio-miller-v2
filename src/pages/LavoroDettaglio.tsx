@@ -64,7 +64,7 @@ const LavoroDettaglio = () => {
               src={p.image}
               alt={`${p.client} — ${p.title}`}
               loading="lazy"
-              className={`w-full h-full ${p.slug === "caritas-cascina-ombra" ? "object-contain p-8 md:p-16" : "object-cover"}`}
+              className={`w-full h-full ${p.useContain ? "object-contain p-8 md:p-16" : `object-cover ${p.objectPosition ?? "object-center"}`}`}
             />
           </div>
         ) : (
