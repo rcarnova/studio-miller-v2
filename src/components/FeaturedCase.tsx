@@ -29,7 +29,7 @@ export function FeaturedCase({
     return (
       <article className="reveal group flex flex-col">
         <Link to={`/lavori/${project.slug}`} className="block">
-          <div className="aspect-[4/3] w-full bg-secondary overflow-hidden relative">
+          <div className={`aspect-[4/3] w-full ${project.containerBg ?? "bg-secondary"} overflow-hidden relative`}>
             {project.slug === "moondino-brand-identity" ? (
               <MoondinoAnimation />
             ) : thumb ? (
@@ -98,7 +98,7 @@ export function FeaturedCase({
       </div>
 
       <Link to={`/lavori/${project.slug}`} className="block">
-        <div className="aspect-[16/9] md:aspect-[21/9] w-full bg-secondary overflow-hidden relative">
+        <div className={`aspect-[16/9] md:aspect-[21/9] w-full ${project.containerBg ?? "bg-secondary"} overflow-hidden relative`}>
           {project.slug === "moondino-brand-identity" ? (
             <MoondinoAnimation />
           ) : thumb ? (
