@@ -51,6 +51,7 @@ import s4nCard from "@/assets/speak4nature/business-card.jpg";
 import s4nLogo from "@/assets/speak4nature/logo-positive.jpg";
 import s4nSymbol from "@/assets/speak4nature/symbol.jpg";
 import qdWorkshop from "@/assets/qdexhaust/workshop-postit.jpg";
+import qdSocialIG from "@/assets/qdexhaust/qd-social-ig.jpg";
 import qdPerception from "@/assets/qdexhaust/brand-perception.jpg";
 import qdHedgehog from "@/assets/qdexhaust/hedgehog-concept.jpg";
 import qdRideSound from "@/assets/qdexhaust/ride-the-sound.jpg";
@@ -393,7 +394,7 @@ export const projects: Project[] = [
     description:
       "Brand strategy e content strategy per QD Exhaust, produttore italiano di sistemi di scarico artigianali per moto di alta gamma. Un percorso di Brand Vision con tutto il team — dagli artigiani di officina ai responsabili commerciali — per costruire un'identità che raccontasse l'emozione prima della tecnica.",
     result: "Piattaforma di marca completa con archetipo, tone of voice, tagline e strategia omnicanale",
-    image: qdWorkshop,
+    image: qdSocialIG,
     gallery: [
       { src: qdPerception, caption: "Output del workshop — le parole chiave emerse dal team", aspect: "wide", fit: "cover" },
       { src: qdHedgehog, caption: "Il concetto del riccio: passione, eccellenza, driver economici", aspect: "wide", fit: "contain" },
