@@ -7,6 +7,7 @@ import Layout from "./components/Layout";
 import Index from "./pages/Index.tsx";
 import Lavori from "./pages/Lavori.tsx";
 import LavoroDettaglio from "./pages/LavoroDettaglio.tsx";
+import RisoNuovo from "./pages/lavori/RisoNuovo.tsx";
 import ChiSiamo from "./pages/ChiSiamo.tsx";
 import Servizi from "./pages/Servizi.tsx";
 import Contatti from "./pages/Contatti.tsx";
@@ -24,6 +25,7 @@ const App = () => (
           <Route element={<Layout />}>
             <Route path="/" element={<Index />} />
             <Route path="/lavori" element={<Lavori />} />
+            <Route path="/lavori/riso-nuovo-venuto-dalla-luna" element={<RisoNuovo />} />
             <Route path="/lavori/:slug" element={<LavoroDettaglio />} />
             <Route path="/chi-siamo" element={<ChiSiamo />} />
             <Route path="/servizi" element={<Servizi />} />

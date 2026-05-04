@@ -62,6 +62,7 @@ import moondinoMockup from "@/assets/moondino/moondino-mockup.jpg";
 import moondinoRiso from "@/assets/moondino/moondino-riso-cover.jpg";
 import moondinoRisoLogo from "@/assets/moondino/moondino-riso-logo.jpg";
 import moondinoDiscovery from "@/assets/moondino/moondino-discovery.jpg";
+import risoPackagingFlat from "@/assets/riso-nuovo/riso_packaging_flat.webp";
 import imeasCover from "@/assets/imeas/imeas-cover.webp";
 import imeasDifferentiator from "@/assets/imeas/imeas-differentiator.webp";
 import imeasHedgehog from "@/assets/imeas/imeas-hedgehog.webp";
@@ -443,6 +444,19 @@ export const projects: Project[] = [
         "Naming, visual identity completa per il robot e per il riso Moondino, sistema iconografico, palette, tipografia, mockup web e social content strategy. Una startup agri-tech con una storia da raccontare e finalmente gli strumenti per raccontarla. Il riso Moondino nasce senza chimica, da una buona pratica che diventa prodotto: un riso nuovo, per una nuova generazione.",
       quote: "Un riso nuovo, per una nuova generazione.",
     },
+  },
+  {
+    slug: "riso-nuovo-venuto-dalla-luna",
+    client: "Moondino — Il Riso Nuovo",
+    title: "Il Riso Nuovo — Venuto dalla luna",
+    tag: "Packaging · Brand Identity · Visual Design",
+    sector: "Food",
+    year: "2020",
+    description:
+      "Un packaging che nasce dal campo e arriva sullo scaffale con una storia. Il brand visivo de Il Riso Nuovo porta con sé l'identità di Moondino: tecnologia, territorio e carattere.",
+    result: "Sistema visivo completo applicato su tre formati packaging: barattolo, busta stand-up, box",
+    image: risoPackagingFlat,
+    objectPosition: "object-center",
   },
   {
     slug: "imeas-brand-strategy",
