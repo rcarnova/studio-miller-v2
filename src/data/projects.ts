@@ -7,6 +7,7 @@ import coTshirt from "@/assets/cascinaombra/tshirt.jpg";
 import coEmbroidery from "@/assets/cascinaombra/embroidery.jpg";
 import coTote from "@/assets/cascinaombra/tote.jpg";
 import samsungSeroCover from "@/assets/samsung-sero-cover.png";
+import samsungTehSero from "@/assets/samsung/tehsero samsung.webp";
 import fibrillaSimbolo from "@/assets/fibrilla/simbolo.jpg";
 import fibrillaHero from "@/assets/fibrilla/hero-campaign.jpg";
 import fibrillaSignificato from "@/assets/fibrilla/significato.jpg";
@@ -191,7 +192,7 @@ export const projects: Project[] = [
       "Video per Galaxy Z Flip e The Sero realizzato in collaborazione con la Civica Scuola di Cinema Luchino Visconti. Un gruppo di ex studenti, oggi giovani professionisti dell'audio/video, ha firmato — sotto la supervisione di Studio Miller — un racconto sul cambio di prospettiva e sulla flessibilità della tecnologia contemporanea.",
     result: "Video pubblicato sul canale YouTube ufficiale di Samsung Italia",
     videoId: "Q-OXn5qsjhM",
-    image: samsungSeroCover,
+    image: samsungTehSero,
     detail: {
       challenge:
         "Samsung Italia, in collaborazione con la Civica Scuola di Cinema Luchino Visconti, voleva raccontare due prodotti — Galaxy Z Flip e The Sero — attraverso il linguaggio del cambio di prospettiva. La sfida: dare voce a una nuova generazione di autori e mostrare come la tecnologia risponda a esigenze e abitudini in continua evoluzione.",
