@@ -19,7 +19,7 @@ export function FeaturedCase({
     : null;
   const isVideo = !!project.videoId;
 
-  const useContain = project.slug === "eudaimon-felicita-lavoro";
+  const useContain = !!project.useContain;
 
   const imgClass = useContain
     ? "object-contain p-12 md:p-16 bg-background"

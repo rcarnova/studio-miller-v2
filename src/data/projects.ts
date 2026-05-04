@@ -99,6 +99,7 @@ export type Project = {
   videoId?: string;
   videoUrl?: string;
   image?: string;
+  useContain?: boolean;
   objectPosition?: string;
   containerBg?: string;
   gallery?: { src: string; caption?: string; aspect?: "wide" | "tall" | "square"; fit?: "cover" | "contain" }[];
@@ -164,7 +165,7 @@ export const projects: Project[] = [
       "Naming, logo e visual identity per il progetto di orto sociale promosso dalla Caritas di Bra all'interno della \"Cittadella della Carità\". Un percorso di workshop, envisioning e storytelling per dare voce a una casa che accoglie, protegge e fa ombra.",
     result: "Identità visiva applicata a flyer, magliette e materiali della struttura",
     image: cascinaOmbraImg,
-    objectPosition: "object-center",
+    useContain: true,
     gallery: [
       { src: coLogoOrange, aspect: "square", fit: "cover", caption: "Logo · versione primaria" },
       { src: coLogoBlack, aspect: "square", fit: "cover", caption: "Versione monocromatica" },
@@ -344,6 +345,7 @@ export const projects: Project[] = [
     result: "Video istituzionale distribuito su LinkedIn, YouTube e canali proprietari",
     videoId: "IU56LS2DTew",
     image: eudaimonLogo,
+    useContain: true,
     detail: {
       challenge:
         "Eudaimon — primo welfare provider italiano — voleva raccontare la propria visione attraverso un video istituzionale capace di parlare a chi guida le aziende: HR, CEO, manager che hanno a cuore l'azienda e le persone che ne fanno parte. Non necessariamente alla ricerca di una soluzione, ma disposti a mettere in discussione lo stato delle cose e a chiedersi: \"la soluzione che ha la mia azienda è davvero la migliore?\". Il video doveva funzionare su tre fronti: distribuzione organica su LinkedIn e YouTube, presidio della home page del sito e apertura degli eventi.",
