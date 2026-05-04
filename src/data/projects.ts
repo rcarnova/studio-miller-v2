@@ -240,7 +240,7 @@ export const projects: Project[] = [
     description:
       "Rebranding e visual identity per Villa Cingoli, il Centro per le Famiglie del Comune di Vercelli. Un'identità costruita attorno alla promessa di accompagnare le famiglie con professionalità, cura e condivisione — radicata nei simboli della città e nelle persone che la abitano.",
     result: "Identità completa: logo, palette, coordinata, web, stampa e affissione",
-    image: vcBillboard,
+    image: vcManifestoBus,
     gallery: [
       { src: vcLogo, caption: "Il logo nelle versioni positiva e negativa", aspect: "wide", fit: "cover" },
       { src: vcSimbolo, caption: "Il simbolo: rosone della Basilica di Sant'Andrea, persone, ruota di guida", aspect: "square", fit: "cover" },
