@@ -211,7 +211,7 @@ export const projects: Project[] = [
     description:
       "Naming e visual identity per la cooperativa sociale Fibrilla, uno dei progetti di valorizzazione del lavoro artigianale promossi da Caritas sul territorio di Vercelli. Un'identità che racconta radici, connessione e slancio verso un futuro brillante.",
     result: "Identità di marca completa per la nuova cooperativa sociale",
-    image: fibrillaHero,
+    image: fibrillaTote,
     gallery: [
       { src: fibrillaSimbolo, caption: "Il simbolo: persone connesse, foglie, energia", aspect: "square", fit: "contain" },
       { src: fibrillaSignificato, caption: "Il significato nel dettaglio: esagono, persone, energia, foglie", aspect: "wide", fit: "contain" },
