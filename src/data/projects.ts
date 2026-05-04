@@ -549,6 +549,7 @@ export const projects: Project[] = [
     description:
       "Strategia, concept e produzione della campagna Symphony of Cooking per Paderno Industrie. Un video di alta qualità cinematografica con protagonista lo Chef Alfredo Russo — stella Michelin — nella sua cucina professionale. Il progetto racconta il rapporto viscerale tra un grande chef e i suoi strumenti, trasformando utensili professionali in estensioni naturali del gesto creativo.",
     image: symphonyCover,
+    objectPosition: "object-top",
     videoUrl: "https://youtu.be/u3H16afj5fI?si=ZGZyz9nt1erkIOxn",
     gallery: [
       { src: symphonyPots, caption: "Le pentole in scena — il calore come materia prima", aspect: "wide", fit: "cover" },
