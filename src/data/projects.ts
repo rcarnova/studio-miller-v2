@@ -417,7 +417,7 @@ export const projects: Project[] = [
     description:
       "Naming, brand identity e brand strategy per Moondino, la startup che ha inventato il robot da risaia. Un sistema meccanico automatico che sostituisce l'uso di fitofarmaci nella monda del riso, gestendo in autonomia 10 ettari di terreno. Due brand distinti per due prodotti: il robot e il riso che produce.",
     result: "Naming, visual identity completa, sistema iconografico e social content strategy per robot e riso",
-    image: moondinoHero,
+    image: moondinoRisoLogo,
     gallery: [
       { src: moondinoDiscovery, caption: "Discovery session — envisioning canvas con il team", aspect: "wide", fit: "cover" },
       { src: moondinoStyle, caption: "Sistema visivo e social content — al lavoro nelle terre del riso", aspect: "wide", fit: "cover" },
