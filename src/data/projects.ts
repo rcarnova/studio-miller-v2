@@ -98,6 +98,7 @@ export type Project = {
   videoId?: string;
   videoUrl?: string;
   image?: string;
+  objectPosition?: string;
   gallery?: { src: string; caption?: string; aspect?: "wide" | "tall" | "square"; fit?: "cover" | "contain" }[];
   detail?: {
     challenge: string;
@@ -161,6 +162,7 @@ export const projects: Project[] = [
       "Naming, logo e visual identity per il progetto di orto sociale promosso dalla Caritas di Bra all'interno della \"Cittadella della Carità\". Un percorso di workshop, envisioning e storytelling per dare voce a una casa che accoglie, protegge e fa ombra.",
     result: "Identità visiva applicata a flyer, magliette e materiali della struttura",
     image: cascinaOmbraImg,
+    objectPosition: "object-center",
     gallery: [
       { src: coLogoOrange, aspect: "square", fit: "cover", caption: "Logo · versione primaria" },
       { src: coLogoBlack, aspect: "square", fit: "cover", caption: "Versione monocromatica" },
@@ -193,6 +195,7 @@ export const projects: Project[] = [
     result: "Video pubblicato sul canale YouTube ufficiale di Samsung Italia",
     videoId: "Q-OXn5qsjhM",
     image: samsungTehSero,
+    objectPosition: "object-top",
     detail: {
       challenge:
         "Samsung Italia, in collaborazione con la Civica Scuola di Cinema Luchino Visconti, voleva raccontare due prodotti — Galaxy Z Flip e The Sero — attraverso il linguaggio del cambio di prospettiva. La sfida: dare voce a una nuova generazione di autori e mostrare come la tecnologia risponda a esigenze e abitudini in continua evoluzione.",
@@ -273,6 +276,7 @@ export const projects: Project[] = [
       "Brand building e lancio di italianDream, la prima collezione donna a marchio Maglificio Pisani. Dalla piattaforma di marca al sistema visivo, fino alla landing di lancio dedicata alle boutique multibrand svizzere.",
     result: "Identità completa e landing di lancio per la prima collezione a marchio",
     image: pisaniHero,
+    objectPosition: "object-center",
     gallery: [
       { src: pisaniPalette, caption: "Logo, marchio e palette: rosa identitario, bordeaux, verde acqua", aspect: "wide", fit: "cover" },
       { src: pisaniLandscape, caption: "L'immaginario: paesaggio italiano, nebbia, luce rosata", aspect: "square", fit: "cover" },
@@ -445,6 +449,7 @@ export const projects: Project[] = [
     description:
       "Brand strategy e progettazione UX del portale IMEAS per ENEA, ente capofila del consorzio europeo finanziato dal programma Interreg Alpine Space. IMEAS è una piattaforma di knowledge sharing dedicata alla transizione energetica a basse emissioni di carbonio nella Macro Regione Alpina.",
     image: imeasCover,
+    objectPosition: "object-center",
     gallery: [
       { src: imeasDifferentiator, caption: "Differentiator: la combinazione unica dei 3 elementi core di IMEAS", aspect: "wide", fit: "contain" },
       { src: imeasHedgehog, caption: "Hedgehog Diagram: passione, eccellenza e driver economici", aspect: "wide", fit: "contain" },
@@ -472,6 +477,7 @@ export const projects: Project[] = [
     description:
       "Progetto di rebranding completo per Studio Simonetti, broker specializzato nel noleggio auto a lungo e medio termine con sede a Vercelli. Dal naming alla visual identity, dalla content strategy al sito web: un'identità costruita attorno al concetto di mobilità come servizio su misura.",
     image: simonettiCover,
+    objectPosition: "object-top",
     gallery: [
       { src: simonettiLogo, caption: "Logo primario, logo badge e sistema monogramma — navy e gold", aspect: "wide", fit: "contain" },
       { src: simonettiStationery, caption: "Stationery: carta intestata e biglietti da visita", aspect: "wide", fit: "cover" },
@@ -553,6 +559,7 @@ export const projects: Project[] = [
     description:
       "Progetto di brand strategy completo per Inter Ser SpA — azienda leader nella fornitura di ricambi e soluzioni per l'industria ceramica globale, con sede a Vercelli e magazzino logistico a Sassuolo. Nuovo posizionamento, nuovo claim, campagna ADV, corporate identity system, sito web e strategia di engagement per la fiera Tecnargilla.",
     image: interserFast,
+    objectPosition: "object-center",
     gallery: [
       { src: interserStyletile, caption: "Style tile — sistema colori, tipografia e visual identity", aspect: "wide", fit: "contain" },
       { src: interserWorldwide, caption: "Worldwide — prima tavola del corporate identity system", aspect: "wide", fit: "cover" },

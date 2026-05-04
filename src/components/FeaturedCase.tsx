@@ -23,7 +23,7 @@ export function FeaturedCase({
 
   const imgClass = useContain
     ? "object-contain p-12 md:p-16 bg-background"
-    : "object-cover";
+    : `object-cover ${project.objectPosition ?? "object-center"}`;
 
   if (size === "small") {
     return (
