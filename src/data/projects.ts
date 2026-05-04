@@ -7,7 +7,7 @@ import coTshirt from "@/assets/cascinaombra/tshirt.jpg";
 import coEmbroidery from "@/assets/cascinaombra/embroidery.jpg";
 import coTote from "@/assets/cascinaombra/tote.jpg";
 import samsungSeroCover from "@/assets/samsung-sero-cover.png";
-import samsungTehSero from "@/assets/samsung/tehsero samsung.webp";
+import samsungTehSero from "@/assets/samsung/tehsero-samsung.webp";
 import fibrillaSimbolo from "@/assets/fibrilla/simbolo.jpg";
 import fibrillaHero from "@/assets/fibrilla/hero-campaign.jpg";
 import fibrillaSignificato from "@/assets/fibrilla/significato.jpg";
