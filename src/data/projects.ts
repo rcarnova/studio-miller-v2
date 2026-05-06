@@ -103,7 +103,7 @@ export type Project = {
   useContain?: boolean;
   objectPosition?: string;
   containerBg?: string;
-  gallery?: { src: string; caption?: string; aspect?: "wide" | "tall" | "square"; fit?: "cover" | "contain" }[];
+  gallery?: { src: string; caption?: string; aspect?: "wide" | "tall" | "square"; fit?: "cover" | "contain"; objectPosition?: string }[];
   detail?: {
     challenge: string;
     approach: string;
@@ -584,7 +584,7 @@ export const projects: Project[] = [
       { src: interserStyletile, caption: "Style tile — sistema colori, tipografia e visual identity", aspect: "wide", fit: "contain" },
       { src: interserWorldwide, caption: "Worldwide — prima tavola del corporate identity system", aspect: "wide", fit: "cover" },
       { src: interserReliable, caption: "Reliable Becomes Continuity — seconda tavola del sistema", aspect: "wide", fit: "cover" },
-      { src: interserCover, caption: "Campagna ADV — Ready for your business. Like No Other.", aspect: "wide", fit: "cover" },
+      { src: interserCover, caption: "Campagna ADV — Ready for your business. Like No Other.", aspect: "wide", fit: "cover", objectPosition: "object-top" },
     ],
     detail: {
       challenge:

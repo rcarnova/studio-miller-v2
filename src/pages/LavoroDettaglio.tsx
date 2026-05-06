@@ -184,7 +184,7 @@ const LavoroDettaglio = () => {
                     src={g.src}
                     alt={g.caption ?? ""}
                     loading="lazy"
-                    className={`w-full h-full ${g.fit === "cover" ? "object-cover" : "object-contain p-6 md:p-12"}`}
+                    className={`w-full h-full ${g.fit === "cover" ? `object-cover ${g.objectPosition ?? "object-center"}` : "object-contain p-6 md:p-12"}`}
                   />
                 </div>
                 {g.caption && (
