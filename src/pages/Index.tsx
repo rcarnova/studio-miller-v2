@@ -8,15 +8,27 @@ import { SEO, SITE_URL } from "@/components/SEO";
 
 const schemaOrg = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "LocalBusiness"],
   name: "Studio Miller",
   url: SITE_URL,
-  description: "Studio di comunicazione, branding e content strategy. Aiutiamo PMI e organizzazioni a costruire identità di marca chiare, distintive e capaci di generare valore.",
+  description: "Studio di branding e content strategy con sede a Vercelli. Aiutiamo PMI e organizzazioni a costruire identità di marca chiare, distintive e capaci di generare valore.",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Vercelli",
+    addressRegion: "VC",
+    postalCode: "13100",
     addressCountry: "IT",
   },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 45.3247,
+    longitude: 8.4209,
+  },
+  areaServed: [
+    { "@type": "City", name: "Vercelli" },
+    { "@type": "AdministrativeArea", name: "Piemonte" },
+    { "@type": "Country", name: "Italia" },
+  ],
   contactPoint: {
     "@type": "ContactPoint",
     email: "studio@studiomiller.it",
@@ -31,7 +43,7 @@ const Index = () => {
     <>
       <SEO
         title="Studio Miller — Branding, Comunicazione e Content Strategy"
-        description="Studio Miller è uno studio di comunicazione, branding e content strategy. Aiutiamo PMI e organizzazioni a costruire identità di marca chiare, distintive e capaci di generare valore."
+        description="Studio Miller è uno studio di branding e content strategy con sede a Vercelli. Aiutiamo PMI e organizzazioni a costruire identità di marca chiare, distintive e capaci di generare valore."
         path="/"
       />
       <Helmet>
