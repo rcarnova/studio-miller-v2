@@ -39,7 +39,7 @@ const Index = () => {
         <script type="application/ld+json">{JSON.stringify(schemaOrg)}</script>
       </Helmet>
       {/* HERO */}
-      <section className="container-editorial pt-20 md:pt-32 pb-16 md:pb-32 min-h-[92vh] flex flex-col justify-between gap-16 md:gap-20">
+      <section className="container-editorial pt-16 md:pt-20 pb-16 md:pb-32 min-h-[92vh] flex flex-col justify-between gap-16 md:gap-20">
         <div>
           <p className="eyebrow mb-10 reveal">STUDIO MILLER — BRANDING</p>
           <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[18vw] md:text-[10vw] lg:text-[9vw] xl:text-[10vw] min-[1440px]:text-[13rem] max-w-[12ch] mb-12 md:mb-16">
