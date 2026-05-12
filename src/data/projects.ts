@@ -128,11 +128,11 @@ export const projects: Project[] = [
     videoId: "HZFvk_JRbFI",
     detail: {
       challenge:
-        "All'inizio del 2019 Sambonet lancia il programma Tailor Made: posate completamente personalizzabili per modello, finitura, colore e incisione. La sfida era rivolgersi, per la prima volta, direttamente ai consumatori finali — un cambio di paradigma per un brand B2B.",
+        "Sambonet aveva inventato qualcosa di bello: posate completamente personalizzabili per modello, finitura, colore e incisione. Per la prima volta volevano parlare direttamente alle persone — non ai buyer, non ai distributori. Un brand B2B che si affacciava ai consumatori finali per la prima volta. Dovevamo capire cosa raccontare, e come farlo senza sembrare forzati.",
       approach:
-        "La content strategy è stata costruita attorno al concetto di unicità: cosa significa per ognuno di noi fare una scelta che ci rappresenta. Cinque storie raccontate: bambini in bicicletta, un matrimonio, una donna che ritrova i luoghi di un amore passato, un giovane in sartoria, una coppia sotto le stelle. Lo spot principale (95 secondi) è firmato da Matteo Bellizzi, regista presente alla Mostra del Cinema di Venezia 2003. La colonna sonora utilizza i suoni reali del processo produttivo Sambonet, in collaborazione con il sound artist Gigi Biolcati.",
+        "Ci siamo chiesti cosa significa scegliere qualcosa che ti rappresenta davvero. Da lì sono nate cinque storie: bambini in bicicletta, un matrimonio, una donna che torna nei luoghi di un amore passato, un giovane in sartoria, una coppia sotto le stelle. Per lo spot principale abbiamo chiamato Matteo Bellizzi — regista che aveva portato i suoi lavori a Venezia nel 2003. La colonna sonora l'abbiamo costruita con Gigi Biolcati: i suoni del reparto produzione Sambonet trasformati in musica.",
       outcome:
-        "Video principale 95\" + 4 pillole per campagna digitale pianificata da Richclicks su YouTube, Facebook, Instagram. Il programma Tailor Made ha vinto l'Iconic Awards 2019 nella categoria Innovative Interior · Best of the Best.",
+        "Uno spot da 95 secondi, quattro pillole per i social, campagna pianificata da Richclicks su YouTube, Facebook e Instagram. Il programma Tailor Made ha vinto l'Iconic Awards 2019 — Best of the Best. Non male per un brand che non aveva mai parlato direttamente ai consumatori.",
       quote:
         "Abbiamo scelto di affidarci a Studio Miller per la progettazione strategica e la realizzazione dei contenuti. Il risultato ha parlato da solo.",
     },
@@ -154,11 +154,11 @@ export const projects: Project[] = [
     videoId: "pWJ270rIuDQ",
     detail: {
       challenge:
-        "Randstad è una multinazionale olandese fondata nel 1960, tra le più importanti agenzie di ricerca, selezione e formazione di risorse umane al mondo, con filiali in 40 stati tra Europa, Asia e Nord America. Mara della comunicazione interna, Paola dell'HR e Fulvia del marketing cercavano un modo per raccontare la vita all'interno di Randstad attraverso un video con i propri dipendenti. Tre le sfide: cosa dire, come dirlo, come farlo.",
+        "Mara, Paola e Fulvia ci hanno chiamati con un'idea chiara: fare un video sull'employer brand di Randstad Italia, lasciando che fossero i dipendenti a raccontare l'azienda. La domanda vera era: cosa diciamo? E come lo facciamo in modo che sia autentico, non una brochure in movimento?",
       approach:
-        "Abbiamo lavorato in tre fasi. Individuazione dei valori: attraverso workshop dedicati abbiamo identificato i valori su cui si fonda la realtà Randstad e quelli che l'azienda vuole trasmettere. Coinvolgimento della community: abbiamo chiesto direttamente alle persone di Randstad di raccontare la propria esperienza in azienda. Racconto: la scelta è stata quella di realizzare vere interviste, montate poi nel video finale — perché a raccontare Randstad dovevano essere proprio coloro che la vivono.",
+        "Abbiamo cominciato dai workshop. Con il team abbiamo tirato fuori i valori reali — quelli che le persone sentono propri, non quelli scritti nel codice etico. Poi abbiamo chiesto alle persone di Randstad di raccontarsi. Nessuno script, nessuna risposta preparata: interviste vere, montate poi nel video finale. Perché se devi raccontare l'employer brand, l'unica voce credibile è quella di chi ci lavora ogni giorno.",
       outcome:
-        "Un video di Employer Branding che racconta la realtà Randstad attraverso la voce di chi vive quotidianamente le sfide dell'azienda. I volti e le interviste scelte rappresentano la vera essenza dell'Employer Branding di Randstad Italia: raccontare il lavoro, raccontare la community.",
+        "Un video che suona autentico perché lo è. I volti e le storie nel montaggio finale sono la vera essenza di Randstad Italia — non la multinazionale da presentazione PowerPoint, ma le persone che la fanno andare avanti ogni giorno.",
     },
   },
   {
@@ -184,11 +184,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "La Caritas di Bra promuove lo sviluppo integrale della persona e l'attivazione della comunità per costruire una società più giusta e inclusiva. Nel 2018, grazie al comodato gratuito della Famiglia Olivero di Sommariva Bosco, nasce un orto sociale dove persone fragili, cittadini e cooperative coltivano insieme la terra — e con la terra, le relazioni. La sfida: trovare un nome capace di veicolare questo messaggio e rendere riconoscibile il progetto.",
+        "La Caritas di Bra aveva aperto un orto sociale alla Cittadella della Carità — un posto dove persone fragili, cittadini e cooperative coltivano insieme. Ci hanno chiesto di trovare un nome. Non per fare marketing, ma perché un luogo come quello meritava un'identità, qualcosa che rimanesse.",
       approach:
-        "Il percorso si è articolato in tre fasi. Envisioning: due momenti di lavoro — \"come vogliamo mostrarci al mondo\" e \"io dico, io faccio, io sono\" — per costruire una visione condivisa. Storytelling: raccolta di storie di fondamenta (gli inizi del progetto) e storie di successo (i traguardi raggiunti) per dare voce a chi vive la realtà dall'interno. Keywords e proposte di naming: dai workshop sono emerse parole chiave e tre proposte — Cascina Ombra, Cascina Luna, Mattone Giallo — discusse poi con tutto il team.",
+        "Siamo partiti dalle persone che ci lavoravano. Workshop di envisioning, raccolta di storie — quelle delle origini e quelle dei risultati già raggiunti. Poi il lavoro sulle parole: dalle sessioni sono emerse tre proposte — Cascina Ombra, Cascina Luna, Mattone Giallo. Ognuna portava qualcosa di diverso. Le abbiamo discusse con tutto il team, nessuna risposta imposta dall'esterno.",
       outcome:
-        "La scelta è caduta su Cascina Ombra: un nome che richiama il territorio braidese e tiene insieme l'ambivalenza tra protezione, presenza costante e buio. Da lì è nato il logo — due mani che diventano tetto attorno a una piccola casa — e l'intera visual identity, declinata su flyer per l'inaugurazione, borse e magliette per la promozione della struttura.",
+        "Hanno scelto Cascina Ombra. Un nome che tiene insieme la protezione e l'ambivalenza — l'ombra che ripara, ma anche quella che torna di notte. Da lì il logo: due mani che diventano tetto attorno a una piccola casa. E poi flyer, borse, magliette. Un'identità nata dal basso, che si sente vera.",
       quote:
         "Non viene coltivata solo la terra, ma anche relazioni tra persone che si riappropriano del futuro.",
     },
@@ -208,11 +208,11 @@ export const projects: Project[] = [
     objectPosition: "object-top",
     detail: {
       challenge:
-        "Samsung Italia, in collaborazione con la Civica Scuola di Cinema Luchino Visconti, voleva raccontare due prodotti — Galaxy Z Flip e The Sero — attraverso il linguaggio del cambio di prospettiva. La sfida: dare voce a una nuova generazione di autori e mostrare come la tecnologia risponda a esigenze e abitudini in continua evoluzione.",
+        "Samsung Italia, tramite la Civica Scuola di Cinema Luchino Visconti, voleva un video su Galaxy Z Flip e The Sero. Il brief era sulla flessibilità e il cambio di prospettiva. La cosa interessante era chi doveva farlo: ex studenti della scuola, giovani professionisti al loro primo progetto vero con un brand grande. Il nostro ruolo era tenerli insieme e far uscire qualcosa di buono.",
       approach:
-        "La Civica Scuola di Cinema Luchino Visconti ha ingaggiato alcuni ex studenti, oggi giovani professionisti del mondo audio/video. Sotto la supervisione di Studio Miller, il team ha sviluppato un racconto visivo dedicato alla flessibilità: un inno al cambiamento, alle nuove prospettive e alla capacità di adattamento che caratterizza il mondo odierno.",
+        "Abbiamo lavorato con un gruppo di giovani autori — alcuni con esperienza sui set, altri quasi all'esordio — per sviluppare un racconto visivo sulla flessibilità come modo di stare nel mondo. Non abbiamo imposto la direzione, abbiamo aiutato a trovare il filo. Supervisione creativa, non controllo creativo.",
       outcome:
-        "Un video distribuito sul canale YouTube ufficiale di Samsung Italia, in cui Galaxy Z Flip e The Sero diventano strumenti narrativi per parlare di prospettiva e contemporaneità — e una piattaforma reale di crescita per giovani autori al loro primo progetto industry.",
+        "Il video è finito sul canale YouTube ufficiale di Samsung Italia. Galaxy Z Flip e The Sero diventano strumenti narrativi, non prodotti da demo. Per i giovani autori è stato il loro primo progetto distribuito da un brand di questa portata — il tipo di esperienza che non si trova in nessuna scuola.",
     },
   },
   {
@@ -237,11 +237,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Caritas ci ha ingaggiati per creare l'identità di uno dei progetti di valorizzazione del lavoro artigianale sul territorio di Vercelli: una cooperativa sociale che avesse bisogno di un nome e di un volto capaci di raccontarne la natura — fatta di lavoro paziente, connessioni sottili e desiderio di futuro.",
+        "Caritas ci ha chiamati per dar vita a una nuova cooperativa sociale sul territorio di Vercelli. Partivamo da zero: nessun nome, nessun logo, nessuna storia ancora scritta. Solo un'idea — valorizzare il lavoro artigianale di persone che avevano bisogno di un posto dove esprimersi. Dovevamo trovare un nome capace di raccontare tutto questo.",
       approach:
-        "Il naming nasce da due immagini sovrapposte. Da un lato le radici fini — quelle che, invisibili, assorbono i nutrienti e tengono in vita la pianta. Dall'altro i muscoli fibrillari delle ali degli insetti, capaci di una contrazione e distensione rapidissima che scatena l'energia del volo. Fibrilla tiene insieme le due cose: la struttura sottile e connessa delle radici e la spinta vitale che permette di alzarsi in volo.",
+        "Il naming viene da due immagini che ci hanno colpiti. Le radici fini delle piante — quelle che non si vedono, ma assorbono tutto e tengono in vita. E le fibre muscolari delle ali degli insetti — quelle che si contraggono centinaia di volte al secondo per generare il volo. Fibrilla tiene insieme entrambe: struttura sottile e energia per alzarsi.",
       outcome:
-        "Fibrilla porta con sé la luce, il concetto di un futuro brillante e l'eccitazione di chi vuole fare. Da questo doppio significato — radice e ala — nasce il logo e tutta la visual identity della cooperativa, applicata ai materiali di comunicazione del progetto.",
+        "Un nome che porta con sé una doppia promessa: radicamento e movimento. Da lì il logo, i colori, la coordinata — tutto costruito attorno a questa tensione tra il restare e il volare. Un'identità per una cooperativa che era appena nata e doveva ancora capire quanto avrebbe potuto andare lontano.",
     },
   },
   {
@@ -266,11 +266,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Villa Cingoli è il Centro per le Famiglie del Comune di Vercelli: un luogo che accoglie chi ha bisogno di supporto sui temi e le difficoltà del proprio nucleo familiare. La sfida era definire un'identità visiva in linea con il pubblico a cui il centro si rivolge, capace di esprimere l'essenza della sua missione e delle persone che ne fanno parte.",
+        "Villa Cingoli era il Centro per le Famiglie del Comune di Vercelli — esisteva da anni, aveva un'identità visiva vecchia che non raccontava più quello che erano. Ci hanno chiesto di ricominciare da capo. Ma senza perdere le persone che ci lavoravano, né la fiducia che avevano costruito nel tempo.",
       approach:
-        "Il percorso si è articolato in due fasi laboratoriali. Workshop di definizione dei valori: per mettere a fuoco la promessa del centro — aiutare le persone con professionalità, cura e condivisione. Workshop sulle personas: per dare un volto reale al pubblico di riferimento e calibrare tono, linguaggio e segni visivi sulle sue esigenze. Da qui è nato il sistema identitario: un simbolo che fonde il rosone della Basilica di Sant'Andrea — emblema di Vercelli — con le figure di persone in cerchio e la ruota di guida, sintesi di radicamento, comunità e direzione.",
+        "Due workshop. Il primo per mettere a fuoco i valori — non quelli scritti nel documento istituzionale, ma quelli che le persone del centro sentivano propri. Il secondo sulle personas: chi arriva da Villa Cingoli? Con quale paura, quale speranza? Da quelle sessioni è emerso il simbolo: il rosone della Basilica di Sant'Andrea — il segno più riconoscibile di Vercelli — fuso con figure di persone in cerchio. Radicato nel territorio, aperto alle persone.",
       outcome:
-        "Una nuova identità completa: logo, palette, tipografia, coordinata, sito web, materiali di stampa e una campagna di affissione articolata su poster, manifesti e billboard urbani. \"Famiglia si diventa.\" è diventato il payoff che porta Villa Cingoli nello spazio pubblico della città.",
+        "Logo, palette, sito, materiali di stampa e una campagna di affissione in città. Il payoff 'Famiglia si diventa.' è il risultato di quella ricerca — tre parole che dicono tutto senza spiegare niente.",
       quote:
         "Aiutare le persone con professionalità, cura e condivisione.",
     },
@@ -298,11 +298,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Maglificio Pisani — laboratorio di maglieria attivo dal 1973 — decide di avviare una nuova linea donna a proprio marchio, individuando nelle boutique multibrand il primo target con cui costruire un brand riconoscibile. La sfida: misurarsi con il mercato del fashion, fatto di regole proprie e popolato da marchi noti e produttori made in Italy già strutturati sul diretto. Per rendere la sfida sostenibile, il primo passo è il mercato delle boutique svizzere — titolari e clienti in costante ricerca di un'idea di stile che li rispecchi.",
+        "Maglificio Pisani produceva maglieria dal 1973 — brava, affidabile, made in Italy vero. Avevano deciso di lanciare la prima collezione donna a marchio proprio. Non distribuzione per terzi, non private label: un brand tutto loro. Primo mercato: le boutique multibrand svizzere. La sfida vera era che non avevano mai fatto questo prima, e il mercato del fashion ha regole sue.",
       approach:
-        "Studio Miller ha affiancato il team marketing e commerciale nella costruzione del brand e nella strategia di lancio. Il punto di partenza: tradurre la competenza acquisita negli anni, l'implementazione tecnologica e la passione delle persone in una promessa chiara — \"il vero lusso è realizzare se stessi\". Da qui la piattaforma di marca, il naming della prima collezione (italianDream), il sistema visivo — palette ispirata ai colori dell'Italia in una luce rosata, tipografia che alterna il rigore di Domine al carattere editoriale di Syne — e una landing di lancio dedicata alle boutique, costruita per generare lead qualificati.",
+        "Siamo entrati nel progetto lavorando con il team marketing e commerciale — non solo sopra di loro. Primo passo: trovare la promessa. 'Il vero lusso è realizzare se stessi' è venuta fuori dai workshop, non da un brainstorming creativo a tavolino. Da lì il naming — italianDream — e tutto il sistema visivo: colori ispirati ai paesaggi italiani in una luce rosata, tipografia che alterna rigore e carattere editoriale. E una landing per le boutique pensata per generare lead qualificati, non per sembrare bella.",
       outcome:
-        "italianDream nasce come prima collezione e prima espressione pubblica del brand Maglificio Pisani. Identità completa (logo, marchio, palette, tipografia, coordinata, hangtag), immaginario fotografico costruito attorno ai paesaggi italiani e alla materia cashmere, e una landing dedicata alle boutique come primo punto di contatto commerciale. Le basi per un piano di crescita di medio-lungo termine: posizionarsi con efficacia in un mercato dove ogni dettaglio è racconto.",
+        "italianDream esce come prima collezione e prima voce pubblica del brand. Identità completa, immaginario fotografico costruito attorno ai paesaggi italiani e al cashmere, landing dedicata alle boutique. Le basi per costruire un piano a medio-lungo termine in un mercato dove non si improvvisa.",
       quote:
         "Ogni prodotto viene seguito con cura: lavori eccellenti, perfetti nei dettagli e di proprietà futura.",
     },
@@ -331,11 +331,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Dolciaria Valtellinese è un'azienda storica della provincia di Sondrio, famosa per la produzione di dolci tipici tra cui la Bisciola. Forte di un riconoscimento solido sul territorio, aveva la necessità di espandersi in nuovi mercati. La proprietà ha quindi deciso di rivedere non solo il visual, ma l'intera impostazione della comunicazione — stile, tono di voce e un sistema visivo capace di rispondere alle crescenti necessità del digitale e dei social.",
+        "Dolciaria Valtellinese era famosa in provincia di Sondrio per la Bisciola e i dolci della tradizione — conosciuta, stimata, radicata. Ma volevano crescere: nuovi mercati, digitale, social. Il visual era datato. La voce era assente. Ci hanno chiamati per ripensare tutto, in collaborazione con Valtnet per la parte visiva.",
       approach:
-        "In collaborazione con Valtnet — Studio Miller sulla strategia di brand, Valtnet sull'implementazione visiva — abbiamo applicato il nostro metodo di ascolto e co-costruzione con la proprietà, rendendola parte attiva nella definizione dei tratti distintivi della nuova immagine. Dai workshop sono emersi i pilastri: archetipo dell'angelo custode, valori di semplicità, autenticità e responsabilità, una promessa chiara — \"produrre prodotti di qualità con un approccio tradizionale che mette al centro i valori, oltre al gusto\". Da qui la piattaforma di marca, la verbal identity e il sistema visivo: rosso identitario, panna, azzurro e accenti terracotta; tipografia classica rivisitata; immaginario costruito su gesti, materie prime e memoria.",
+        "Ci siamo seduti con la proprietà e abbiamo ascoltato. Non il brief: le persone. Dai workshop è venuto fuori l'archetipo dell'angelo custode — chi protegge, chi fa le cose con cura, chi non ha segreti da nascondere. Il payoff è arrivato quasi da solo: 'Il nostro ingrediente segreto si chiama semplicità'. Non pubblicità: verità.",
       outcome:
-        "Una nuova immagine che mantiene intatto l'asset di heritage e lo proietta nel futuro. Il payoff \"Il nostro ingrediente segreto si chiama semplicità\" guida un sistema di comunicazione modulare — dal packaging al digitale — pronto per accompagnare l'azienda nei nuovi mercati senza perdere la riconoscibilità costruita in oltre quarant'anni.",
+        "Un sistema di marca che non rinnegava i quarant'anni di storia ma ci costruiva sopra. Rosso identitario, panna, azzurro, terracotta. Tono di voce caldo e diretto. Sistema modulare pronto per il digitale. Valtnet ha implementato il visual; noi abbiamo tenuto il filo strategico.",
       quote:
         "Proteggere la tradizione e i suoi valori, accompagnandola nel futuro.",
     },
@@ -355,11 +355,11 @@ export const projects: Project[] = [
     useContain: true,
     detail: {
       challenge:
-        "Eudaimon — primo welfare provider italiano — voleva raccontare la propria visione attraverso un video istituzionale capace di parlare a chi guida le aziende: HR, CEO, manager che hanno a cuore l'azienda e le persone che ne fanno parte. Non necessariamente alla ricerca di una soluzione, ma disposti a mettere in discussione lo stato delle cose e a chiedersi: \"la soluzione che ha la mia azienda è davvero la migliore?\". Il video doveva funzionare su tre fronti: distribuzione organica su LinkedIn e YouTube, presidio della home page del sito e apertura degli eventi.",
+        "Eudaimon voleva un video istituzionale. Non un video aziendale — qualcosa che aprisse una conversazione vera con chi in azienda decide le cose: HR, CEO, manager che si fanno domande reali sul benessere delle persone. Doveva funzionare su tre fronti: home page, LinkedIn, apertura degli eventi.",
       approach:
-        "Abbiamo costruito il racconto attorno a una catena di significato: quando la cultura organizzativa è positiva e attenta, le persone stanno bene a lavoro, si sentono ascoltate, sono più serene, ingaggiate e hanno cura di ciò che fanno. La cultura è positiva quando l'ambiente è sano, libero e giusto, e stimola relazioni di valore tra le persone a tutti i livelli. È attenta quando ascolta i bisogni e li risolve. Da qui i tre pilastri narrativi del video: lavorare bene insieme, benessere al lavoro, engagement come risultato — al servizio della vision Eudaimon: sviluppare una società libera e giusta dove le persone vivono e lavorano bene insieme.",
+        "Abbiamo costruito il racconto attorno a una catena: quando la cultura è positiva, le persone stanno bene, sono più ingaggiate — ma soprattutto sono più felici. La felicità non è un benefit: è il risultato di un ambiente sano. Da questa catena sono venuti i tre pilastri narrativi del video. Nessun claim svuotato, nessuna musica motivazionale. Un racconto che trattava i CEO come adulti intelligenti.",
       outcome:
-        "Un video istituzionale che mette al centro le persone e la cultura prima della soluzione tecnica. Un dispositivo di comunicazione modulare, pensato per la home page del sito, l'apertura degli eventi e la distribuzione su LinkedIn e YouTube — capace di aprire una conversazione con chi, in azienda, ha il potere e la responsabilità di cambiare le cose.",
+        "Un video che funziona su tutti e tre i fronti perché non cerca di vendere subito. Apre una domanda. E chi ha la risposta sbagliata in testa, quando lo guarda, comincia a dubitarne.",
       quote:
         "Sviluppare una società libera e giusta dove le persone vivono e lavorano bene insieme.",
     },
@@ -385,11 +385,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Speak4Nature è un progetto di ricerca finanziato dalla Marie Skłodowska-Curie Staff Exchange action della Commissione Europea per gli anni 2023-2027 (grant agreement n. 101086202), guidato dall'Università del Piemonte Orientale con un consorzio internazionale (UAM, FIMA, LMU, FUHEM, UNL, UC3M, Eco Castulum, UFSC). L'obiettivo scientifico: trasferire conoscenza teorica ed empirica sulle tecniche che affermano la voce della natura non umana nelle istanze sociali e legali. La sfida progettuale: costruire un'identità capace di parlare al mondo accademico internazionale e, allo stesso tempo, di ingaggiare la società civile sui temi della giustizia ecologica.",
+        "L'Università del Piemonte Orientale guidava un consorzio europeo su giustizia ecologica e diritti della natura — finanziato Marie Skłodowska-Curie, otto partner internazionali, quattro anni di progetto. Avevano bisogno di un'identità che parlasse sia al mondo accademico internazionale sia alla società civile. E di un sito che funzionasse come hub scientifico. L'identità doveva reggere tutto il tempo.",
       approach:
-        "Abbiamo lavorato su tre assi integrati. Visual identity: un sistema di marca radicato nei verdi naturali (#558E81, #89BF38, #608540), un simbolo che fonde chioma e radici di un albero in una trama interdipendente, una coordinata declinata su poster, roll-up, biglietti da visita, presentation template e materiali divulgativi. UX e visual del sito web: progettazione dell'architettura informativa di speak4nature.eu — Home, The Project, Consortium, Observatory, Dictionary, Outputs, News, Events — pensata sia per la comunità scientifica sia per il pubblico generalista, con un back-end di gestione documentale dedicato alla ricerca. Strategia di diffusione: piano editoriale e di engagement multilingua su Facebook, X, Instagram, LinkedIn e YouTube per amplificare deliverable, pubblicazioni, seminari e winter school del consorzio.",
+        "Tre fronti in parallelo. Visual identity: radicata nei verdi naturali, un simbolo che fonde chioma e radici, una coordinata scalabile dai biglietti da visita ai poster dei workshop. Sito web: architettura pensata per ricercatori e curiosi insieme — non la stessa cosa, ma nello stesso spazio. Strategia social: multilingua, su cinque canali, per amplificare pubblicazioni, seminari, winter school.",
       outcome:
-        "Una piattaforma identitaria coerente che accompagna il progetto lungo tutti i suoi quattro anni. Il sito speak4nature.eu funziona da hub di ricerca e divulgazione: ospita output scientifici, dizionario, observatory, news ed eventi, ed è presidiato dai canali social del consorzio. La visual identity scala dai materiali accademici (template, biglietti da visita, roll-up) alle campagne di workshop e seminari nelle università partner.",
+        "Un'identità che ha retto quattro anni di consorzio internazionale, università partner, eventi in tutto il mondo. Il sito speak4nature.eu funziona ancora come hub di ricerca e divulgazione. È uno dei progetti di cui siamo più orgogliosi — perché l'identità era reale, non decorativa.",
       quote:
         "Dare voce alla natura non umana nelle istanze sociali e legali.",
     },
@@ -414,11 +414,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "QD Exhaust produce sistemi di scarico artigianali per moto di alta gamma — Ducati, MV Agusta, Harley Davidson. Il prodotto è eccellente, riconosciuto a livello internazionale con il 99% del fatturato all'estero. Il problema: comunicava come un produttore tecnico in un mercato che compra emozioni. La sfida era trovare la voce giusta — autentica, non costruita a tavolino.",
+        "QD Exhaust faceva scarichi artigianali per moto di alta gamma — Ducati, MV Agusta, Harley-Davidson. Prodotto eccellente, riconosciuto ovunque, 99% del fatturato all'estero. Il problema: comunicavano come un'azienda tecnica in un mercato che compra emozioni. Ci hanno chiamati per trovare la loro voce — quella vera, non quella costruita a tavolino.",
       approach:
-        "Siamo partiti dalle persone. Workshop con tutto il team — dagli artigiani specializzati di officina ai responsabili commerciali — per far emergere come QD si percepisce dall'interno. Ne è venuto fuori un ritratto sorprendente: un'azienda che si vive come orchestra essenziale, caos ordinato, isola felice in un mondo non bello. Un luogo dove si costruiscono opere d'arte, non componenti. Da lì abbiamo costruito la piattaforma di marca: archetipo del Creatore, tone of voice informale e ispirante, unique value proposition centrata sull'emozione prima che sulla performance.",
+        "Siamo andati in fabbrica. Workshop con tutti: gli artigiani che saldano ogni mattina, i responsabili commerciali che vendono in Giappone e negli States. Volevamo sapere come si raccontavano tra loro, non come pensavano di dover sembrare. È venuto fuori qualcosa di bello: si vivevano come un'orchestra essenziale, un caos ordinato, un'isola felice. Non costruivano componenti. Costruivano opere d'arte.",
       outcome:
-        "Una content strategy omnicanale costruita sull'identità emersa dal workshop. Piano editoriale per Instagram, YouTube e sito web con ruoli distinti per ogni canale, KPI definiti e roadmap a 12 mesi. E una tagline che sintetizza tutto: Ride the sound.",
+        "Archetipo del Creatore, tono informale e ispirante, content strategy su Instagram, YouTube e sito con ruoli distinti per ogni canale. E una tagline che ha sintetizzato tutto in tre parole: Ride the sound.",
       quote:
         "Soddisfare i desideri del cliente rendendo l'esperienza della moto unica, emozionante e condivisibile.",
     },
@@ -443,11 +443,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Paolo, giovane imprenditore agricolo delle terre del riso, aveva inventato qualcosa di concreto: un robot che mondava meccanicamente il riso, eliminando la chimica dal processo. Sostituisce 3 ore di trattamenti con fitofarmaci con 400 ore di sarchiatura meccanica automatica, gestendo in piena autonomia 10 ettari di terreno. Il prodotto c'era. Mancava tutto il resto: il nome, l'identità, la voce, la storia da raccontare al mercato.",
+        "Paolo aveva inventato un robot che mondava meccanicamente il riso — niente chimica, 10 ettari gestiti in autonomia. Una cosa concreta, funzionante, utile. Ci ha trovati quando aveva già il prodotto ma non ancora le parole per presentarlo. Nessun nome, nessun logo, nessuna storia ancora scritta.",
       approach:
-        "Abbiamo avviato una discovery session con il team per definire perché, per chi, quando e come. Ne è emersa una visione chiara: un brand con archetipo del Creatore, voce ispirante e giocosa, con l'analogia di Lego — dimensione ludica ispirata da valori maturi. Un prodotto che parlasse anche alle nuove generazioni. Da lì il naming: Moondino, fusione di mondare e della luna che sorveglia le risaie di notte. Due identità visive separate — una per il robot, una per il riso — coerenti nello spirito, distinte nel mercato.",
+        "Discovery session con il team per capire perché, per chi, come. Ci siamo trovati di fronte a un progetto con due anime: il robot (B2B, agri-tech) e il riso che il robot produceva (B2C, food). Due brand distinti, stesso spirito. Il naming viene da due parole: mondare e luna. Moondino. La luna che sorveglia le risaie di notte. Un nome che fa sorridere, ma porta dentro qualcosa di serio.",
       outcome:
-        "Naming, visual identity completa per il robot e per il riso Moondino, sistema iconografico, palette, tipografia, mockup web e social content strategy. Una startup agri-tech con una storia da raccontare e finalmente gli strumenti per raccontarla. Il riso Moondino nasce senza chimica, da una buona pratica che diventa prodotto: un riso nuovo, per una nuova generazione.",
+        "Due visual identity — una per il robot, una per il riso — coerenti nello spirito, distinte nel mercato. Sistema iconografico, palette, tipografia, mockup web, social content strategy. Una startup agri-tech con finalmente una storia da raccontare — e gli strumenti per raccontarla.",
       quote: "Un riso nuovo, per una nuova generazione.",
     },
   },
@@ -483,11 +483,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "ENEA guidava un consorzio multidisciplinare e transnazionale con un obiettivo ambizioso: costruire una comunità europea attiva attorno ai temi della transizione energetica low carbon, coinvolgendo profili molto diversi — politici locali, ricercatori, imprenditori, tecnici. Il rischio concreto era produrre l'ennesimo portale istituzionale che nessuno avrebbe usato. La sfida era dare a IMEAS un'identità riconoscibile e un'esperienza utente pensata per persone con bisogni, linguaggi e obiettivi molto diversi tra loro.",
+        "ENEA guidava un consorzio europeo con un obiettivo ambizioso: costruire una comunità attiva attorno alla transizione energetica low carbon in tutta la Macro Regione Alpina. Partecipavano politici locali, ricercatori, imprenditori, tecnici. Il rischio era semplice: fare l'ennesimo portale istituzionale che nessuno avrebbe usato.",
       approach:
-        "Siamo partiti da una Brand Vision session con il team di progetto, lavorando sull'identità prima ancora di toccare qualsiasi aspetto visivo o tecnologico. Abbiamo definito archetipo di marca (Il Saggio), valori fondanti, personalità e unique value proposition. In parallelo abbiamo condotto workshop di user research con gli stakeholder reali — da cui sono emersi proto-persona e empathy map che hanno guidato tutta la progettazione UX del portale. Il risultato è un'architettura dell'informazione costruita attorno ai bisogni concreti di chi la usa: networking, documentazione, benchmarking, innovazione.",
+        "Siamo partiti dall'identità — prima ancora di toccare UX o tecnologia. Brand Vision session con il team di progetto per definire archetipo, valori, personalità. In parallelo workshop con gli stakeholder reali: da quelle sessioni sono emersi proto-persona e empathy map che hanno guidato tutta la progettazione UX. L'architettura del portale è costruita attorno ai bisogni concreti di chi lo usa — non attorno a come ENEA voleva presentarsi.",
       outcome:
-        "Brand strategy completa con archetipo, valori, personalità, palette cromatica e tipografia. Proto-persona e empathy map degli utenti chiave. Progettazione UX e wireframe del portale con architettura orientata alla community e alla gestione documentale per ricercatori e policy maker. Una piattaforma europea — finanziata da Interreg Alpine Space con ENEA capofila — che connette istituzioni, ricercatori e imprenditori di tutta la Macro Regione Alpina.",
+        "Brand strategy completa, proto-persona, wireframe e architettura UX del portale. Una piattaforma che connette istituzioni, ricercatori e imprenditori della Macro Regione Alpina — e che, soprattutto, li tiene lì perché risponde a bisogni reali.",
       quote:
         "Together let's build a sustainable energy pathway.",
     },
@@ -510,11 +510,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Studio Simonetti operava in un mercato affollato — il noleggio auto a lungo termine — dove i grandi player nazionali dominano la comunicazione con messaggi standardizzati e orientati al prezzo. La sfida era differenziare uno studio locale con un approccio consulenziale personalizzato, costruendo un'identità che trasmettesse professionalità, affidabilità e vicinanza al cliente senza sembrare una piccola agenzia qualunque.",
+        "Studio Simonetti operava nel noleggio auto a lungo termine — un mercato dove i grandi player nazionali dominano con messaggi standardizzati e guerre sul prezzo. Loro erano diversi: uno studio locale, consulenziale, che conosceva davvero le esigenze delle aziende del territorio. Ma dall'esterno sembravano una piccola agenzia qualunque.",
       approach:
-        "Siamo partiti dall'identità profonda dello studio: un broker indipendente che conosce le esigenze delle aziende e dei professionisti del territorio meglio di qualsiasi call center nazionale. Da lì abbiamo costruito il sistema di marca — naming rafforzato dalla tagline \"Soluzioni per la Mobilità\", logotipo con l'S dinamica che richiama movimento e solidità, palette navy e gold che comunica autorevolezza senza freddezza. Il sistema si completa con un pattern grafico basato sul monogramma, applicato su tutti i touchpoint dalla carta intestata al sito web.",
+        "Siamo partiti dall'identità profonda: cosa li rendeva diversi da un call center nazionale? La risposta era chiara — la conoscenza del territorio, la relazione personale, la consulenza su misura. Da lì il sistema di marca: tagline 'Soluzioni per la Mobilità', logotipo con l'S dinamica che richiama movimento e solidità, palette navy e gold che comunica autorevolezza senza freddezza. Pattern grafico basato sul monogramma, applicato su tutti i touchpoint.",
       outcome:
-        "Brand identity system completo: logo primario, logo badge, pattern grafico, palette colori, tipografia, stationery (carta intestata, biglietti da visita). Content strategy per i canali social orientata alla consulenza e alla fiducia. Sito web responsive con architettura chiara sui due servizi chiave — noleggio medio termine e breve termine — e CTA orientata alla richiesta di preventivo.",
+        "Brand identity system completo, content strategy per i social orientata alla consulenza e alla fiducia, sito web con architettura chiara sui due servizi chiave e CTA diretta alla richiesta di preventivo. Da agenzia locale a studio professionale — la differenza è nella percezione.",
       quote:
         "Soluzioni per la Mobilità.",
     },
@@ -536,11 +536,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Paderno doveva presentare la nuova collezione Bar — strumenti per il mondo della mixology — a un pubblico di professionisti e appassionati sempre più esigenti e visivamente sofisticati. Il rischio era cadere nel classico video prodotto freddo e tecnico. La sfida era trasformare degli strumenti da bartending in oggetti di desiderio, capaci di evocare un'atmosfera, uno stile di vita, un'occasione speciale.",
+        "Paderno doveva presentare la collezione Bar — strumenti per la mixology professionale — a bartender e appassionati visivamente esigenti. Il rischio era il solito: video di prodotto, freddo, tecnico, da catalogo. Ci hanno chiesto qualcosa di diverso.",
       approach:
-        "Abbiamo costruito il concept attorno a un'idea semplice e potente: la professionalità come spettacolo. Made to Shine non racconta le caratteristiche tecniche della collezione Bar — racconta la serata perfetta che questi strumenti rendono possibile. Location scelta con cura: Villa Necchi a Milano, icona di eleganza milanese. Cast: flair bartender che trasformano la preparazione di un cocktail in una performance. Il prodotto brilla — letteralmente — sotto le luci della notte milanese. Il risultato è un video che parla al professionista della ristorazione e all'aspirazionale lifestyle del consumatore finale allo stesso tempo.",
+        "Il concept viene da un'idea semplice: la professionalità come spettacolo. Non raccontiamo le caratteristiche degli strumenti — raccontiamo la serata perfetta che rendono possibile. Location: Villa Necchi a Milano. Cast: flair bartender che trasformano la preparazione di un cocktail in una performance. Il prodotto brilla — letteralmente — sotto le luci di una notte milanese che non finisce mai.",
       outcome:
-        "Campagna Made to Shine completa: concept creativo, sceneggiatura, direzione artistica, produzione video in location a Villa Necchi Milano. Il video — con il claim 'Ladies & Gentleman, con la collezione Bar di Paderno la festa può iniziare' — ha supportato il lancio della linea mixology di Paderno sui canali digitali e nelle fiere di settore. Una campagna che ha elevato la percezione del brand nel segmento premium del foodservice professionale.",
+        "Made to Shine: concept, sceneggiatura, direzione artistica, produzione in location a Villa Necchi. Il video ha supportato il lancio della linea mixology sui canali digitali e alle fiere di settore. Il claim 'Ladies & Gentleman, con la collezione Bar di Paderno la festa può iniziare' è rimasto in circolazione molto più a lungo del lancio.",
       quote:
         "Ladies & Gentleman, con la collezione Bar di Paderno la festa può iniziare.",
     },
@@ -566,11 +566,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Paderno doveva comunicare la qualità professionale della sua linea di strumenti per l'alta cucina a un pubblico esigente — chef professionisti, buyer del foodservice, appassionati gourmet. Il rischio era produrre l'ennesima dimostrazione tecnica. La vera sfida era raccontare perché uno chef stellato sceglie determinati strumenti, e farlo con il rigore visivo che quel mondo richiede.",
+        "Stesso cliente, prodotto diverso. Paderno aveva una linea per l'alta cucina e voleva un video per comunicarla a chef professionisti, buyer del foodservice, appassionati gourmet. Un'altra dimostrazione tecnica non serviva a nessuno. Dovevamo trovare il modo giusto per farlo desiderare.",
       approach:
-        "Abbiamo costruito il concept attorno a una metafora precisa: la cucina come composizione musicale. Ogni gesto è una nota, ogni strumento è uno strumento dell'orchestra. Chef Alfredo Russo — stella Michelin — diventa il direttore di questa sinfonia silenziosa. La regia è volutamente cinematografica: bianco e nero per le sequenze più astratte, colore caldo per i momenti di creazione. I prodotti Paderno entrano in scena non come oggetti da catalogo ma come protagonisti silenti — il coltello che taglia con precisione millimetrica, il colino che filtra il vapore, la padella che risponde al tatto. Il video non spiega il prodotto: lo fa desiderare.",
+        "Abbiamo chiamato Chef Alfredo Russo — stella Michelin — e costruito il concept attorno a una metafora precisa: la cucina come composizione musicale. Ogni gesto è una nota, ogni strumento è parte dell'orchestra. La regia sceglie bianco e nero per le sequenze più astratte, colore caldo per i momenti di creazione. Il coltello che taglia, il colino che filtra il vapore, la padella che risponde al tatto. Il prodotto non viene spiegato: viene desiderato.",
       outcome:
-        "Campagna Symphony of Cooking completa: concept creativo, sceneggiatura, direzione artistica, produzione video con Chef Alfredo Russo stella Michelin. Il video ha supportato la comunicazione della linea professionale Paderno sui canali digitali, nelle fiere di settore e nelle attività di trade marketing verso i professionisti della ristorazione. Un caso che dimostra come la content strategy applicata al prodotto professionale possa raggiungere la qualità narrativa della comunicazione luxury.",
+        "Symphony of Cooking: concept, sceneggiatura, direzione artistica, produzione video con uno chef stellato. Distribuito sui canali digitali, alle fiere e nelle attività di trade marketing. Un caso che dimostra che anche la comunicazione B2B può raggiungere la qualità narrativa del luxury.",
       quote:
         "Ogni grande piatto inizia da uno strumento che non tradisce.",
     },
@@ -594,11 +594,11 @@ export const projects: Project[] = [
     ],
     detail: {
       challenge:
-        "Inter Ser operava da oltre 25 anni in un mercato B2B tecnico e relazionale — ricambi per l'industria ceramica — senza una comunicazione all'altezza della propria reputazione. Il rischio era restare invisibile in un mercato sempre più globale e competitivo, dove i grandi produttori di macchinari dettavano l'agenda. La sfida era trasformare un'azienda percepita come fornitore locale in un brand globale riconoscibile, con una voce propria e un posizionamento distintivo. Tutto questo mantenendo l'autenticità e la cultura relazionale che da 25 anni sono il vero vantaggio competitivo di Inter Ser.",
+        "Inter Ser aveva 25 anni di storia, una reputazione solida nei ricambi per l'industria ceramica globale, clienti in tutto il mondo. Ma comunicava come un fornitore locale. In un mercato sempre più globale, il rischio era diventare invisibili — schiacciati dai grandi produttori di macchinari che dettavano l'agenda.",
       approach:
-        "Siamo partiti da una Brand Vision session approfondita con il team Inter Ser, lavorando sull'identità prima di toccare qualsiasi elemento visivo. Abbiamo definito l'archetipo (L'Esploratore — chi non si pone limiti), la filosofia (velocità e lavoro di squadra come valori, non come qualità), e la UVP: offrire soluzioni reattive ai problemi delle aziende e delle persone che ne fanno parte. Da lì è nato il claim 'Like No Other' — posizionamento coraggioso che il CEO Gian Luca Zanoni ha fatto proprio in prima persona diventando il volto della campagna ADV. Il corporate identity system è stato declinato in tre tavole tipografiche ad alto impatto per i tre valori fondanti: Worldwide, Reliable, Fast. Il sito web è stato progettato secondo uno style guide preciso che riflette velocità, affidabilità e presenza globale.",
+        "Brand Vision session approfondita con il team. Volevamo capire cosa li rendeva davvero diversi — non rispetto alla concorrenza diretta, ma nel mercato globale. È venuto fuori un ritratto preciso: velocità, affidabilità, un modo di lavorare che i clienti riconoscevano come unico. Da lì il claim 'Like No Other' — coraggioso, netto. Il CEO Gian Luca Zanoni ha deciso di essere lui il volto della campagna. Non uno stock model: il titolare. Quella scelta ha detto più di qualsiasi headline.",
       outcome:
-        "Brand strategy completa con archetipo, valori, claim e UVP. Campagna ADV con CEO come testimonial — 'Ready for Your Business Like No Other'. Corporate identity system in tre versioni cromatiche (navy/gold, yellow/navy, red/yellow) corrispondenti ai tre valori del brand: Worldwide, Reliable Becomes Continuity, Fast Means Reactive. Sito web con style guide dedicato. Video timelapse per Tecnargilla — la principale fiera internazionale dell'industria ceramica — con strategia di engagement del pubblico in fiera. Un progetto che ha trasformato un'azienda B2B tecnica in un brand con una voce internazionale riconoscibile.",
+        "Brand strategy completa, campagna ADV con CEO come testimonial, corporate identity system in tre versioni cromatiche — navy/gold, yellow/navy, red/yellow — per i tre valori fondanti: Worldwide, Reliable, Fast. Sito web, style guide, video timelapse per Tecnargilla. Un'azienda B2B tecnica che ha trovato una voce internazionale riconoscibile — e il coraggio di usarla.",
       quote:
         "Ready for your business. Like No Other.",
     },

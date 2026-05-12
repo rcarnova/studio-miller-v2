@@ -71,6 +71,23 @@ const Index = () => {
         </div>
       </section>
 
+      {/* VENTURO */}
+      <div className="border-b border-border">
+        <div className="container-editorial py-4">
+          <p className="text-sm text-foreground/60">
+            Studio Miller è il braccio creativo di Venturo.{" "}
+            <a
+              href="https://www.venturoconsulting.it"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-underline text-foreground"
+            >
+              Scopri Venturo →
+            </a>
+          </p>
+        </div>
+      </div>
+
       {/* STATEMENT */}
       <section className="bg-ink text-background py-32 md:py-56">
         <div className="container-editorial">
