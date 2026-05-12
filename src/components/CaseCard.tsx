@@ -18,8 +18,10 @@ export function CaseCard({
     ? `https://i.ytimg.com/vi/${project.videoId}/maxresdefault.jpg`
     : null;
   const isVideo = !!project.videoId;
-  const useContain = project.slug === "eudaimon-felicita-lavoro";
-  const imgClass = useContain ? "object-contain p-8 bg-background" : "object-cover";
+  const useContain = !!project.useContain;
+  const imgClass = useContain
+    ? "object-contain p-8 bg-background"
+    : `object-cover ${project.objectPosition ?? "object-center"}`;
 
   return (
     <article
@@ -40,11 +42,11 @@ export function CaseCard({
                 src={thumb}
                 alt={`${project.client} — ${project.title}`}
                 loading="lazy"
-                className={`absolute inset-0 w-full h-full ${imgClass} transition-transform duration-700 group-hover:scale-[1.03]`}
+                className={`absolute inset-0 w-full h-full ${imgClass} transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]`}
               />
               {isVideo && (
                 <>
-                  <div className="absolute inset-0 bg-ink/20 group-hover:bg-ink/30 transition-colors duration-500" />
+                  <div className="absolute inset-0 bg-ink/15 group-hover:bg-ink/25 transition-colors duration-500" />
                   <span
                     aria-hidden
                     className="relative z-10 inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-primary text-primary-foreground shadow-lg transition-transform duration-500 group-hover:scale-110"
@@ -72,7 +74,7 @@ export function CaseCard({
           <h3
             className={`font-display font-bold ${
               size === "large" ? "text-4xl md:text-5xl" : "text-2xl md:text-3xl"
-            } leading-tight tracking-tightest hover:text-primary transition-colors`}
+            } leading-tight tracking-tightest hover:text-primary transition-colors duration-500`}
           >
             {project.title}
           </h3>

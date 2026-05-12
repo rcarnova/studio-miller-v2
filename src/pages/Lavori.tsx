@@ -25,7 +25,7 @@ const Lavori = () => {
         <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[16vw] md:text-[11vw] lg:text-[9rem]">
           Lavori
         </h1>
-        <p className="reveal mt-10 max-w-2xl text-lg text-foreground/70 leading-relaxed">
+        <p className="reveal mt-10 max-w-2xl text-lg text-foreground/75 leading-relaxed">
           Progetti di brand strategy, storytelling e contenuto. Settori diversi, stesso punto di partenza: capire chi sei prima di decidere come comunicarlo.
         </p>
       </section>

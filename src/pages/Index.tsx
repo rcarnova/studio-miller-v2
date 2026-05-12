@@ -47,7 +47,7 @@ const Index = () => {
           </h1>
         </div>
         <div className="reveal mt-16 md:mt-0 flex flex-col md:flex-row md:items-start md:justify-between md:gap-24 border-t border-border pt-10" style={{ transitionDelay: "400ms" }}>
-          <p className="text-lg md:text-xl text-foreground/70 leading-relaxed max-w-sm">
+          <p className="text-lg md:text-xl text-foreground/75 leading-relaxed max-w-sm">
             Lavoriamo con aziende che hanno già capito una cosa: il problema non è grafico. Partiamo sempre dalle persone, dalle tue.
           </p>
           <Link

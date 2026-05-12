@@ -21,10 +21,10 @@ export function Footer() {
         </div>
         <div className="md:col-span-2 text-sm space-y-3">
           <p className="eyebrow mb-4">Naviga</p>
-          <Link to="/lavori" className="block link-underline">Lavori</Link>
-          <Link to="/servizi" className="block link-underline">Servizi</Link>
-          <Link to="/chi-siamo" className="block link-underline">Chi siamo</Link>
-          <Link to="/contatti" className="block link-underline">Contatti</Link>
+          <Link to="/lavori" className="block link-underline hover:text-primary transition-colors duration-500">Lavori</Link>
+          <Link to="/servizi" className="block link-underline hover:text-primary transition-colors duration-500">Servizi</Link>
+          <Link to="/chi-siamo" className="block link-underline hover:text-primary transition-colors duration-500">Chi siamo</Link>
+          <Link to="/contatti" className="block link-underline hover:text-primary transition-colors duration-500">Contatti</Link>
         </div>
       </div>
       <div className="border-t border-border">

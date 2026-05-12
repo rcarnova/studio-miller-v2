@@ -53,7 +53,7 @@ const Servizi = () => {
         <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[16vw] md:text-[11vw] lg:text-[9rem]">
           Cosa facciamo
         </h1>
-        <div className="reveal mt-10 max-w-2xl space-y-4 text-lg text-foreground/70 leading-relaxed">
+        <div className="reveal mt-10 max-w-2xl space-y-4 text-lg text-foreground/75 leading-relaxed">
           <p>
             Qualunque cosa tu ci chieda, partiamo sempre dallo stesso punto: capire chi sei. Non chi vorresti sembrare, chi sei davvero, come azienda, come gruppo di persone, come promessa al mercato.
           </p>

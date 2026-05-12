@@ -4,6 +4,30 @@ import { projects } from "@/data/projects";
 import { useReveal } from "@/hooks/useReveal";
 import { SEO } from "@/components/SEO";
 
+type GalleryItem = NonNullable<import("@/data/projects").Project["gallery"]>[number];
+type GalleryRow =
+  | { type: "single"; item: GalleryItem }
+  | { type: "pair"; items: [GalleryItem, GalleryItem] };
+
+function buildGalleryRows(gallery: GalleryItem[]): GalleryRow[] {
+  const rows: GalleryRow[] = [];
+  let i = 0;
+  while (i < gallery.length) {
+    const cur = gallery[i];
+    const nxt = gallery[i + 1];
+    const curPortrait = cur.aspect === "square" || cur.aspect === "tall";
+    const nxtPortrait = !!nxt && (nxt.aspect === "square" || nxt.aspect === "tall");
+    if (curPortrait && nxtPortrait) {
+      rows.push({ type: "pair", items: [cur, nxt] });
+      i += 2;
+    } else {
+      rows.push({ type: "single", item: cur });
+      i++;
+    }
+  }
+  return rows;
+}
+
 function extractYouTubeId(url: string): string {
   const match = url.match(/(?:youtu\.be\/|[?&]v=)([a-zA-Z0-9_-]{11})/);
   return match ? match[1] : "";
@@ -36,7 +60,7 @@ const LavoroDettaglio = () => {
         </Link>
 
         <p className="reveal eyebrow text-primary mb-6">{p.tag}</p>
-        <h1 className="reveal font-display font-bold tracking-tightest leading-[0.95] text-[12vw] md:text-[7vw] lg:text-[6rem] max-w-[16ch]">
+        <h1 className="reveal font-display font-black tracking-tightest leading-[0.88] text-[12vw] md:text-[7vw] lg:text-[6rem] max-w-[16ch]">
           {p.client}
         </h1>
         <p className="reveal mt-8 text-2xl md:text-3xl font-display tracking-tightest text-foreground/70 max-w-3xl">
@@ -138,95 +162,48 @@ const LavoroDettaglio = () => {
       {p.gallery && p.gallery.length > 0 && (
         <section className="container-editorial pb-24 md:pb-32">
           <p className="eyebrow mb-10 md:mb-14 reveal">Immagini dal progetto</p>
-
           <div className="space-y-6 md:space-y-10">
-            {/* Row 1: simbolo + significato */}
-            {p.gallery[0] && p.gallery[1] && (
-              <div className="grid md:grid-cols-12 gap-6 md:gap-10">
-                <figure className="reveal md:col-span-5">
-                  <div className="aspect-square w-full bg-secondary overflow-hidden flex items-center justify-center">
+            {buildGalleryRows(p.gallery).map((row, rowIdx) => {
+              if (row.type === "pair") {
+                return (
+                  <div key={rowIdx} className="grid md:grid-cols-2 gap-6 md:gap-10">
+                    {row.items.map((g, i) => (
+                      <figure key={i} className="reveal">
+                        <div className={`${g.aspect === "square" ? "aspect-square" : "aspect-[3/4]"} w-full bg-secondary overflow-hidden`}>
+                          <img
+                            src={g.src}
+                            alt={g.caption ?? ""}
+                            loading="lazy"
+                            className={`w-full h-full ${g.fit === "cover" ? `object-cover ${g.objectPosition ?? "object-center"}` : "object-contain p-6 md:p-12"}`}
+                          />
+                        </div>
+                        {g.caption && (
+                          <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">{g.caption}</figcaption>
+                        )}
+                      </figure>
+                    ))}
+                  </div>
+                );
+              }
+              const g = row.item;
+              const isPortrait = g.aspect === "tall" || g.aspect === "square";
+              const aspectClass = g.aspect === "square" ? "aspect-square" : g.aspect === "tall" ? "aspect-[3/4]" : "aspect-[16/9]";
+              return (
+                <figure key={rowIdx} className={`reveal ${isPortrait ? "max-w-sm mx-auto w-full" : ""}`}>
+                  <div className={`${aspectClass} w-full bg-secondary overflow-hidden`}>
                     <img
-                      src={p.gallery[0].src}
-                      alt={p.gallery[0].caption ?? ""}
+                      src={g.src}
+                      alt={g.caption ?? ""}
                       loading="lazy"
-                      className={`w-full h-full ${p.gallery[0].fit === "cover" ? "object-cover" : "object-contain p-8 md:p-12"}`}
+                      className={`w-full h-full ${g.fit === "cover" ? `object-cover ${g.objectPosition ?? "object-center"}` : "object-contain p-6 md:p-12"}`}
                     />
                   </div>
-                  {p.gallery[0].caption && (
-                    <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">
-                      {p.gallery[0].caption}
-                    </figcaption>
+                  {g.caption && (
+                    <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">{g.caption}</figcaption>
                   )}
                 </figure>
-                <figure className="reveal md:col-span-7">
-                  <div className="aspect-[4/3] w-full bg-secondary overflow-hidden flex items-center justify-center">
-                    <img
-                      src={p.gallery[1].src}
-                      alt={p.gallery[1].caption ?? ""}
-                      loading="lazy"
-                      className={`w-full h-full ${p.gallery[1].fit === "cover" ? "object-cover" : "object-contain p-6 md:p-10"}`}
-                    />
-                  </div>
-                  {p.gallery[1].caption && (
-                    <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">
-                      {p.gallery[1].caption}
-                    </figcaption>
-                  )}
-                </figure>
-              </div>
-            )}
-
-            {/* Row 2 & 3: full-width images (colori, coordinata) */}
-            {p.gallery.slice(2, 4).map((g, i) => (
-              <figure key={`full-${i}`} className="reveal">
-                <div className="aspect-[16/9] w-full bg-secondary overflow-hidden flex items-center justify-center">
-                  <img
-                    src={g.src}
-                    alt={g.caption ?? ""}
-                    loading="lazy"
-                    className={`w-full h-full ${g.fit === "cover" ? `object-cover ${g.objectPosition ?? "object-center"}` : "object-contain p-6 md:p-12"}`}
-                  />
-                </div>
-                {g.caption && (
-                  <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">
-                    {g.caption}
-                  </figcaption>
-                )}
-              </figure>
-            ))}
-
-            {/* Row 4: 3-up application grid (tote, tshirt, mobile) */}
-            {p.gallery.length > 4 && (
-              <div className="grid md:grid-cols-12 gap-6 md:gap-10">
-                {p.gallery.slice(4).map((g, i) => {
-                  const colSpan =
-                    i === 0 ? "md:col-span-4" : i === 1 ? "md:col-span-5" : "md:col-span-3";
-                  const aspect =
-                    g.aspect === "wide"
-                      ? "aspect-[4/3]"
-                      : g.aspect === "tall"
-                      ? "aspect-[3/4]"
-                      : "aspect-square";
-                  return (
-                    <figure key={`app-${i}`} className={`reveal ${colSpan}`}>
-                      <div className={`${aspect} w-full bg-secondary overflow-hidden flex items-center justify-center`}>
-                        <img
-                          src={g.src}
-                          alt={g.caption ?? ""}
-                          loading="lazy"
-                          className={`w-full h-full ${g.fit === "cover" ? "object-cover" : "object-contain p-6"}`}
-                        />
-                      </div>
-                      {g.caption && (
-                        <figcaption className="mt-3 text-xs text-muted-foreground tracking-wide">
-                          {g.caption}
-                        </figcaption>
-                      )}
-                    </figure>
-                  );
-                })}
-              </div>
-            )}
+              );
+            })}
           </div>
         </section>
       )}
@@ -236,13 +213,13 @@ const LavoroDettaglio = () => {
         <div className="container-editorial py-10 flex flex-col md:flex-row justify-between gap-6">
           <Link to={`/lavori/${prev.slug}`} className="group">
             <p className="eyebrow mb-2 inline-flex items-center gap-2"><ArrowLeft size={12}/> Progetto precedente</p>
-            <p className="font-display font-bold text-xl md:text-2xl tracking-tightest group-hover:text-primary transition-colors">
+            <p className="font-display font-bold text-xl md:text-2xl tracking-tightest group-hover:text-primary transition-colors duration-500">
               {prev.client}
             </p>
           </Link>
           <Link to={`/lavori/${next.slug}`} className="group md:text-right">
             <p className="eyebrow mb-2 inline-flex items-center gap-2 md:justify-end">Progetto successivo <ArrowRight size={12}/></p>
-            <p className="font-display font-bold text-xl md:text-2xl tracking-tightest group-hover:text-primary transition-colors">
+            <p className="font-display font-bold text-xl md:text-2xl tracking-tightest group-hover:text-primary transition-colors duration-500">
               {next.client}
             </p>
           </Link>
