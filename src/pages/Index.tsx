@@ -26,7 +26,6 @@ const schemaOrg = {
 
 const Index = () => {
   useReveal();
-  const featured = projects.slice(0, 17);
 
   return (
     <>
@@ -38,6 +37,7 @@ const Index = () => {
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(schemaOrg)}</script>
       </Helmet>
+
       {/* HERO */}
       <section className="container-editorial pt-12 md:pt-16 pb-16 md:pb-32 min-h-[92vh] flex flex-col justify-between gap-16 md:gap-20">
         <div>
@@ -59,6 +59,19 @@ const Index = () => {
         </div>
       </section>
 
+      {/* STATEMENT */}
+      <section className="bg-ink text-background py-32 md:py-56">
+        <div className="container-editorial">
+          <blockquote className="reveal font-display font-black text-4xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tightest max-w-5xl">
+            Il brand non è la comunicazione.<br />
+            Il brand è la promessa che la<br />comunicazione mantiene.
+          </blockquote>
+          <p className="reveal eyebrow mt-12 text-background/40" style={{ transitionDelay: "150ms" }}>
+            — Studio Miller
+          </p>
+        </div>
+      </section>
+
       {/* LAVORI SELEZIONATI */}
       <section className="py-24 md:py-40 border-t border-border">
         <div className="container-editorial">
@@ -76,43 +89,19 @@ const Index = () => {
           </div>
 
           <div className="space-y-40 md:space-y-64">
-            <FeaturedCase project={featured[0]} index={0} size="large" />
+            <FeaturedCase project={projects[0]} index={0} size="large" />
 
             <div className="grid md:grid-cols-2 gap-16 md:gap-20">
-              <FeaturedCase project={featured[1]} index={1} size="small" />
-              <FeaturedCase project={featured[2]} index={2} size="small" />
+              <FeaturedCase project={projects[1]} index={1} size="small" />
+              <FeaturedCase project={projects[3]} index={2} size="small" />
             </div>
 
-            <FeaturedCase project={featured[3]} index={3} size="large" />
+            <FeaturedCase project={projects[10]} index={3} size="large" />
 
             <div className="grid md:grid-cols-2 gap-16 md:gap-20">
-              <FeaturedCase project={featured[4]} index={4} size="small" />
-              <FeaturedCase project={featured[5]} index={5} size="small" />
+              <FeaturedCase project={projects[6]} index={4} size="small" />
+              <FeaturedCase project={projects[17]} index={5} size="small" />
             </div>
-
-            <FeaturedCase project={featured[6]} index={6} size="large" />
-
-            <div className="grid md:grid-cols-3 gap-10 md:gap-14">
-              <FeaturedCase project={featured[7]} index={7} size="small" />
-              <FeaturedCase project={featured[8]} index={8} size="small" />
-              <FeaturedCase project={featured[9]} index={9} size="small" />
-            </div>
-
-            <FeaturedCase project={featured[10]} index={10} size="large" />
-
-            <div className="grid md:grid-cols-2 gap-16 md:gap-20">
-              <FeaturedCase project={featured[11]} index={11} size="small" />
-              <FeaturedCase project={featured[12]} index={12} size="small" />
-            </div>
-
-            <FeaturedCase project={featured[13]} index={13} size="large" />
-
-            <div className="grid md:grid-cols-2 gap-16 md:gap-20">
-              <FeaturedCase project={featured[14]} index={14} size="small" />
-              <FeaturedCase project={featured[15]} index={15} size="small" />
-            </div>
-
-            <FeaturedCase project={featured[16]} index={16} size="large" />
           </div>
 
           <div className="mt-24 md:hidden reveal">
@@ -120,19 +109,6 @@ const Index = () => {
               Tutti i progetti →
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* STATEMENT */}
-      <section className="bg-ink text-background py-32 md:py-56">
-        <div className="container-editorial">
-          <blockquote className="reveal font-display font-black text-4xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tightest max-w-5xl">
-            Il brand non è la comunicazione.<br />
-            Il brand è la promessa che la<br />comunicazione mantiene.
-          </blockquote>
-          <p className="reveal eyebrow mt-12 text-background/40" style={{ transitionDelay: "150ms" }}>
-            — Studio Miller
-          </p>
         </div>
       </section>
 
@@ -172,6 +148,24 @@ const Index = () => {
               Tutti i servizi →
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* CTA FINALE */}
+      <section className="border-t border-border">
+        <div className="container-editorial py-24 md:py-32 flex flex-col md:flex-row md:items-end md:justify-between gap-10">
+          <h2 className="font-display font-black text-4xl md:text-6xl tracking-tightest leading-tight max-w-lg reveal">
+            Hai un progetto<br />
+            <span className="text-foreground/40">che vale la pena</span><br />
+            raccontare?
+          </h2>
+          <Link
+            to="/contatti"
+            className="reveal inline-flex items-center gap-3 border border-primary text-primary px-8 py-5 text-sm font-medium uppercase tracking-[0.14em] hover:bg-primary hover:text-primary-foreground transition-colors duration-500 shrink-0"
+            style={{ transitionDelay: "200ms" }}
+          >
+            Parliamone <ArrowRight size={18} />
+          </Link>
         </div>
       </section>
     </>
