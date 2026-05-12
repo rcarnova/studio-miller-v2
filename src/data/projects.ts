@@ -87,6 +87,8 @@ import symphonyKnife from "@/assets/paderno/Symphony/symphony-knife.webp";
 import symphonyPasta from "@/assets/paderno/Symphony/symphony-pasta.webp";
 import symphonySieve from "@/assets/paderno/Symphony/symphony-sieve.webp";
 import symphonyPlating from "@/assets/paderno/Symphony/symphony-plating.webp";
+import sambonetForchette from "@/assets/sambonet/Tailor made/forchette-ad-asciugare.webp";
+import sambonetGigi from "@/assets/sambonet/Tailor made/gigi-suona-in-sambonet.webp";
 
 export type Project = {
   slug: string;
@@ -134,6 +136,10 @@ export const projects: Project[] = [
       quote:
         "Abbiamo scelto di affidarci a Studio Miller per la progettazione strategica e la realizzazione dei contenuti. Il risultato ha parlato da solo.",
     },
+    gallery: [
+      { src: sambonetForchette, aspect: "wide", fit: "cover", caption: "Forchette ad asciugare · reparto produzione" },
+      { src: sambonetGigi, aspect: "wide", fit: "cover", caption: "Gigi Biolcati registra i suoni del processo produttivo" },
+    ],
   },
   {
     slug: "randstad-employer-branding",
