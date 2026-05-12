@@ -87,8 +87,8 @@ import symphonyKnife from "@/assets/paderno/Symphony/symphony-knife.webp";
 import symphonyPasta from "@/assets/paderno/Symphony/symphony-pasta.webp";
 import symphonySieve from "@/assets/paderno/Symphony/symphony-sieve.webp";
 import symphonyPlating from "@/assets/paderno/Symphony/symphony-plating.webp";
-import sambonetForchette from "@/assets/sambonet/Tailor made/forchette-ad-asciugare.webp";
-import sambonetGigi from "@/assets/sambonet/Tailor made/gigi-suona-in-sambonet.webp";
+import sambonetForchette from "@/assets/sambonet-tailor-made/forchette-ad-asciugare.webp";
+import sambonetGigi from "@/assets/sambonet-tailor-made/gigi-suona-in-sambonet.webp";
 
 export type Project = {
   slug: string;
