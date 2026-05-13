@@ -48,7 +48,7 @@ const LavoroDettaglio = () => {
   return (
     <>
       <SEO
-        title={`${p.title} — Studio Miller`}
+        title={`${p.title} - Studio Miller`}
         description={seoDescription}
         image={p.image}
         type="article"
@@ -74,7 +74,7 @@ const LavoroDettaglio = () => {
           <div className="reveal aspect-video w-full bg-ink overflow-hidden">
             <iframe
               src={`https://www.youtube.com/embed/${p.videoId}?rel=0`}
-              title={`${p.client} — ${p.title}`}
+              title={`${p.client}, ${p.title}`}
               className="w-full h-full"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -86,7 +86,7 @@ const LavoroDettaglio = () => {
           <div className="reveal aspect-[16/9] w-full bg-secondary overflow-hidden flex items-center justify-center">
             <img
               src={p.image}
-              alt={`${p.client} — ${p.title}`}
+              alt={`${p.client}, ${p.title}`}
               loading="lazy"
               className={`w-full h-full ${p.useContain ? "object-contain p-8 md:p-16" : `object-cover ${p.objectPosition ?? "object-center"}`}`}
             />
@@ -105,7 +105,7 @@ const LavoroDettaglio = () => {
           <div className="reveal aspect-video w-full bg-ink overflow-hidden">
             <iframe
               src={`https://www.youtube.com/embed/${extractYouTubeId(p.videoUrl)}?rel=0`}
-              title={`${p.client} — ${p.title}`}
+              title={`${p.client}, ${p.title}`}
               className="w-full h-full"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -8,7 +8,7 @@ export function Footer() {
         <div className="md:col-span-4 space-y-6">
           <Logo size={44} />
           <p className="text-sm text-muted-foreground max-w-xs leading-relaxed">
-            Partiamo sempre dalle persone — le tue.<br />
+            Partiamo sempre dalle persone, le tue.<br />
             Vercelli, Italia.
           </p>
           <a href="mailto:studio@studiomiller.it" className="block text-sm link-underline text-foreground">

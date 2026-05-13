@@ -9,14 +9,14 @@ const team = [
     photo: massimoPhoto,
     name: "Massimo Benedetti",
     role: "Storytelling Specialist",
-    bio: "Massimo ha una laurea al Politecnico e un master in Corporate Storytelling, ma quello che conta davvero è che sa ascoltare un'azienda e restituirle la sua storia in modo che finalmente si riconosca. Ha lavorato con realtà che vanno dall'ITC al food al manufacturing — settori diversi, stesso problema: trovare le parole giuste per dire chi sei.",
+    bio: "Massimo ha una laurea al Politecnico e un master in Corporate Storytelling, ma quello che conta davvero è che sa ascoltare un'azienda e restituirle la sua storia in modo che finalmente si riconosca. Ha lavorato con realtà che vanno dall'ITC al food al manufacturing, settori diversi, stesso problema: trovare le parole giuste per dire chi sei.",
   },
   {
     initials: "RC",
     photo: rosarioPhoto,
     name: "Rosario Carnovale",
     role: "Brand Strategist",
-    bio: "Rosario viene dal mondo delle vendite enterprise — dieci anni in Oracle, startup, imprenditoria. Sa cosa significa stare dall'altra parte del tavolo, capire un cliente prima ancora che sappia cosa vuole. Oggi usa quella stessa capacità per costruire piattaforme di marca che non siano solo belle, ma strategicamente solide.",
+    bio: "Rosario viene dal mondo delle vendite enterprise, dieci anni in Oracle, startup, imprenditoria. Sa cosa significa stare dall'altra parte del tavolo, capire un cliente prima ancora che sappia cosa vuole. Oggi usa quella stessa capacità per costruire piattaforme di marca che non siano solo belle, ma strategicamente solide.",
   },
 ];
 
@@ -25,7 +25,7 @@ const ChiSiamo = () => {
   return (
     <>
       <SEO
-        title="Chi siamo — Studio Miller"
+        title="Chi siamo - Studio Miller"
         description="Studio Miller è una boutique di branding con sede a Vercelli. Massimo Benedetti e Rosario Carnovale: due professionisti che partono sempre dalle persone."
         path="/chi-siamo"
       />
@@ -40,8 +40,8 @@ const ChiSiamo = () => {
             già capito una cosa: il problema non è grafico.
           </p>
           <p>
-            Quando tutto si assomiglia — quando i brand sembrano fatti con lo stesso template,
-            le stesse parole, gli stessi colori — l'identità diventa il vantaggio competitivo
+            Quando tutto si assomiglia, quando i brand sembrano fatti con lo stesso template,
+            le stesse parole, gli stessi colori, l'identità diventa il vantaggio competitivo
             più difficile da copiare. Ma per averla, devi sapere chi sei davvero.
           </p>
           <p>Noi partiamo da lì.</p>
@@ -85,7 +85,7 @@ const ChiSiamo = () => {
         <p className="eyebrow mb-14 reveal">Come lavoriamo</p>
         <div className="max-w-3xl space-y-8 text-lg md:text-xl text-foreground/80 leading-relaxed">
           <p className="reveal">
-            Ogni progetto — che tu ci chieda un naming, un logo o una strategia di contenuto —
+            Ogni progetto, che tu ci chieda un naming, un logo o una strategia di contenuto,
             inizia sempre allo stesso modo: un workshop con le persone della tua azienda.
           </p>
           <p className="reveal" style={{ transitionDelay: "80ms" }}>

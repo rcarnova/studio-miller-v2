@@ -25,7 +25,7 @@ const Contatti = () => {
   return (
     <>
       <SEO
-        title="Contatti — Studio Miller"
+        title="Contatti - Studio Miller"
         description="Hai un progetto di branding o comunicazione? Scrivici. Studio Miller è a Vercelli, lavoriamo con aziende in tutta Italia."
         path="/contatti"
       />

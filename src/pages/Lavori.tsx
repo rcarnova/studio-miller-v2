@@ -16,8 +16,8 @@ const Lavori = () => {
   return (
     <>
       <SEO
-        title="Lavori — Studio Miller"
-        description="Casi studio di branding, visual identity e content strategy. Scopri come Studio Miller — agenzia di branding a Vercelli — ha trasformato l'identità di brand di aziende e organizzazioni."
+        title="Lavori - Studio Miller"
+        description="Casi studio di branding, visual identity e content strategy. Scopri come Studio Miller, agenzia di branding a Vercelli, ha trasformato l'identità di brand di aziende e organizzazioni."
         path="/lavori"
       />
       <section className="container-editorial pt-16 md:pt-24 pb-12">

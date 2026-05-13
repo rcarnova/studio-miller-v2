@@ -44,7 +44,7 @@ const Servizi = () => {
   return (
     <>
       <SEO
-        title="Servizi — Studio Miller"
+        title="Servizi - Studio Miller"
         description="Brand strategy, corporate storytelling, content strategy e video. Studio Miller a Vercelli: prima capiamo chi sei, poi costruiamo come comunicarlo."
         path="/servizi"
       />

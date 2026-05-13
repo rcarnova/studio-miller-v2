@@ -42,7 +42,7 @@ const Index = () => {
   return (
     <>
       <SEO
-        title="Studio Miller — Branding, Comunicazione e Content Strategy"
+        title="Studio Miller - Branding, Comunicazione e Content Strategy"
         description="Studio Miller è uno studio di branding e content strategy con sede a Vercelli. Aiutiamo PMI e organizzazioni a costruire identità di marca chiare, distintive e capaci di generare valore."
         path="/"
       />
@@ -53,7 +53,7 @@ const Index = () => {
       {/* HERO */}
       <section className="container-editorial pt-12 md:pt-16 pb-16 md:pb-32 min-h-[92vh] flex flex-col justify-between gap-16 md:gap-20">
         <div>
-          <p className="eyebrow mb-10 reveal">STUDIO MILLER — BRANDING</p>
+          <p className="eyebrow mb-10 reveal">STUDIO MILLER - BRANDING</p>
           <h1 className="reveal font-display font-black text-foreground tracking-tightest leading-[0.88] text-[18vw] md:text-[10vw] lg:text-[9vw] xl:text-[10vw] min-[1440px]:text-[13rem] max-w-[12ch] mb-12 md:mb-16">
             L'identità<br />è la<br /><span className="text-primary">strategia.</span>
           </h1>
@@ -96,7 +96,7 @@ const Index = () => {
             Il brand è la promessa che la<br />comunicazione mantiene.
           </blockquote>
           <p className="reveal eyebrow mt-12 text-background/40" style={{ transitionDelay: "150ms" }}>
-            — Studio Miller
+            - Studio Miller
           </p>
         </div>
       </section>
@@ -155,7 +155,7 @@ const Index = () => {
               {
                 n: "02",
                 t: "Corporate Storytelling",
-                d: "Troviamo la narrativa che il mercato ricorda — e che i tuoi colleghi sentono propria.",
+                d: "Troviamo la narrativa che il mercato ricorda, e che i tuoi colleghi sentono propria.",
               },
               {
                 n: "03",

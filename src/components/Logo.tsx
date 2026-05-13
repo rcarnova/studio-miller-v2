@@ -8,10 +8,10 @@ type LogoProps = {
 
 export function Logo({ size = 48, to = "/" }: LogoProps) {
   return (
-    <Link to={to} aria-label="Studio Miller — Home" className="inline-flex items-center group">
+    <Link to={to} aria-label="Studio Miller - Home" className="inline-flex items-center group">
       <img
         src={logo}
-        alt="Studio Miller — studio di comunicazione e branding"
+        alt="Studio Miller - studio di comunicazione e branding"
         width={size}
         height={size}
         className="block transition-transform duration-500 group-hover:scale-105"
